@@ -1,0 +1,17 @@
+{
+  "seed": 20261011,
+  "sentiment_n": 240,
+  "sentiment_sampling": "80 per publisher sentiment class from original validation; normalized URL-stripped train overlap and internal duplicates excluded. No project training/tuning on these 240 cases. Pretrained-model overlap cannot be ruled out.",
+  "event_n": 108,
+  "event_sampling": "Builder-curated keyword-enriched examples from original topic validation, covers six classes. Not random, blinded or independently labelled. Interpretive mixed-event labels possible. No claim of representative accuracy.",
+  "original_row_counts": {
+    "sent_train": 9543,
+    "sent_valid": 2388,
+    "topic_valid": 4117
+  },
+  "dataset_card_mismatch": "Sentiment card split counts differ from actual downloaded CSV counts. Actual file counts and hashes are authoritative.",
+  "test_hashes": {
+    "sentiment_eval.json": "bbc07ecdd783618b8ab9b6b5f4dca832cf419dfea58d63aa8d96007af1cea626",
+    "event_eval.json": "5b4edfc5c61ee67dc4b030b24eb921003292c742474da474bfa6b645a74b727c"
+  }
+}

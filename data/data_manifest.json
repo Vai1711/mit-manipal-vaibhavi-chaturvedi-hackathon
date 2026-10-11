@@ -1,0 +1,16 @@
+{
+  "portfolio": "Synthetic holdings and risk parameters using public company names. Not real transactions or current credit ratings.",
+  "public_replay": "Historical attributed excerpts. Dates use date-level knowledge with illustrative 18:00 UTC normalization; not exact event times. No social posts in this replay.",
+  "public_feed_snapshot": "Saved public RSS news/social titles, preserved source URLs and feed timestamps. Not live when replayed.",
+  "public_eval": "13 builder-labelled public excerpts/titles; source URLs and text disjoint from replay/snapshot. Labels involve interpretation, especially sentiment. Not blinded or representative; pretraining contamination possible.",
+  "synthetic": "news_feed, social_feed, eval_set and challenge_set are authored synthetic text. Fictional scenarios involving public company names do not assert actual events.",
+  "licensing": "Short excerpts for attribution/evaluation; original publishers retain copyright. No confidential data. Social posts are unverified, not confirmed factual events.",
+  "sentiment_policy": "Sentiment of expressed financial tone; policy decisions neutral unless wording includes favorable/unfavorable judgment. Launches and completed acquisitions labelled positive; other defensible labels possible.",
+  "public_datasets": "Original immutable public sentiment/topic CSV releases; provenance, hashes and original cards in data/public/.",
+  "sentiment_benchmark": "240 publisher-labelled validation texts, balanced 80/class, normalized training overlap excluded. Training-only vocabulary/model; development-only C selection.",
+  "event_benchmark": "108 keyword-enriched builder-curated validation texts across five event types plus Other. Not representative, independent or blinded. Dummy timestamp documented.",
+  "trained_model": "Portable supervised TF-IDF/logistic model fitted on 7545 train texts, selected on 1887 development texts.",
+  "prediction_cache": "Actual recorded semantic/reference predictions; revisions and prompt hash verified; no claims of live inference on replay.",
+  "market_check": "Six exploratory priority scores vs SPY unadjusted event-day close-to-close returns; Yahoo source/hash metadata. Not forecast calibration.",
+  "fresh_text_regression": "Authored regression cases exercise unseen wording and review controls. They were used to verify fixes and are not independent real-headline accuracy evidence."
+}

@@ -1,0 +1,76 @@
+{
+  "nature": "Authored implementation regression cases, not independent accuracy validation",
+  "rows": [
+    {
+      "text": "Fed raises rates by 75 basis points.",
+      "category": "Macroeconomic",
+      "sentiment": -0.0236,
+      "severity": 8,
+      "eligible": true,
+      "route": "explicit event evidence + learned sentiment",
+      "review": []
+    },
+    {
+      "text": "Boeing misses interest payment; Moody\u2019s cuts rating to junk.",
+      "category": "Credit Event",
+      "sentiment": -0.9145,
+      "severity": 9,
+      "eligible": true,
+      "route": "explicit event evidence + learned sentiment",
+      "review": []
+    },
+    {
+      "text": "Houthi attacks disrupt Red Sea shipping.",
+      "category": "Geopolitical",
+      "sentiment": -0.133,
+      "severity": 9,
+      "eligible": true,
+      "route": "explicit event evidence + learned sentiment",
+      "review": []
+    },
+    {
+      "text": "Rite Aid files for Chapter 11 bankruptcy.",
+      "category": "Credit Event",
+      "sentiment": -0.2067,
+      "severity": 8,
+      "eligible": true,
+      "route": "explicit event evidence + learned sentiment",
+      "review": []
+    },
+    {
+      "text": "Rumor: Fed may raise rates by 75 basis points.",
+      "category": "Macroeconomic",
+      "sentiment": -0.2668,
+      "severity": 6,
+      "eligible": false,
+      "route": "explicit event evidence + learned sentiment",
+      "review": [
+        "Speculative or unconfirmed language"
+      ]
+    },
+    {
+      "text": "Boeing denies missing interest payment.",
+      "category": "Credit Event",
+      "sentiment": -0.1786,
+      "severity": 3,
+      "eligible": false,
+      "route": "event rules + learned sentiment",
+      "review": [
+        "Negated or denied risk assertion: inspect full text",
+        "Uncached text lacks explicit supported risk-action evidence"
+      ]
+    },
+    {
+      "text": "Houthi representatives discuss Red Sea shipping schedules.",
+      "category": "Other/Uncertain",
+      "sentiment": -0.1635,
+      "severity": 1,
+      "eligible": false,
+      "route": "event rules + learned sentiment",
+      "review": [
+        "Uncached text lacks explicit supported risk-action evidence",
+        "Uncertain event category"
+      ]
+    }
+  ]
+}

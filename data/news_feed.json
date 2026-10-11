@@ -1,0 +1,56 @@
+[
+  {
+    "id": "n1",
+    "text": "Central bank announces a rate hike of 100 basis points as inflation persists.",
+    "timestamp": "2026-10-10T09:00:00+00:00",
+    "source": "Synthetic News Desk",
+    "source_type": "news",
+    "synthetic": true,
+    "url": ""
+  },
+  {
+    "id": "n2",
+    "text": "Boeing faces a downgrade after a missed interest payment and liquidity crisis.",
+    "timestamp": "2026-10-10T09:15:00+00:00",
+    "source": "Synthetic News Desk",
+    "source_type": "news",
+    "synthetic": true,
+    "url": ""
+  },
+  {
+    "id": "n3",
+    "text": "New sanctions and a blockade disrupt the energy sector and ExxonMobil operations.",
+    "timestamp": "2026-10-10T09:25:00+00:00",
+    "source": "Synthetic News Desk",
+    "source_type": "news",
+    "synthetic": true,
+    "url": ""
+  },
+  {
+    "id": "n4",
+    "text": "Microsoft launches a new product with record orders.",
+    "timestamp": "2026-10-10T09:35:00+00:00",
+    "source": "Synthetic News Desk",
+    "source_type": "news",
+    "synthetic": true,
+    "url": ""
+  },
+  {
+    "id": "n5",
+    "text": "Microsoft announces an acquisition of a smaller software company.",
+    "timestamp": "2026-10-10T09:40:00+00:00",
+    "source": "Synthetic News Desk",
+    "source_type": "news",
+    "synthetic": true,
+    "url": ""
+  },
+  {
+    "id": "n6",
+    "text": "Central bank announces a rate hike of 100 basis points as inflation persists.",
+    "timestamp": "2026-10-10T09:02:00+00:00",
+    "source": "Synthetic Syndicated Copy",
+    "source_type": "news",
+    "synthetic": true,
+    "url": ""
+  }
+]

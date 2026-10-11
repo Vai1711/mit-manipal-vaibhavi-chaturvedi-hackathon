@@ -1,0 +1,34 @@
+{
+  "sentiment": {
+    "repository": "zeroshot/twitter-financial-news-sentiment",
+    "revision": "ccbe24de388e287beb92dd393a335c376b350ac3",
+    "license": "MIT",
+    "url": "https://huggingface.co/datasets/zeroshot/twitter-financial-news-sentiment",
+    "files": {
+      "sent_train.csv": {
+        "sha256": "71aa99d0d37feced03c999ec23b5b25302c92f39d69b6acb0a37aa076c5420e8",
+        "bytes": 858645
+      },
+      "sent_valid.csv": {
+        "sha256": "31ea8274c98b52212daa68f2fb962811bf1913c1efe51b99765c8e2311806de6",
+        "bytes": 217378
+      }
+    }
+  },
+  "topic": {
+    "repository": "zeroshot/twitter-financial-news-topic",
+    "revision": "acbc8af2a35ccf0916124efcbe9e6cf25f191012",
+    "license": "MIT",
+    "url": "https://huggingface.co/datasets/zeroshot/twitter-financial-news-topic",
+    "files": {
+      "topic_train.csv": {
+        "sha256": "63b9ea8183728dd5ddc6a57289341556509ddc0a8d037616519319a316b54490",
+        "bytes": 2385009
+      },
+      "topic_valid.csv": {
+        "sha256": "67396d6cd4a21c3755de783f20fb5842f12ae8edb9367eed5d2644dd85ca9243",
+        "bytes": 580140
+      }
+    }
+  }
+}

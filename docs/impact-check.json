@@ -1,0 +1,80 @@
+{
+  "available": true,
+  "n": 6,
+  "rows": [
+    {
+      "event_id": "fed-rise",
+      "category": "Macroeconomic",
+      "severity": 8,
+      "event_date": "2022-06-15",
+      "trading_date": "2022-06-15",
+      "previous_trading_date": "2022-06-14",
+      "previous_close": 373.8699951171875,
+      "close": 379.20001220703125,
+      "spy_return_percent": 1.4256338190961504,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220615a.htm"
+    },
+    {
+      "event_id": "apple-launch",
+      "category": "Product Launch",
+      "severity": 2,
+      "event_date": "2023-06-05",
+      "trading_date": "2023-06-05",
+      "previous_trading_date": "2023-06-02",
+      "previous_close": 427.9200134277344,
+      "close": 427.1000061035156,
+      "spy_return_percent": -0.19162630830240612,
+      "url": "https://www.apple.com/newsroom/2023/06/introducing-apple-vision-pro/"
+    },
+    {
+      "event_id": "msft-acquisition",
+      "category": "Merger/Acquisition",
+      "severity": 3,
+      "event_date": "2023-10-13",
+      "trading_date": "2023-10-13",
+      "previous_trading_date": "2023-10-12",
+      "previous_close": 433.6600036621094,
+      "close": 431.5,
+      "spy_return_percent": -0.4980868984616693,
+      "url": "https://blogs.microsoft.com/blog/2023/10/13/welcoming-the-legendary-teams-at-activision-blizzard-king-to-team-xbox/"
+    },
+    {
+      "event_id": "rite-aid",
+      "category": "Credit Event",
+      "severity": 8,
+      "event_date": "2023-10-15",
+      "trading_date": "2023-10-16",
+      "previous_trading_date": "2023-10-13",
+      "previous_close": 431.5,
+      "close": 436.0400085449219,
+      "spy_return_percent": 1.0521456651035654,
+      "url": "https://www.sec.gov/Archives/edgar/data/84129/000110465923109413/tm2328535d1_ex99-1.htm"
+    },
+    {
+      "event_id": "fed-cut",
+      "category": "Macroeconomic",
+      "severity": 8,
+      "event_date": "2024-09-18",
+      "trading_date": "2024-09-18",
+      "previous_trading_date": "2024-09-17",
+      "previous_close": 563.0700073242188,
+      "close": 561.4000244140625,
+      "spy_return_percent": -0.2965853070548419,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm"
+    },
+    {
+      "event_id": "oil-sanctions",
+      "category": "Geopolitical",
+      "severity": 9,
+      "event_date": "2025-01-10",
+      "trading_date": "2025-01-10",
+      "previous_trading_date": "2025-01-08",
+      "previous_close": 589.489990234375,
+      "close": 580.489990234375,
+      "spy_return_percent": -1.5267434815002923,
+      "url": "https://home.treasury.gov/news/press-releases/jy2777"
+    }
+  ],
+  "spearman_severity_vs_absolute_spy_return": 0.819688599970537,
+  "note": "Exploratory same-day SPY close-to-close association, next trading day for weekends. Unadjusted closes, no dividend correction. Company credit/product events may have little SPY exposure. Other news and anticipation confound returns. Six selected examples cannot establish causation, train a severity model, or validate simulated portfolio losses."
+}

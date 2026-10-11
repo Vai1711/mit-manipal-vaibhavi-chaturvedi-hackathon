@@ -1,0 +1,7 @@
+{
+  "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=1654041600&period2=1738368000&interval=1d",
+  "instrument": "SPY",
+  "value": "unadjusted daily close",
+  "fetched_at": "2026-10-11T10:04:15.041090+00:00",
+  "use": "Exploratory event association, not causal attribution or calibration."
+}

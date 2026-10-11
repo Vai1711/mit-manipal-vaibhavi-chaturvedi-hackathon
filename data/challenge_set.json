@@ -1,0 +1,110 @@
+[
+  {
+    "id": "challenge-0",
+    "text": "Federal Reserve raises interest rates.",
+    "expected_category": "Macroeconomic",
+    "expected_sentiment": "neutral",
+    "expected_risk_factor": "rates_up",
+    "expected_assertion_status": "asserted",
+    "synthetic": true
+  },
+  {
+    "id": "challenge-1",
+    "text": "Federal Reserve cuts interest rates.",
+    "expected_category": "Macroeconomic",
+    "expected_sentiment": "neutral",
+    "expected_risk_factor": "rates_down",
+    "expected_assertion_status": "asserted",
+    "synthetic": true
+  },
+  {
+    "id": "challenge-2",
+    "text": "Federal Reserve does not raise interest rates.",
+    "expected_category": "Macroeconomic",
+    "expected_sentiment": "neutral",
+    "expected_risk_factor": "unspecified",
+    "expected_assertion_status": "negated",
+    "synthetic": true
+  },
+  {
+    "id": "challenge-3",
+    "text": "Boeing denies default.",
+    "expected_category": "Credit Event",
+    "expected_sentiment": "neutral",
+    "expected_risk_factor": "unspecified",
+    "expected_assertion_status": "negated",
+    "synthetic": true
+  },
+  {
+    "id": "challenge-4",
+    "text": "Rite Aid avoided bankruptcy.",
+    "expected_category": "Credit Event",
+    "expected_sentiment": "neutral",
+    "expected_risk_factor": "unspecified",
+    "expected_assertion_status": "negated",
+    "synthetic": true
+  },
+  {
+    "id": "challenge-5",
+    "text": "Unconfirmed rumor: Boeing faces default.",
+    "expected_category": "Credit Event",
+    "expected_sentiment": "neutral",
+    "expected_risk_factor": "credit",
+    "expected_assertion_status": "uncertain",
+    "synthetic": true
+  },
+  {
+    "id": "challenge-6",
+    "text": "The Fed may cut rates next month.",
+    "expected_category": "Macroeconomic",
+    "expected_sentiment": "neutral",
+    "expected_risk_factor": "rates_down",
+    "expected_assertion_status": "uncertain",
+    "synthetic": true
+  },
+  {
+    "id": "challenge-7",
+    "text": "Fed raises rates today but cuts rates next year.",
+    "expected_category": "Macroeconomic",
+    "expected_sentiment": "neutral",
+    "expected_risk_factor": "unspecified",
+    "expected_assertion_status": "conflicting",
+    "synthetic": true
+  },
+  {
+    "id": "challenge-8",
+    "text": "ECB raises interest rates.",
+    "expected_category": "Macroeconomic",
+    "expected_sentiment": "neutral",
+    "expected_risk_factor": "rates_up",
+    "expected_assertion_status": "asserted",
+    "synthetic": true
+  },
+  {
+    "id": "challenge-9",
+    "text": "An unidentified central bank raises rates.",
+    "expected_category": "Macroeconomic",
+    "expected_sentiment": "neutral",
+    "expected_risk_factor": "rates_up",
+    "expected_assertion_status": "asserted",
+    "synthetic": true
+  },
+  {
+    "id": "challenge-10",
+    "text": "Apple introduces a new phone.",
+    "expected_category": "Product Launch",
+    "expected_sentiment": "neutral",
+    "expected_risk_factor": "unspecified",
+    "expected_assertion_status": "asserted",
+    "synthetic": true
+  },
+  {
+    "id": "challenge-11",
+    "text": "Microsoft completes acquisition of a software company.",
+    "expected_category": "Merger/Acquisition",
+    "expected_sentiment": "neutral",
+    "expected_risk_factor": "unspecified",
+    "expected_assertion_status": "asserted",
+    "synthetic": true
+  }
+]

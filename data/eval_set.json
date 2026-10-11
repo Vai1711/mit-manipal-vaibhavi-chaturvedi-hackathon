@@ -1,0 +1,110 @@
+[
+  {
+    "id": "v0",
+    "text": "A borrower enters bankruptcy after a missed payment.",
+    "expected_category": "Credit Event",
+    "expected_sentiment": "negative"
+  },
+  {
+    "id": "v1",
+    "text": "The lender announced a downgrade following a liquidity crisis.",
+    "expected_category": "Credit Event",
+    "expected_sentiment": "negative"
+  },
+  {
+    "id": "v2",
+    "text": "An acquisition will expand the buyer into a new market.",
+    "expected_category": "Merger/Acquisition",
+    "expected_sentiment": "positive"
+  },
+  {
+    "id": "v3",
+    "text": "The firms agreed to a merger.",
+    "expected_category": "Merger/Acquisition",
+    "expected_sentiment": "neutral"
+  },
+  {
+    "id": "v4",
+    "text": "The manufacturer unveils a new product.",
+    "expected_category": "Product Launch",
+    "expected_sentiment": "neutral"
+  },
+  {
+    "id": "v5",
+    "text": "A launch attracted record orders and growth.",
+    "expected_category": "Product Launch",
+    "expected_sentiment": "positive"
+  },
+  {
+    "id": "v6",
+    "text": "A recession is accompanied by inflation.",
+    "expected_category": "Macroeconomic",
+    "expected_sentiment": "negative"
+  },
+  {
+    "id": "v7",
+    "text": "The central bank announced a rate cut.",
+    "expected_category": "Macroeconomic",
+    "expected_sentiment": "positive"
+  },
+  {
+    "id": "v8",
+    "text": "War threatens transport across the region.",
+    "expected_category": "Geopolitical",
+    "expected_sentiment": "negative"
+  },
+  {
+    "id": "v9",
+    "text": "A trade embargo and sanctions disrupt energy supplies.",
+    "expected_category": "Geopolitical",
+    "expected_sentiment": "negative"
+  },
+  {
+    "id": "v10",
+    "text": "The company scheduled its annual meeting.",
+    "expected_category": "Other/Uncertain",
+    "expected_sentiment": "neutral"
+  },
+  {
+    "id": "v11",
+    "text": "Market opening times remain unchanged.",
+    "expected_category": "Other/Uncertain",
+    "expected_sentiment": "neutral"
+  },
+  {
+    "id": "v12",
+    "text": "The company avoided default and reported recovery.",
+    "expected_category": "Credit Event",
+    "expected_sentiment": "positive"
+  },
+  {
+    "id": "v13",
+    "text": "Rates rise after a central bank decision.",
+    "expected_category": "Macroeconomic",
+    "expected_sentiment": "negative"
+  },
+  {
+    "id": "v14",
+    "text": "A product release boosted customer demand.",
+    "expected_category": "Product Launch",
+    "expected_sentiment": "positive"
+  },
+  {
+    "id": "v15",
+    "text": "Officials discussed a geopolitical conflict.",
+    "expected_category": "Geopolitical",
+    "expected_sentiment": "negative"
+  },
+  {
+    "id": "v16",
+    "text": "The takeover was cancelled.",
+    "expected_category": "Merger/Acquisition",
+    "expected_sentiment": "negative"
+  },
+  {
+    "id": "v17",
+    "text": "Profit improved after refinancing.",
+    "expected_category": "Other/Uncertain",
+    "expected_sentiment": "positive"
+  }
+]

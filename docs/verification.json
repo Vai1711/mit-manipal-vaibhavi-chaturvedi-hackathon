@@ -1,0 +1,50 @@
+{
+  "tests": "51 passed in project-isolated fresh virtual environment",
+  "python": "3.12.14",
+  "platform": "Linux; macOS not measured",
+  "versions": {
+    "streamlit": "1.65.0",
+    "plotly": "7.1.0",
+    "pandas": "2.2.3",
+    "torch": "2.7.1+cpu (optional test only)",
+    "transformers": "4.57.6"
+  },
+  "verified": [
+    "Default historical replay in clean venv without Torch import",
+    "Dashboard headless browser rendered and visually inspected",
+    "API request validation and persistent observation history",
+    "Signed rate, swap and borrower credit calculations",
+    "News/social partial and full fallback unit tests",
+    "Actual live news and social fetch returned five items each",
+    "Optional local event-only hybrid model inference; learned sentiment retained",
+    "Seven editable slides passed package, layout, font, chart and table checks",
+    "Fresh-text evidence route: rate/credit/geopolitical cases plus negation, rumor, conflicting direction, unknown jurisdiction and social review"
+  ],
+  "live_check": [
+    {
+      "source_type": "news",
+      "status": "live",
+      "count": 5,
+      "last_successful_fetch": "2026-10-11T10:19:44+00:00",
+      "error": null
+    },
+    {
+      "source_type": "social",
+      "status": "live",
+      "count": 5,
+      "last_successful_fetch": "2026-10-11T10:19:44+00:00",
+      "error": null
+    }
+  ],
+  "optional_local_inference": {
+    "cpu_threads": 2,
+    "first_load_and_one_text_seconds": 6.33,
+    "new_text_event_inference_ms": 616.95,
+    "environment": "Linux execution runtime; not laptop battery/performance measurement"
+  },
+  "limitations": [
+    "Event examples builder-curated and keyword-enriched",
+    "Severity heuristic and shocks uncalibrated",
+    "User must fill personal details, publish repo and record/upload actual demo"
+  ]
+}

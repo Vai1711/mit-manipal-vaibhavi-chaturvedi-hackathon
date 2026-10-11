@@ -1,0 +1,4118 @@
+{
+  "predictions": {
+    "f0695dbc587ba7c0787e0df1f7f26dcafbe00dd1a421ac558d2959cfe0d3e2c5": {
+      "sentiment_probabilities": {
+        "neutral": 0.7205657958984375,
+        "positive": 0.27793267369270325,
+        "negative": 0.0015015051467344165
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.6819127202033997,
+      "event_top_two_margin": 0.5834249332547188,
+      "model_event_scores": {
+        "Macroeconomic": 0.6819127202033997,
+        "Other/Uncertain": 0.09848778694868088,
+        "Merger/Acquisition": 0.0709717646241188,
+        "Credit Event": 0.06183692812919617,
+        "Product Launch": 0.05660313367843628,
+        "Geopolitical": 0.030187614262104034
+      },
+      "inference_ms": 670.4665460001706,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "d8d45a3aed690fe3a32ba19925d57b54e787b8ecdc48b6f22ae3de39692231ce": {
+      "sentiment_probabilities": {
+        "neutral": 0.9800893068313599,
+        "negative": 0.018912868574261665,
+        "positive": 0.0009978050366044044
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.7332975268363953,
+      "event_top_two_margin": 0.663511723279953,
+      "model_event_scores": {
+        "Macroeconomic": 0.7332975268363953,
+        "Other/Uncertain": 0.06978580355644226,
+        "Merger/Acquisition": 0.061490386724472046,
+        "Product Launch": 0.06139105558395386,
+        "Credit Event": 0.047745734453201294,
+        "Geopolitical": 0.02628956362605095
+      },
+      "inference_ms": 695.9910320001654,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "eb909098ad3cac05fcf97ddfee7f902ffff6afdce70c5b30c79ade61a4b5e361": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998552799224854,
+        "negative": 7.511715375585482e-05,
+        "positive": 6.957159348530695e-05
+      },
+      "model_event_classification": "Credit Event",
+      "event_model_score": 0.8786388635635376,
+      "event_top_two_margin": 0.8448056131601334,
+      "model_event_scores": {
+        "Credit Event": 0.8786388635635376,
+        "Merger/Acquisition": 0.033833250403404236,
+        "Product Launch": 0.030204743146896362,
+        "Other/Uncertain": 0.02551385387778282,
+        "Macroeconomic": 0.018729666247963905,
+        "Geopolitical": 0.013079558499157429
+      },
+      "inference_ms": 687.270112999613,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "3bd7f87d5c90df30aa5825b225149c775037fb4074ccb4c1bdb28f0c60714e55": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998786449432373,
+        "negative": 7.029726111795753e-05,
+        "positive": 5.104401134303771e-05
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.9529298543930054,
+      "event_top_two_margin": 0.9410418616607785,
+      "model_event_scores": {
+        "Product Launch": 0.9529298543930054,
+        "Merger/Acquisition": 0.011887992732226849,
+        "Other/Uncertain": 0.011125166900455952,
+        "Macroeconomic": 0.010108884423971176,
+        "Geopolitical": 0.008838956244289875,
+        "Credit Event": 0.005109160672873259
+      },
+      "inference_ms": 693.7068910010566,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "d40f169e7fe95984d55246c2462e410db9d4250078838c23cebeca0da7f5b678": {
+      "sentiment_probabilities": {
+        "neutral": 0.9997995495796204,
+        "positive": 0.00012103805056540295,
+        "negative": 7.937263580970466e-05
+      },
+      "model_event_classification": "Merger/Acquisition",
+      "event_model_score": 0.9755412340164185,
+      "event_top_two_margin": 0.9615741511806846,
+      "model_event_scores": {
+        "Merger/Acquisition": 0.9755412340164185,
+        "Other/Uncertain": 0.01396708283573389,
+        "Macroeconomic": 0.004275859333574772,
+        "Geopolitical": 0.002384791849181056,
+        "Product Launch": 0.0021782449912279844,
+        "Credit Event": 0.0016527818515896797
+      },
+      "inference_ms": 682.5214979999146,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "7c17ad72424a8fb289896a9a8f64bffa5e2da504f241729831859400be86bb10": {
+      "sentiment_probabilities": {
+        "neutral": 0.9987519979476929,
+        "negative": 0.0006699291989207268,
+        "positive": 0.0005780792562291026
+      },
+      "model_event_classification": "Geopolitical",
+      "event_model_score": 0.815430760383606,
+      "event_top_two_margin": 0.7145328223705292,
+      "model_event_scores": {
+        "Geopolitical": 0.815430760383606,
+        "Macroeconomic": 0.10089793801307678,
+        "Merger/Acquisition": 0.026614120230078697,
+        "Credit Event": 0.02155454270541668,
+        "Other/Uncertain": 0.019617343321442604,
+        "Product Launch": 0.015885232016444206
+      },
+      "inference_ms": 776.8679949986108,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "2991cd20554b0f342aaec27bca928588d7e74eb7437d0366100596329e2a9504": {
+      "sentiment_probabilities": {
+        "neutral": 0.9997219443321228,
+        "negative": 0.00022280671691987664,
+        "positive": 5.5168460676213726e-05
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.6573140025138855,
+      "event_top_two_margin": 0.4724747836589813,
+      "model_event_scores": {
+        "Macroeconomic": 0.6573140025138855,
+        "Credit Event": 0.18483921885490417,
+        "Merger/Acquisition": 0.05734618753194809,
+        "Product Launch": 0.054285190999507904,
+        "Geopolitical": 0.0289457980543375,
+        "Other/Uncertain": 0.017269616946578026
+      },
+      "inference_ms": 778.6360280006193,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "5e9b4f5c8b927996920f87216c5ac68b88ccc19dab81f8dfd36dde3f7c83d7ce": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998886585235596,
+        "negative": 6.631790165556595e-05,
+        "positive": 4.510174403549172e-05
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.3450053930282593,
+      "event_top_two_margin": 0.2036878913640976,
+      "model_event_scores": {
+        "Macroeconomic": 0.3450053930282593,
+        "Geopolitical": 0.14131750166416168,
+        "Product Launch": 0.13723088800907135,
+        "Credit Event": 0.12662087380886078,
+        "Other/Uncertain": 0.12634515762329102,
+        "Merger/Acquisition": 0.12348020821809769
+      },
+      "inference_ms": 772.9780160007067,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "82b21d26929731bc3d01390c3c82da63e1e18053b113a57278687354faed6849": {
+      "sentiment_probabilities": {
+        "negative": 0.9946650266647339,
+        "positive": 0.0040098740719258785,
+        "neutral": 0.0013250283664092422
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.41267380118370056,
+      "event_top_two_margin": 0.2626238167285919,
+      "model_event_scores": {
+        "Macroeconomic": 0.41267380118370056,
+        "Credit Event": 0.15004998445510864,
+        "Other/Uncertain": 0.14594000577926636,
+        "Merger/Acquisition": 0.1424572765827179,
+        "Product Launch": 0.09354376792907715,
+        "Geopolitical": 0.05533519759774208
+      },
+      "inference_ms": 699.9745800003438,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "0745d8052289c3c956a8dd12b5e5dd513b958f36b64a609aa39b92414774f236": {
+      "sentiment_probabilities": {
+        "negative": 0.9848704934120178,
+        "neutral": 0.007662074640393257,
+        "positive": 0.0074674105271697044
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.38420411944389343,
+      "event_top_two_margin": 0.1612255871295929,
+      "model_event_scores": {
+        "Product Launch": 0.38420411944389343,
+        "Macroeconomic": 0.22297853231430054,
+        "Other/Uncertain": 0.15575380623340607,
+        "Merger/Acquisition": 0.09084870666265488,
+        "Credit Event": 0.08543479442596436,
+        "Geopolitical": 0.060780126601457596
+      },
+      "inference_ms": 725.256833999083,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "add3477603d4c9a81d003a61f8e599e0edd0f9d130cb1b382e942a50dee58271": {
+      "sentiment_probabilities": {
+        "neutral": 0.9997697472572327,
+        "negative": 0.0001769961090758443,
+        "positive": 5.3227715397952124e-05
+      },
+      "model_event_classification": "Credit Event",
+      "event_model_score": 0.46456843614578247,
+      "event_top_two_margin": 0.16423988342285156,
+      "model_event_scores": {
+        "Credit Event": 0.46456843614578247,
+        "Macroeconomic": 0.3003285527229309,
+        "Other/Uncertain": 0.1143866777420044,
+        "Product Launch": 0.0496017187833786,
+        "Merger/Acquisition": 0.04100942984223366,
+        "Geopolitical": 0.030105218291282654
+      },
+      "inference_ms": 738.5694519998651,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "1ae91c8863712a903b336604a91ffd8cd1ad2cc2ebb5322fc9216a737a1f04e5": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998906850814819,
+        "negative": 6.712671893183142e-05,
+        "positive": 4.225328302709386e-05
+      },
+      "model_event_classification": "Credit Event",
+      "event_model_score": 0.7564857006072998,
+      "event_top_two_margin": 0.6845770552754402,
+      "model_event_scores": {
+        "Credit Event": 0.7564857006072998,
+        "Product Launch": 0.07190864533185959,
+        "Merger/Acquisition": 0.06953155994415283,
+        "Macroeconomic": 0.05621160939335823,
+        "Other/Uncertain": 0.03018326312303543,
+        "Geopolitical": 0.015679223462939262
+      },
+      "inference_ms": 872.1688879995781,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "2d640ac71e95c420b15fa1591e435d43289d0747588cb593d1d5483483a8a24b": {
+      "sentiment_probabilities": {
+        "negative": 0.8903402090072632,
+        "neutral": 0.08608388900756836,
+        "positive": 0.02357601188123226
+      },
+      "model_event_classification": "Credit Event",
+      "event_model_score": 0.8668807744979858,
+      "event_top_two_margin": 0.8258964456617832,
+      "model_event_scores": {
+        "Credit Event": 0.8668807744979858,
+        "Macroeconomic": 0.04098432883620262,
+        "Merger/Acquisition": 0.03568399325013161,
+        "Product Launch": 0.032150741666555405,
+        "Other/Uncertain": 0.015558992512524128,
+        "Geopolitical": 0.008741223253309727
+      },
+      "inference_ms": 714.9798390000797,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "0ece5be2b615c9b644abe5cbcab69907a2c70bb3e1c2755a42c8eb109ff7d84f": {
+      "sentiment_probabilities": {
+        "positive": 0.5585901141166687,
+        "negative": 0.43795084953308105,
+        "neutral": 0.0034590496215969324
+      },
+      "model_event_classification": "Credit Event",
+      "event_model_score": 0.8641210794448853,
+      "event_top_two_margin": 0.8102979771792889,
+      "model_event_scores": {
+        "Credit Event": 0.8641210794448853,
+        "Macroeconomic": 0.05382310226559639,
+        "Other/Uncertain": 0.027181603014469147,
+        "Product Launch": 0.026163294911384583,
+        "Merger/Acquisition": 0.01684364303946495,
+        "Geopolitical": 0.011867265217006207
+      },
+      "inference_ms": 811.030139999275,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "8124246623976a65725bb6c7c172b678e1182a1eef8e380b18e563f6787e4108": {
+      "sentiment_probabilities": {
+        "neutral": 0.9955137372016907,
+        "negative": 0.0039895386435091496,
+        "positive": 0.00049681804375723
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.3375989496707916,
+      "event_top_two_margin": 0.1504487544298172,
+      "model_event_scores": {
+        "Macroeconomic": 0.3375989496707916,
+        "Merger/Acquisition": 0.18715019524097443,
+        "Other/Uncertain": 0.1531531810760498,
+        "Product Launch": 0.12694396078586578,
+        "Credit Event": 0.11816764622926712,
+        "Geopolitical": 0.07698608189821243
+      },
+      "inference_ms": 850.4369140009658,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "79118bf7cc8e47590d2d85627151a95ce3daae0eecfe0c4a80ddcf7f56afd375": {
+      "sentiment_probabilities": {
+        "neutral": 0.9986444115638733,
+        "negative": 0.0012213151203468442,
+        "positive": 0.00013430182298179716
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.8605692982673645,
+      "event_top_two_margin": 0.8010750263929367,
+      "model_event_scores": {
+        "Macroeconomic": 0.8605692982673645,
+        "Credit Event": 0.059494271874427795,
+        "Other/Uncertain": 0.025314094498753548,
+        "Merger/Acquisition": 0.023668814450502396,
+        "Product Launch": 0.023075899109244347,
+        "Geopolitical": 0.007877551019191742
+      },
+      "inference_ms": 799.2107499994745,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "74e17fbfb7149516f5b787b7c0c27360d4105ee9bd626b2135bbfc3ff1aa45ef": {
+      "sentiment_probabilities": {
+        "neutral": 0.7970453500747681,
+        "negative": 0.18027758598327637,
+        "positive": 0.022677099332213402
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.2944246232509613,
+      "event_top_two_margin": 0.050040438771247864,
+      "model_event_scores": {
+        "Product Launch": 0.2944246232509613,
+        "Merger/Acquisition": 0.24438418447971344,
+        "Macroeconomic": 0.18427444994449615,
+        "Credit Event": 0.14933016896247864,
+        "Other/Uncertain": 0.07752937823534012,
+        "Geopolitical": 0.050057198852300644
+      },
+      "inference_ms": 741.8191380002099,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "7cb325336536ed84c7606c96da22fe000f5a8272bcf129f4cc1638aad4de68ce": {
+      "sentiment_probabilities": {
+        "positive": 0.9929712414741516,
+        "neutral": 0.006780712399631739,
+        "negative": 0.00024805855355225503
+      },
+      "model_event_classification": "Merger/Acquisition",
+      "event_model_score": 0.46689021587371826,
+      "event_top_two_margin": 0.3353959321975708,
+      "model_event_scores": {
+        "Merger/Acquisition": 0.46689021587371826,
+        "Macroeconomic": 0.13149428367614746,
+        "Other/Uncertain": 0.12990306317806244,
+        "Product Launch": 0.11993371695280075,
+        "Geopolitical": 0.08951270580291748,
+        "Credit Event": 0.062266040593385696
+      },
+      "inference_ms": 701.7661000008957,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "a3a511c9dcaba4f797b0d05c60cb6729bdd3966c51962157d819054df0cb981e": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998751878738403,
+        "negative": 7.73700958234258e-05,
+        "positive": 4.738346615340561e-05
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.31333068013191223,
+      "event_top_two_margin": 0.0787724107503891,
+      "model_event_scores": {
+        "Product Launch": 0.31333068013191223,
+        "Macroeconomic": 0.23455826938152313,
+        "Geopolitical": 0.13775335252285004,
+        "Credit Event": 0.1055891364812851,
+        "Merger/Acquisition": 0.10551390051841736,
+        "Other/Uncertain": 0.10325469076633453
+      },
+      "inference_ms": 709.5898480001779,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "71f4cc301647dda0223cf986d81f6f169d7af9b26f9af94655515c813076b9a7": {
+      "sentiment_probabilities": {
+        "positive": 0.5383073687553406,
+        "neutral": 0.4537704586982727,
+        "negative": 0.007922224700450897
+      },
+      "model_event_classification": "Credit Event",
+      "event_model_score": 0.3304280936717987,
+      "event_top_two_margin": 0.009365111589431763,
+      "model_event_scores": {
+        "Credit Event": 0.3304280936717987,
+        "Macroeconomic": 0.32106298208236694,
+        "Merger/Acquisition": 0.18265336751937866,
+        "Other/Uncertain": 0.07268305867910385,
+        "Geopolitical": 0.049388665705919266,
+        "Product Launch": 0.04378379136323929
+      },
+      "inference_ms": 738.23938500027,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "4811801d83252a5119bf287fdaf3f07bf1609900eb5062f4fc4afbcf5d805759": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998751878738403,
+        "negative": 7.76029410189949e-05,
+        "positive": 4.715648537967354e-05
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.3052065372467041,
+      "event_top_two_margin": 0.06532341241836548,
+      "model_event_scores": {
+        "Product Launch": 0.3052065372467041,
+        "Macroeconomic": 0.23988312482833862,
+        "Geopolitical": 0.13870282471179962,
+        "Credit Event": 0.10862014442682266,
+        "Merger/Acquisition": 0.10730195790529251,
+        "Other/Uncertain": 0.10028542578220367
+      },
+      "inference_ms": 756.3870240010147,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "a83a195a61c55f971e4eaf3f15a66465483838a33766341d117e41895a65cb8a": {
+      "sentiment_probabilities": {
+        "neutral": 0.9992161989212036,
+        "negative": 0.0004872956487815827,
+        "positive": 0.0002965207677334547
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.9890780448913574,
+      "event_top_two_margin": 0.9865367310121655,
+      "model_event_scores": {
+        "Macroeconomic": 0.9890780448913574,
+        "Credit Event": 0.0025413138791918755,
+        "Other/Uncertain": 0.0024027421604841948,
+        "Merger/Acquisition": 0.002310456708073616,
+        "Geopolitical": 0.00193616037722677,
+        "Product Launch": 0.001731344498693943
+      },
+      "inference_ms": 649.855772000592,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "cdc1989743c1090f30602afe5ab0a4d33a73e9688a38fcf09d9d01b52e105c75": {
+      "sentiment_probabilities": {
+        "negative": 0.9981643557548523,
+        "neutral": 0.0011349834967404604,
+        "positive": 0.0007006902596913278
+      },
+      "model_event_classification": "Credit Event",
+      "event_model_score": 0.8851284384727478,
+      "event_top_two_margin": 0.8168549910187721,
+      "model_event_scores": {
+        "Credit Event": 0.8851284384727478,
+        "Macroeconomic": 0.06827344745397568,
+        "Merger/Acquisition": 0.019767368212342262,
+        "Other/Uncertain": 0.015126294456422329,
+        "Product Launch": 0.008149677887558937,
+        "Geopolitical": 0.0035548110026866198
+      },
+      "inference_ms": 699.0917090006405,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "1e1379e5c7afd66edcfc76039ed230a933e5fe6d75e41dc8c5e16f91b6c0c2c3": {
+      "sentiment_probabilities": {
+        "negative": 0.9912561178207397,
+        "neutral": 0.007689314428716898,
+        "positive": 0.001054482883773744
+      },
+      "model_event_classification": "Geopolitical",
+      "event_model_score": 0.5128334760665894,
+      "event_top_two_margin": 0.3500364422798157,
+      "model_event_scores": {
+        "Geopolitical": 0.5128334760665894,
+        "Merger/Acquisition": 0.16279703378677368,
+        "Credit Event": 0.11818090826272964,
+        "Macroeconomic": 0.09097670763731003,
+        "Other/Uncertain": 0.07657036185264587,
+        "Product Launch": 0.03864150494337082
+      },
+      "inference_ms": 732.5377200013463,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "b2e40add96890d27f47813a967b7cebdf8130a54417795132299370de6690e70": {
+      "sentiment_probabilities": {
+        "neutral": 0.9996094107627869,
+        "positive": 0.0003293129848316312,
+        "negative": 6.121180194895715e-05
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.9676076173782349,
+      "event_top_two_margin": 0.9531940231099725,
+      "model_event_scores": {
+        "Product Launch": 0.9676076173782349,
+        "Other/Uncertain": 0.014413594268262386,
+        "Credit Event": 0.005514354910701513,
+        "Merger/Acquisition": 0.004900758620351553,
+        "Macroeconomic": 0.0042082201689481735,
+        "Geopolitical": 0.003355496795848012
+      },
+      "inference_ms": 656.6731150014675,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "d878d17fb4837b40a7fd1021fc030bc72b84c79adb4b4cbe257194244b0090a2": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998379945755005,
+        "negative": 8.109592454275116e-05,
+        "positive": 8.089494076557457e-05
+      },
+      "model_event_classification": "Merger/Acquisition",
+      "event_model_score": 0.9719048738479614,
+      "event_top_two_margin": 0.95852523855865,
+      "model_event_scores": {
+        "Merger/Acquisition": 0.9719048738479614,
+        "Other/Uncertain": 0.013379635289311409,
+        "Macroeconomic": 0.004259683191776276,
+        "Product Launch": 0.0042065526358783245,
+        "Credit Event": 0.0032446670811623335,
+        "Geopolitical": 0.0030046049505472183
+      },
+      "inference_ms": 678.8743159995647,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "1205946c053a61d9d1bd1a21be656a69be8346be64061154ae895527ae069bef": {
+      "sentiment_probabilities": {
+        "neutral": 0.41118407249450684,
+        "positive": 0.3888036012649536,
+        "negative": 0.20001234114170074
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.9893269538879395,
+      "event_top_two_margin": 0.9866405623033643,
+      "model_event_scores": {
+        "Macroeconomic": 0.9893269538879395,
+        "Merger/Acquisition": 0.0026863915845751762,
+        "Product Launch": 0.0024715519975870848,
+        "Other/Uncertain": 0.0023296226281672716,
+        "Credit Event": 0.0017323794309049845,
+        "Geopolitical": 0.0014530509943142533
+      },
+      "inference_ms": 756.4055410002766,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "a16ffa00ab8f7b292ebf4068825a0188bce2c635732a4d888f407c586aeac30d": {
+      "sentiment_probabilities": {
+        "neutral": 0.9962354302406311,
+        "negative": 0.0036696349270641804,
+        "positive": 9.495958511251956e-05
+      },
+      "model_event_classification": "Credit Event",
+      "event_model_score": 0.5017131567001343,
+      "event_top_two_margin": 0.38008908927440643,
+      "model_event_scores": {
+        "Credit Event": 0.5017131567001343,
+        "Other/Uncertain": 0.12162406742572784,
+        "Macroeconomic": 0.11415601521730423,
+        "Merger/Acquisition": 0.09424668550491333,
+        "Product Launch": 0.09233249723911285,
+        "Geopolitical": 0.07592751085758209
+      },
+      "inference_ms": 727.8168100001494,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "773f05075382facf13ca75f366598cbe341579ca6727af0a27ad23b792f8407e": {
+      "sentiment_probabilities": {
+        "negative": 0.99727863073349,
+        "neutral": 0.00225087464787066,
+        "positive": 0.0004705496539827436
+      },
+      "model_event_classification": "Credit Event",
+      "event_model_score": 0.8544036746025085,
+      "event_top_two_margin": 0.762991651892662,
+      "model_event_scores": {
+        "Credit Event": 0.8544036746025085,
+        "Macroeconomic": 0.0914120227098465,
+        "Merger/Acquisition": 0.019083978608250618,
+        "Product Launch": 0.016562417149543762,
+        "Other/Uncertain": 0.014465064741671085,
+        "Geopolitical": 0.00407283753156662
+      },
+      "inference_ms": 706.788167999548,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "9a1d9d30fa71bfacfb09694f6f027a01109e62b40f5ee24e5784f19c78cc049e": {
+      "sentiment_probabilities": {
+        "negative": 0.9729665517807007,
+        "neutral": 0.02619820088148117,
+        "positive": 0.0008352082804776728
+      },
+      "model_event_classification": "Geopolitical",
+      "event_model_score": 0.3018946051597595,
+      "event_top_two_margin": 0.05395117402076721,
+      "model_event_scores": {
+        "Geopolitical": 0.3018946051597595,
+        "Merger/Acquisition": 0.2479434311389923,
+        "Credit Event": 0.15371450781822205,
+        "Other/Uncertain": 0.15120844542980194,
+        "Macroeconomic": 0.0890985056757927,
+        "Product Launch": 0.0561404824256897
+      },
+      "inference_ms": 733.7226549989282,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "fb92d2647d6570339dd55de4e497ff1004d5928fc5dcb812d7d61d3026429db1": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998695850372314,
+        "negative": 8.761480421526358e-05,
+        "positive": 4.2849351302720606e-05
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.26873740553855896,
+      "event_top_two_margin": 0.08919070661067963,
+      "model_event_scores": {
+        "Macroeconomic": 0.26873740553855896,
+        "Product Launch": 0.17954669892787933,
+        "Other/Uncertain": 0.16676945984363556,
+        "Merger/Acquisition": 0.1516108363866806,
+        "Geopolitical": 0.12087427824735641,
+        "Credit Event": 0.11246128380298615
+      },
+      "inference_ms": 596.8042870008503,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "2e27886add7ebfd83b575833ba98366546dacc64f5b003c122812d19e57676bb": {
+      "sentiment_probabilities": {
+        "positive": 0.601051926612854,
+        "neutral": 0.39720237255096436,
+        "negative": 0.0017456260975450277
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.7332363128662109,
+      "event_top_two_margin": 0.6488056778907776,
+      "model_event_scores": {
+        "Macroeconomic": 0.7332363128662109,
+        "Other/Uncertain": 0.08443063497543335,
+        "Merger/Acquisition": 0.058434903621673584,
+        "Credit Event": 0.057551514357328415,
+        "Product Launch": 0.04367317259311676,
+        "Geopolitical": 0.022673429921269417
+      },
+      "inference_ms": 864.2832929999713,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "59adf166f2761d8f8e05ba950bfdd6a09fecaa309b893427f6600944cf78726f": {
+      "sentiment_probabilities": {
+        "neutral": 0.999854564666748,
+        "negative": 8.274654828710482e-05,
+        "positive": 6.27491608611308e-05
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.8073736429214478,
+      "event_top_two_margin": 0.7513679414987564,
+      "model_event_scores": {
+        "Macroeconomic": 0.8073736429214478,
+        "Other/Uncertain": 0.056005701422691345,
+        "Credit Event": 0.04198271036148071,
+        "Product Launch": 0.039077963680028915,
+        "Merger/Acquisition": 0.03740319982171059,
+        "Geopolitical": 0.018156709149479866
+      },
+      "inference_ms": 896.3002189993858,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "5784bc4101e7900b951f801d0c7d75ec2dd228e3509fbc549efc4706077a9115": {
+      "sentiment_probabilities": {
+        "neutral": 0.9472597241401672,
+        "positive": 0.050846222788095474,
+        "negative": 0.0018940080190077424
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.9593258500099182,
+      "event_top_two_margin": 0.9481756277382374,
+      "model_event_scores": {
+        "Macroeconomic": 0.9593258500099182,
+        "Credit Event": 0.011150222271680832,
+        "Other/Uncertain": 0.010269551537930965,
+        "Merger/Acquisition": 0.009149671532213688,
+        "Product Launch": 0.006298924796283245,
+        "Geopolitical": 0.0038057819474488497
+      },
+      "inference_ms": 847.5194189995818,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "415a5ca45b9c04820e1d11690543af6531fc4795116eba56ad07468a662222ab": {
+      "sentiment_probabilities": {
+        "neutral": 0.9995716214179993,
+        "negative": 0.00022008249652571976,
+        "positive": 0.00020830213907174766
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.9410855174064636,
+      "event_top_two_margin": 0.9250249229371548,
+      "model_event_scores": {
+        "Macroeconomic": 0.9410855174064636,
+        "Credit Event": 0.016060594469308853,
+        "Other/Uncertain": 0.01322440430521965,
+        "Merger/Acquisition": 0.013222524896264076,
+        "Product Launch": 0.010149762034416199,
+        "Geopolitical": 0.0062571922317147255
+      },
+      "inference_ms": 763.6298460001854,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "cb569e35db9fe3538f5ae7bdb6b239a02d2475aaf3c26d958be173de7995f211": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998836517333984,
+        "negative": 7.162015390349552e-05,
+        "positive": 4.468268161872402e-05
+      },
+      "model_event_classification": "Credit Event",
+      "event_model_score": 0.39877671003341675,
+      "event_top_two_margin": 0.09970590472221375,
+      "model_event_scores": {
+        "Credit Event": 0.39877671003341675,
+        "Merger/Acquisition": 0.299070805311203,
+        "Product Launch": 0.1327236443758011,
+        "Macroeconomic": 0.07540666311979294,
+        "Other/Uncertain": 0.050162505358457565,
+        "Geopolitical": 0.04385975003242493
+      },
+      "inference_ms": 698.4353369989549,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "382b68ff87ef9e712810df1c0e8ce911960e0f495dfaf6eb4d980d50117bdcb0": {
+      "sentiment_probabilities": {
+        "positive": 0.9670045971870422,
+        "neutral": 0.03248707577586174,
+        "negative": 0.0005082988063804805
+      },
+      "model_event_classification": "Merger/Acquisition",
+      "event_model_score": 0.9626248478889465,
+      "event_top_two_margin": 0.9482656856998801,
+      "model_event_scores": {
+        "Merger/Acquisition": 0.9626248478889465,
+        "Other/Uncertain": 0.01435916218906641,
+        "Product Launch": 0.010442279279232025,
+        "Macroeconomic": 0.0060771494172513485,
+        "Credit Event": 0.0036366432905197144,
+        "Geopolitical": 0.0028598716016858816
+      },
+      "inference_ms": 747.3466219998954,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "86c19f51dfb6f0b5ea68d7f9509c1f4321da423c029008f963f211c2f0adf615": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998905658721924,
+        "negative": 6.30594149697572e-05,
+        "positive": 4.633269054465927e-05
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.9611977338790894,
+      "event_top_two_margin": 0.9495357628911734,
+      "model_event_scores": {
+        "Product Launch": 0.9611977338790894,
+        "Other/Uncertain": 0.011661970987915993,
+        "Macroeconomic": 0.008867762982845306,
+        "Geopolitical": 0.0074305059388279915,
+        "Merger/Acquisition": 0.005738804582506418,
+        "Credit Event": 0.005103251431137323
+      },
+      "inference_ms": 663.2589459986775,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "41fcc3ef1d694d83fe6d3dfb0ed934c9b923df3847709a98e1a18db65a441a11": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998594522476196,
+        "negative": 8.823206007946283e-05,
+        "positive": 5.228229929343797e-05
+      },
+      "model_event_classification": "Other/Uncertain",
+      "event_model_score": 0.6584440469741821,
+      "event_top_two_margin": 0.5530371814966202,
+      "model_event_scores": {
+        "Other/Uncertain": 0.6584440469741821,
+        "Merger/Acquisition": 0.10540686547756195,
+        "Macroeconomic": 0.10507769137620926,
+        "Product Launch": 0.06188685819506645,
+        "Credit Event": 0.04455335810780525,
+        "Geopolitical": 0.024631202220916748
+      },
+      "inference_ms": 755.7177599992428,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "c86226ea3d6d72ac2387e414238ced26e108de07eed0e68ddac5b6a374c96121": {
+      "sentiment_probabilities": {
+        "negative": 0.9738600254058838,
+        "neutral": 0.02531721070408821,
+        "positive": 0.0008228083024732769
+      },
+      "model_event_classification": "Other/Uncertain",
+      "event_model_score": 0.4928232729434967,
+      "event_top_two_margin": 0.28020481765270233,
+      "model_event_scores": {
+        "Other/Uncertain": 0.4928232729434967,
+        "Macroeconomic": 0.21261845529079437,
+        "Merger/Acquisition": 0.1493035852909088,
+        "Credit Event": 0.05960517004132271,
+        "Product Launch": 0.05918103829026222,
+        "Geopolitical": 0.02646850422024727
+      },
+      "inference_ms": 835.4627320004511,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "f4e2bdb29dfcd43f8074e7af51b98cab6ba1c76429b89941be977efae8b0a097": {
+      "sentiment_probabilities": {
+        "neutral": 0.9870169758796692,
+        "negative": 0.01268355268985033,
+        "positive": 0.0002994147944264114
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.7418612241744995,
+      "event_top_two_margin": 0.6717415601015091,
+      "model_event_scores": {
+        "Product Launch": 0.7418612241744995,
+        "Merger/Acquisition": 0.07011966407299042,
+        "Macroeconomic": 0.06825528293848038,
+        "Credit Event": 0.050447724759578705,
+        "Other/Uncertain": 0.03731010854244232,
+        "Geopolitical": 0.032006025314331055
+      },
+      "inference_ms": 597.5916589995904,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "c74a693ee1c000ead87fb6d3d47fe6a53cda9e03f61ac6644397d26e95f60ee4": {
+      "sentiment_probabilities": {
+        "negative": 0.9906833171844482,
+        "neutral": 0.00770436879247427,
+        "positive": 0.0016123178647831082
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.3649815022945404,
+      "event_top_two_margin": 0.06452390551567078,
+      "model_event_scores": {
+        "Macroeconomic": 0.3649815022945404,
+        "Credit Event": 0.30045759677886963,
+        "Product Launch": 0.10698313266038895,
+        "Merger/Acquisition": 0.09576286375522614,
+        "Other/Uncertain": 0.09114174544811249,
+        "Geopolitical": 0.04067318141460419
+      },
+      "inference_ms": 693.0510809997941,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "988360e664f1ee1d1cbdbbd295c5328b2ca1ffd71da0e07953ce1fd484fcb8f5": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998738765716553,
+        "negative": 7.817778532626107e-05,
+        "positive": 4.788241130881943e-05
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.3076656460762024,
+      "event_top_two_margin": 0.0637357234954834,
+      "model_event_scores": {
+        "Product Launch": 0.3076656460762024,
+        "Macroeconomic": 0.243929922580719,
+        "Geopolitical": 0.134861558675766,
+        "Credit Event": 0.11152125895023346,
+        "Merger/Acquisition": 0.1068321168422699,
+        "Other/Uncertain": 0.09518954157829285
+      },
+      "inference_ms": 717.280318000121,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "f223c79a85d98b14084c3299f0a230fea04c168ef20b75adf3b410840fadaa72": {
+      "sentiment_probabilities": {
+        "negative": 0.9979366064071655,
+        "positive": 0.001166946953162551,
+        "neutral": 0.0008964587468653917
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.9673972725868225,
+      "event_top_two_margin": 0.9581558918580413,
+      "model_event_scores": {
+        "Macroeconomic": 0.9673972725868225,
+        "Credit Event": 0.009241380728781223,
+        "Other/Uncertain": 0.007344682700932026,
+        "Product Launch": 0.006147126667201519,
+        "Merger/Acquisition": 0.005776210222393274,
+        "Geopolitical": 0.004093362018465996
+      },
+      "inference_ms": 816.5889869997045,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "a0dea0339dd8fbfa9faccee3dd2ab7ea73c7977260c52d4ce34fa11e559a7cdc": {
+      "sentiment_probabilities": {
+        "negative": 0.9696048498153687,
+        "neutral": 0.02988576702773571,
+        "positive": 0.0005093527142889798
+      },
+      "model_event_classification": "Credit Event",
+      "event_model_score": 0.6462326049804688,
+      "event_top_two_margin": 0.5513579100370407,
+      "model_event_scores": {
+        "Credit Event": 0.6462326049804688,
+        "Other/Uncertain": 0.09487469494342804,
+        "Macroeconomic": 0.07859459519386292,
+        "Product Launch": 0.07641693204641342,
+        "Merger/Acquisition": 0.05839185416698456,
+        "Geopolitical": 0.045489273965358734
+      },
+      "inference_ms": 697.6928549993318,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "28bfc3e927bad3616ed57de7f10b26f45b6aa4aba3a3abc41744464341f00142": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998552799224854,
+        "negative": 9.943085751729086e-05,
+        "positive": 4.530089790932834e-05
+      },
+      "model_event_classification": "Credit Event",
+      "event_model_score": 0.3178428113460541,
+      "event_top_two_margin": 0.06145995855331421,
+      "model_event_scores": {
+        "Credit Event": 0.3178428113460541,
+        "Merger/Acquisition": 0.25638285279273987,
+        "Product Launch": 0.18831947445869446,
+        "Other/Uncertain": 0.1444438397884369,
+        "Macroeconomic": 0.058700256049633026,
+        "Geopolitical": 0.03431079164147377
+      },
+      "inference_ms": 892.8129939995415,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "3cf301b3434c145fbb6e31c4b93eafcb75ca5747b106329e08f4defb6e7c84f5": {
+      "sentiment_probabilities": {
+        "neutral": 0.6893120408058167,
+        "negative": 0.30992957949638367,
+        "positive": 0.0007583333062939346
+      },
+      "model_event_classification": "Credit Event",
+      "event_model_score": 0.8161055445671082,
+      "event_top_two_margin": 0.73990298807621,
+      "model_event_scores": {
+        "Credit Event": 0.8161055445671082,
+        "Macroeconomic": 0.07620255649089813,
+        "Other/Uncertain": 0.05307450890541077,
+        "Merger/Acquisition": 0.034054193645715714,
+        "Product Launch": 0.013558647595345974,
+        "Geopolitical": 0.007004525046795607
+      },
+      "inference_ms": 861.2812850005866,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "1ac48bc28526e815bf66cb3b873cf446af590e60ef8b62b7f79f78bf33100cb4": {
+      "sentiment_probabilities": {
+        "negative": 0.9860580563545227,
+        "neutral": 0.0132924048230052,
+        "positive": 0.00064959900919348
+      },
+      "model_event_classification": "Credit Event",
+      "event_model_score": 0.9586353898048401,
+      "event_top_two_margin": 0.9496117746457458,
+      "model_event_scores": {
+        "Credit Event": 0.9586353898048401,
+        "Macroeconomic": 0.009023615159094334,
+        "Product Launch": 0.00887972116470337,
+        "Merger/Acquisition": 0.008735236711800098,
+        "Other/Uncertain": 0.008360112085938454,
+        "Geopolitical": 0.0063660345040261745
+      },
+      "inference_ms": 873.8141100002395,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "d6412d2f5033edb052104149974ba851ca759bf489948c3df2973153dd0fc64c": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998458623886108,
+        "negative": 0.0001068820056389086,
+        "positive": 4.722630910691805e-05
+      },
+      "model_event_classification": "Credit Event",
+      "event_model_score": 0.6756350994110107,
+      "event_top_two_margin": 0.5216889083385468,
+      "model_event_scores": {
+        "Credit Event": 0.6756350994110107,
+        "Product Launch": 0.153946191072464,
+        "Other/Uncertain": 0.05451437085866928,
+        "Merger/Acquisition": 0.04728272184729576,
+        "Macroeconomic": 0.03599952161312103,
+        "Geopolitical": 0.0326220877468586
+      },
+      "inference_ms": 719.031657999949,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "10902f55f66781777b2e88b7f68ebd55b686d9e8fbda379a9701e3726c1983e1": {
+      "sentiment_probabilities": {
+        "neutral": 0.9992496371269226,
+        "positive": 0.0005772454314865172,
+        "negative": 0.000173114676726982
+      },
+      "model_event_classification": "Credit Event",
+      "event_model_score": 0.7928724884986877,
+      "event_top_two_margin": 0.7213789820671082,
+      "model_event_scores": {
+        "Credit Event": 0.7928724884986877,
+        "Product Launch": 0.07149350643157959,
+        "Macroeconomic": 0.037554286420345306,
+        "Other/Uncertain": 0.03477581962943077,
+        "Geopolitical": 0.033327776938676834,
+        "Merger/Acquisition": 0.029976217076182365
+      },
+      "inference_ms": 698.1047030003538,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "9ce794e428dc5cf3f7cce561845fae54c7eb9dfbbce44bdf466d0cc35cc2f863": {
+      "sentiment_probabilities": {
+        "negative": 0.9949807524681091,
+        "positive": 0.002958618802949786,
+        "neutral": 0.0020605754107236862
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.8047994375228882,
+      "event_top_two_margin": 0.7417635321617126,
+      "model_event_scores": {
+        "Macroeconomic": 0.8047994375228882,
+        "Product Launch": 0.06303590536117554,
+        "Credit Event": 0.06233428046107292,
+        "Other/Uncertain": 0.031296927481889725,
+        "Merger/Acquisition": 0.02906615100800991,
+        "Geopolitical": 0.009467286057770252
+      },
+      "inference_ms": 775.7249009991938,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "20b1bbd147eb30456fb43cfb4c6181896e093f57261c010e68536e7b1c3449e9": {
+      "sentiment_probabilities": {
+        "neutral": 0.9993239641189575,
+        "negative": 0.0006259041256271303,
+        "positive": 5.009365122532472e-05
+      },
+      "model_event_classification": "Credit Event",
+      "event_model_score": 0.8550582528114319,
+      "event_top_two_margin": 0.7994102761149406,
+      "model_event_scores": {
+        "Credit Event": 0.8550582528114319,
+        "Merger/Acquisition": 0.05564797669649124,
+        "Other/Uncertain": 0.028578268364071846,
+        "Macroeconomic": 0.02477230876684189,
+        "Product Launch": 0.021437592804431915,
+        "Geopolitical": 0.014505569823086262
+      },
+      "inference_ms": 929.9549909992493,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "af37ca0d5deb2f2dee51477c96ea0c272dacf6d644f899a91c55bbc2062a0179": {
+      "sentiment_probabilities": {
+        "negative": 0.9962079524993896,
+        "neutral": 0.0032592378556728363,
+        "positive": 0.0005327477701939642
+      },
+      "model_event_classification": "Credit Event",
+      "event_model_score": 0.3660365343093872,
+      "event_top_two_margin": 0.2195187658071518,
+      "model_event_scores": {
+        "Credit Event": 0.3660365343093872,
+        "Product Launch": 0.1465177685022354,
+        "Macroeconomic": 0.12915253639221191,
+        "Other/Uncertain": 0.12888354063034058,
+        "Geopolitical": 0.12018653750419617,
+        "Merger/Acquisition": 0.10922310501337051
+      },
+      "inference_ms": 715.2797269991424,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "d5bc79651f46aee818a83b910c9c90432783a9e95634963815d775d8c93e2c3a": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998757839202881,
+        "negative": 8.647369395475835e-05,
+        "positive": 3.774763899855316e-05
+      },
+      "model_event_classification": "Credit Event",
+      "event_model_score": 0.6181409955024719,
+      "event_top_two_margin": 0.4752187728881836,
+      "model_event_scores": {
+        "Credit Event": 0.6181409955024719,
+        "Merger/Acquisition": 0.14292222261428833,
+        "Other/Uncertain": 0.0957542434334755,
+        "Macroeconomic": 0.056602079421281815,
+        "Product Launch": 0.05114087462425232,
+        "Geopolitical": 0.03543955832719803
+      },
+      "inference_ms": 718.345307999698,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "fe1405531e4474f83ec5ef671009bc099cc0c0315f53e6cb0e7c63e9cddd7227": {
+      "sentiment_probabilities": {
+        "negative": 0.9963662624359131,
+        "neutral": 0.003108304226770997,
+        "positive": 0.0005255217547528446
+      },
+      "model_event_classification": "Credit Event",
+      "event_model_score": 0.5920975208282471,
+      "event_top_two_margin": 0.48219214379787445,
+      "model_event_scores": {
+        "Credit Event": 0.5920975208282471,
+        "Product Launch": 0.10990537703037262,
+        "Merger/Acquisition": 0.09349050372838974,
+        "Other/Uncertain": 0.09338220208883286,
+        "Macroeconomic": 0.08378273993730545,
+        "Geopolitical": 0.027341673150658607
+      },
+      "inference_ms": 800.432689000445,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "a040c27a06340d502cefb9b13c644602005888329982a13ba0ab6b13fa9d0b5d": {
+      "sentiment_probabilities": {
+        "negative": 0.57830411195755,
+        "neutral": 0.42105022072792053,
+        "positive": 0.0006457151030190289
+      },
+      "model_event_classification": "Credit Event",
+      "event_model_score": 0.5008430480957031,
+      "event_top_two_margin": 0.27811846137046814,
+      "model_event_scores": {
+        "Credit Event": 0.5008430480957031,
+        "Geopolitical": 0.22272458672523499,
+        "Other/Uncertain": 0.09563395380973816,
+        "Macroeconomic": 0.07765573263168335,
+        "Product Launch": 0.05251825600862503,
+        "Merger/Acquisition": 0.05062439665198326
+      },
+      "inference_ms": 880.6816699998308,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "84491b79a5165ebef344e4b611f886f3dd52f9acb65666901d7aabf1085d9423": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998244643211365,
+        "positive": 0.00010851158003788441,
+        "negative": 6.713124457746744e-05
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.9725841283798218,
+      "event_top_two_margin": 0.9597452329471707,
+      "model_event_scores": {
+        "Product Launch": 0.9725841283798218,
+        "Other/Uncertain": 0.012838895432651043,
+        "Merger/Acquisition": 0.005830768961459398,
+        "Macroeconomic": 0.004030413459986448,
+        "Geopolitical": 0.002481101779267192,
+        "Credit Event": 0.002234638901427388
+      },
+      "inference_ms": 794.742275000317,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "471a047f2bf79d1a837dce02ed94e1ee45c35281c59ee6ec2915fe5ab0f3fe3d": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998639822006226,
+        "positive": 7.15197020326741e-05,
+        "negative": 6.452565867220983e-05
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.9758676886558533,
+      "event_top_two_margin": 0.9627097388729453,
+      "model_event_scores": {
+        "Product Launch": 0.9758676886558533,
+        "Other/Uncertain": 0.013157949782907963,
+        "Merger/Acquisition": 0.006051444448530674,
+        "Macroeconomic": 0.002248006407171488,
+        "Geopolitical": 0.001541796838864684,
+        "Credit Event": 0.001133141340687871
+      },
+      "inference_ms": 1012.5406140014093,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "17d21ba291eeefc9807cc33eae4b14616f6822d566d0b4668e340087bcf6e643": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998613595962524,
+        "positive": 7.53054628148675e-05,
+        "negative": 6.334803765639663e-05
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.9508221745491028,
+      "event_top_two_margin": 0.9355781385675073,
+      "model_event_scores": {
+        "Product Launch": 0.9508221745491028,
+        "Other/Uncertain": 0.015244035981595516,
+        "Merger/Acquisition": 0.0149692939594388,
+        "Macroeconomic": 0.008082234300673008,
+        "Geopolitical": 0.006001417525112629,
+        "Credit Event": 0.004880825988948345
+      },
+      "inference_ms": 690.9410370008118,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "6d5f4de2899292f3dd103b5327d4630ab0e0ee29e9652525564fde90c970f9d5": {
+      "sentiment_probabilities": {
+        "neutral": 0.9997990727424622,
+        "positive": 0.00014448339061345905,
+        "negative": 5.6448734540026635e-05
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.8777331113815308,
+      "event_top_two_margin": 0.7896689549088478,
+      "model_event_scores": {
+        "Product Launch": 0.8777331113815308,
+        "Merger/Acquisition": 0.08806415647268295,
+        "Other/Uncertain": 0.017111582681536674,
+        "Macroeconomic": 0.0075324480421841145,
+        "Credit Event": 0.005459545645862818,
+        "Geopolitical": 0.004099116660654545
+      },
+      "inference_ms": 683.850720000919,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "570710e50270aab204b0bfe0ad46056d0a3329eb2c5b0a5e79d9f800b10345a2": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998902082443237,
+        "negative": 6.62814054521732e-05,
+        "positive": 4.356314457254484e-05
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.9176633954048157,
+      "event_top_two_margin": 0.8859966993331909,
+      "model_event_scores": {
+        "Product Launch": 0.9176633954048157,
+        "Other/Uncertain": 0.031666696071624756,
+        "Merger/Acquisition": 0.01902746967971325,
+        "Macroeconomic": 0.012033851817250252,
+        "Geopolitical": 0.010497890412807465,
+        "Credit Event": 0.009110680781304836
+      },
+      "inference_ms": 787.315450999813,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "0fca2c7665323634adc04cf77503d5fe3f3b061f365bc973edce8c8c5699626c": {
+      "sentiment_probabilities": {
+        "positive": 0.714920699596405,
+        "neutral": 0.284420907497406,
+        "negative": 0.0006584276561625302
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.9392284750938416,
+      "event_top_two_margin": 0.9196787346154451,
+      "model_event_scores": {
+        "Product Launch": 0.9392284750938416,
+        "Merger/Acquisition": 0.019549740478396416,
+        "Credit Event": 0.011876484379172325,
+        "Other/Uncertain": 0.011647823266685009,
+        "Geopolitical": 0.010748600587248802,
+        "Macroeconomic": 0.006948923692107201
+      },
+      "inference_ms": 792.0970060004038,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "f4ddce825ebf92ff737e38f32331e1b57653d2157f5ec71d7b854c316735d3a8": {
+      "sentiment_probabilities": {
+        "positive": 0.6288354992866516,
+        "neutral": 0.3705163896083832,
+        "negative": 0.0006481137243099511
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.8391935229301453,
+      "event_top_two_margin": 0.7858324833214283,
+      "model_event_scores": {
+        "Product Launch": 0.8391935229301453,
+        "Macroeconomic": 0.053361039608716965,
+        "Geopolitical": 0.0326380655169487,
+        "Merger/Acquisition": 0.030376721173524857,
+        "Credit Event": 0.02779570035636425,
+        "Other/Uncertain": 0.01663496159017086
+      },
+      "inference_ms": 745.8485770002881,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "93980ef5d7cd9e0b1af6277f422aeca4b71f6d93aa7b22960a9feb4e1e222dc9": {
+      "sentiment_probabilities": {
+        "neutral": 0.999136745929718,
+        "positive": 0.0007766103954054415,
+        "negative": 8.674259879626334e-05
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.9252235293388367,
+      "event_top_two_margin": 0.8905992433428764,
+      "model_event_scores": {
+        "Product Launch": 0.9252235293388367,
+        "Merger/Acquisition": 0.034624285995960236,
+        "Other/Uncertain": 0.02142370492219925,
+        "Macroeconomic": 0.0074022323824465275,
+        "Credit Event": 0.0060476697981357574,
+        "Geopolitical": 0.005278610624372959
+      },
+      "inference_ms": 824.0194200006954,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "c6f0715719d6fe7a88ae370351933eb2e0cd39a5a97bd8c89d441aa094f64228": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998396635055542,
+        "positive": 0.00011363504745531827,
+        "negative": 4.67076497443486e-05
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.9699671864509583,
+      "event_top_two_margin": 0.9606298357248306,
+      "model_event_scores": {
+        "Product Launch": 0.9699671864509583,
+        "Macroeconomic": 0.009337350726127625,
+        "Other/Uncertain": 0.006975722499191761,
+        "Merger/Acquisition": 0.006417295429855585,
+        "Geopolitical": 0.0039407131262123585,
+        "Credit Event": 0.0033617825247347355
+      },
+      "inference_ms": 848.5271550016478,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "c52c28295769f5eb6f0df6b6ecb969a46bb921e39cae8ef773ddb8cb60cd8bc2": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998047947883606,
+        "positive": 0.0001417487219441682,
+        "negative": 5.3459829359781e-05
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.9397200345993042,
+      "event_top_two_margin": 0.9256110489368439,
+      "model_event_scores": {
+        "Product Launch": 0.9397200345993042,
+        "Merger/Acquisition": 0.014108985662460327,
+        "Macroeconomic": 0.013565823435783386,
+        "Other/Uncertain": 0.011808248236775398,
+        "Credit Event": 0.011127462610602379,
+        "Geopolitical": 0.009669485501945019
+      },
+      "inference_ms": 990.2180419994693,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "afcdb78b17405ebf0951cbfc96c83f87f22e8bb91f879b6b95149fdd863a97bb": {
+      "sentiment_probabilities": {
+        "neutral": 0.9997765421867371,
+        "positive": 0.00016906348173506558,
+        "negative": 5.430726014310494e-05
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.9016386270523071,
+      "event_top_two_margin": 0.8615083135664463,
+      "model_event_scores": {
+        "Product Launch": 0.9016386270523071,
+        "Merger/Acquisition": 0.040130313485860825,
+        "Macroeconomic": 0.023780278861522675,
+        "Geopolitical": 0.014686978422105312,
+        "Credit Event": 0.01058462169021368,
+        "Other/Uncertain": 0.009179148823022842
+      },
+      "inference_ms": 584.3641289993684,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "659f36c4c1cad34374e6e8c3e53f5d70082043ddade2ef01d4118e266b3483f7": {
+      "sentiment_probabilities": {
+        "neutral": 0.9996638298034668,
+        "positive": 0.0002867513394448906,
+        "negative": 4.9488073273096234e-05
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.9201290607452393,
+      "event_top_two_margin": 0.8923809304833412,
+      "model_event_scores": {
+        "Product Launch": 0.9201290607452393,
+        "Macroeconomic": 0.02774813026189804,
+        "Merger/Acquisition": 0.019462620839476585,
+        "Other/Uncertain": 0.015636665746569633,
+        "Credit Event": 0.010814464651048183,
+        "Geopolitical": 0.006209035869687796
+      },
+      "inference_ms": 646.6050690014526,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "dcda50ece71bc1ecea5c554578f7750c6abc4488271b1da3326c16b15311f584": {
+      "sentiment_probabilities": {
+        "neutral": 0.9997974038124084,
+        "positive": 0.00014989651390351355,
+        "negative": 5.264141509542242e-05
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.8011696934700012,
+      "event_top_two_margin": 0.7457258068025112,
+      "model_event_scores": {
+        "Product Launch": 0.8011696934700012,
+        "Macroeconomic": 0.055443886667490005,
+        "Merger/Acquisition": 0.04760929197072983,
+        "Geopolitical": 0.03348252549767494,
+        "Other/Uncertain": 0.032735325396060944,
+        "Credit Event": 0.029559168964624405
+      },
+      "inference_ms": 706.9956939994881,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "d0fcd08d90bea81eb75813645afb164be682fed4070a48131f7617f86926aad9": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998750686645508,
+        "positive": 7.229609764181077e-05,
+        "negative": 5.253140625427477e-05
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.941447913646698,
+      "event_top_two_margin": 0.924204034730792,
+      "model_event_scores": {
+        "Product Launch": 0.941447913646698,
+        "Merger/Acquisition": 0.017243878915905952,
+        "Macroeconomic": 0.012083305045962334,
+        "Geopolitical": 0.011619887314736843,
+        "Other/Uncertain": 0.010061762295663357,
+        "Credit Event": 0.00754321925342083
+      },
+      "inference_ms": 736.6407809986413,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "55b20fdbe4437092de4963b697555aee8c7b4c8086f9051918a0a67ef0e4298a": {
+      "sentiment_probabilities": {
+        "neutral": 0.9997733235359192,
+        "positive": 0.00017343877698294818,
+        "negative": 5.3314775868784636e-05
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.6180319786071777,
+      "event_top_two_margin": 0.47573402523994446,
+      "model_event_scores": {
+        "Product Launch": 0.6180319786071777,
+        "Macroeconomic": 0.14229795336723328,
+        "Merger/Acquisition": 0.07138583064079285,
+        "Geopolitical": 0.06671356409788132,
+        "Other/Uncertain": 0.05123989284038544,
+        "Credit Event": 0.050330810248851776
+      },
+      "inference_ms": 931.6996870002185,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "c3ac0468dadbdd7a52879667914bfb9212ba09ea6a400dc06e282415f6435619": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998797178268433,
+        "positive": 6.702242535538971e-05,
+        "negative": 5.3330164519138634e-05
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.8919692635536194,
+      "event_top_two_margin": 0.8436535373330116,
+      "model_event_scores": {
+        "Product Launch": 0.8919692635536194,
+        "Other/Uncertain": 0.04831572622060776,
+        "Macroeconomic": 0.028245694935321808,
+        "Merger/Acquisition": 0.01580616645514965,
+        "Credit Event": 0.009540489874780178,
+        "Geopolitical": 0.0061226594261825085
+      },
+      "inference_ms": 869.7927220000565,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "b9bd68c76b74f6149422a6e22a455e2fd487d994a042044bb5f959577ff98925": {
+      "sentiment_probabilities": {
+        "positive": 0.9239567518234253,
+        "neutral": 0.07532518357038498,
+        "negative": 0.0007180514512583613
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.9001929759979248,
+      "event_top_two_margin": 0.863972369581461,
+      "model_event_scores": {
+        "Product Launch": 0.9001929759979248,
+        "Merger/Acquisition": 0.03622060641646385,
+        "Macroeconomic": 0.019219214096665382,
+        "Other/Uncertain": 0.018298054113984108,
+        "Geopolitical": 0.013166111893951893,
+        "Credit Event": 0.012903077527880669
+      },
+      "inference_ms": 848.4664449988486,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "7c7050e43a056709aa35034af1a4f90c20688b41803636ebb60f5a8a5c54f87c": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998842477798462,
+        "positive": 6.460984877776355e-05,
+        "negative": 5.110898564453237e-05
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.670385479927063,
+      "event_top_two_margin": 0.37524497509002686,
+      "model_event_scores": {
+        "Product Launch": 0.670385479927063,
+        "Merger/Acquisition": 0.29514050483703613,
+        "Other/Uncertain": 0.013737957924604416,
+        "Geopolitical": 0.008817605674266815,
+        "Macroeconomic": 0.00611611595377326,
+        "Credit Event": 0.005802386440336704
+      },
+      "inference_ms": 758.4378000010474,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "33fabbb19ec4e224c3f0d75acb0a6190a66054e921103ce4ecce073eedb6a542": {
+      "sentiment_probabilities": {
+        "positive": 0.9995144605636597,
+        "neutral": 0.0003105484356638044,
+        "negative": 0.0001750243391143158
+      },
+      "model_event_classification": "Geopolitical",
+      "event_model_score": 0.5022395253181458,
+      "event_top_two_margin": 0.1356305480003357,
+      "model_event_scores": {
+        "Geopolitical": 0.5022395253181458,
+        "Product Launch": 0.36660897731781006,
+        "Other/Uncertain": 0.08333834260702133,
+        "Merger/Acquisition": 0.03166276216506958,
+        "Credit Event": 0.00817203801125288,
+        "Macroeconomic": 0.007978308945894241
+      },
+      "inference_ms": 1008.4429900016403,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "20596a05bfd78c2bda4700f54e863c9a2c9c3a3e696b5013f895c8d5334466f6": {
+      "sentiment_probabilities": {
+        "positive": 0.9995521903038025,
+        "neutral": 0.0002779047645162791,
+        "negative": 0.0001699021231615916
+      },
+      "model_event_classification": "Geopolitical",
+      "event_model_score": 0.5105268359184265,
+      "event_top_two_margin": 0.26638029515743256,
+      "model_event_scores": {
+        "Geopolitical": 0.5105268359184265,
+        "Merger/Acquisition": 0.24414654076099396,
+        "Other/Uncertain": 0.1283661127090454,
+        "Macroeconomic": 0.06028566509485245,
+        "Product Launch": 0.0422636903822422,
+        "Credit Event": 0.014411152340471745
+      },
+      "inference_ms": 676.5818090007087,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "4146201e343a6c175d9ef6e3210839ba4df73d07790e7d124aec7f50f1516f03": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998013377189636,
+        "negative": 0.0001446967653464526,
+        "positive": 5.3967749408911914e-05
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.7012428045272827,
+      "event_top_two_margin": 0.6010922342538834,
+      "model_event_scores": {
+        "Product Launch": 0.7012428045272827,
+        "Merger/Acquisition": 0.10015057027339935,
+        "Other/Uncertain": 0.0563543401658535,
+        "Geopolitical": 0.05346798896789551,
+        "Credit Event": 0.052250929176807404,
+        "Macroeconomic": 0.036533355712890625
+      },
+      "inference_ms": 567.7249460004532,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "4bd59ba65c961b8bc73ec4354b8c6a12cf640b1653b027ed15a08402a39c88b1": {
+      "sentiment_probabilities": {
+        "negative": 0.9985768795013428,
+        "positive": 0.0008313953294418752,
+        "neutral": 0.00059173081535846
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.3015342056751251,
+      "event_top_two_margin": 0.09167549014091492,
+      "model_event_scores": {
+        "Macroeconomic": 0.3015342056751251,
+        "Geopolitical": 0.2098587155342102,
+        "Other/Uncertain": 0.13072210550308228,
+        "Product Launch": 0.12997493147850037,
+        "Credit Event": 0.12374859303236008,
+        "Merger/Acquisition": 0.10416147112846375
+      },
+      "inference_ms": 728.9490700004535,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "a37fd2bed4ea50227cf8f891b85e85008f4d5d2559a18486909accbd9c0e9316": {
+      "sentiment_probabilities": {
+        "neutral": 0.9027490615844727,
+        "negative": 0.09647852927446365,
+        "positive": 0.0007723334128968418
+      },
+      "model_event_classification": "Geopolitical",
+      "event_model_score": 0.6240029335021973,
+      "event_top_two_margin": 0.5219845175743103,
+      "model_event_scores": {
+        "Geopolitical": 0.6240029335021973,
+        "Product Launch": 0.10201841592788696,
+        "Macroeconomic": 0.09790962189435959,
+        "Credit Event": 0.06896933913230896,
+        "Other/Uncertain": 0.05825616791844368,
+        "Merger/Acquisition": 0.04884352535009384
+      },
+      "inference_ms": 947.043971000312,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "9ca3df6b0a82736fb5eaecf08a3551e4f2a19bd565ad6201a877070955bb817e": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998576641082764,
+        "positive": 7.859482866479084e-05,
+        "negative": 6.376828241627663e-05
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.4798099398612976,
+      "event_top_two_margin": 0.26295116543769836,
+      "model_event_scores": {
+        "Product Launch": 0.4798099398612976,
+        "Macroeconomic": 0.21685877442359924,
+        "Merger/Acquisition": 0.13160653412342072,
+        "Other/Uncertain": 0.07920867949724197,
+        "Credit Event": 0.04716081544756889,
+        "Geopolitical": 0.04535522684454918
+      },
+      "inference_ms": 823.6948419998953,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "d64784f9184de8ffe64f21c10cdcc5acbb9119f79053c0109f899ecfb5719692": {
+      "sentiment_probabilities": {
+        "neutral": 0.999819815158844,
+        "positive": 9.983513155020773e-05,
+        "negative": 8.033776975935325e-05
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.35410937666893005,
+      "event_top_two_margin": 0.09687510132789612,
+      "model_event_scores": {
+        "Product Launch": 0.35410937666893005,
+        "Macroeconomic": 0.25723427534103394,
+        "Credit Event": 0.17548346519470215,
+        "Other/Uncertain": 0.103037528693676,
+        "Merger/Acquisition": 0.07162788510322571,
+        "Geopolitical": 0.03850742056965828
+      },
+      "inference_ms": 1178.9819430014177,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "06d0868e40c21223983999fd23fd8518a27326ec807f990e6a1be4b7918df020": {
+      "sentiment_probabilities": {
+        "positive": 0.9760766625404358,
+        "neutral": 0.0234504546970129,
+        "negative": 0.0004728046478703618
+      },
+      "model_event_classification": "Merger/Acquisition",
+      "event_model_score": 0.8459065556526184,
+      "event_top_two_margin": 0.7871564328670502,
+      "model_event_scores": {
+        "Merger/Acquisition": 0.8459065556526184,
+        "Geopolitical": 0.05875012278556824,
+        "Other/Uncertain": 0.04434669390320778,
+        "Product Launch": 0.029014458879828453,
+        "Credit Event": 0.012549483217298985,
+        "Macroeconomic": 0.009432686492800713
+      },
+      "inference_ms": 869.5871419986361,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "3faf7c902f215096543226d1c51f584fdae60cacadd0e8e16b94fb5d4eb55f8f": {
+      "sentiment_probabilities": {
+        "neutral": 0.9996861219406128,
+        "negative": 0.0002090927300741896,
+        "positive": 0.00010477168689249083
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.32243677973747253,
+      "event_top_two_margin": 0.15331405401229858,
+      "model_event_scores": {
+        "Macroeconomic": 0.32243677973747253,
+        "Credit Event": 0.16912272572517395,
+        "Merger/Acquisition": 0.15720942616462708,
+        "Other/Uncertain": 0.15214289724826813,
+        "Geopolitical": 0.11150627583265305,
+        "Product Launch": 0.08758196234703064
+      },
+      "inference_ms": 941.0413440000411,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "0e131a1b13dc1c1a38e68101050abbe769ddcbab3ca3509f2c68504ba1f7618d": {
+      "sentiment_probabilities": {
+        "negative": 0.9377831220626831,
+        "neutral": 0.06027961149811745,
+        "positive": 0.0019372891401872039
+      },
+      "model_event_classification": "Geopolitical",
+      "event_model_score": 0.3149096965789795,
+      "event_top_two_margin": 0.10850486159324646,
+      "model_event_scores": {
+        "Geopolitical": 0.3149096965789795,
+        "Macroeconomic": 0.20640483498573303,
+        "Other/Uncertain": 0.1426638513803482,
+        "Product Launch": 0.1296127736568451,
+        "Credit Event": 0.11479055881500244,
+        "Merger/Acquisition": 0.09161823987960815
+      },
+      "inference_ms": 919.2818419996911,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "21b21aa887ae2723b72266d5f9332c33d3bb6912b3e1ba67680f2ae460d3104d": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998717308044434,
+        "negative": 8.60386062413454e-05,
+        "positive": 4.22356060880702e-05
+      },
+      "model_event_classification": "Geopolitical",
+      "event_model_score": 0.9074760675430298,
+      "event_top_two_margin": 0.875430453568697,
+      "model_event_scores": {
+        "Geopolitical": 0.9074760675430298,
+        "Product Launch": 0.03204561397433281,
+        "Merger/Acquisition": 0.018831055611371994,
+        "Other/Uncertain": 0.014464391395449638,
+        "Credit Event": 0.014293782413005829,
+        "Macroeconomic": 0.012889123521745205
+      },
+      "inference_ms": 824.366638000356,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "583c03ae778f407526982779d42936ff8bd64fc5f959282c584f192e894ab34c": {
+      "sentiment_probabilities": {
+        "negative": 0.9976233839988708,
+        "positive": 0.001397209125570953,
+        "neutral": 0.0009793703211471438
+      },
+      "model_event_classification": "Geopolitical",
+      "event_model_score": 0.7120345234870911,
+      "event_top_two_margin": 0.6022542268037796,
+      "model_event_scores": {
+        "Geopolitical": 0.7120345234870911,
+        "Product Launch": 0.10978029668331146,
+        "Macroeconomic": 0.0774444118142128,
+        "Credit Event": 0.05024981498718262,
+        "Merger/Acquisition": 0.026231030002236366,
+        "Other/Uncertain": 0.02425999753177166
+      },
+      "inference_ms": 950.6397870009096,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "f0cc76818de4d74cbf91824b4db22043a82c284d9ac6a7cfe3b03387d67fa8f3": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998486042022705,
+        "negative": 8.152265945682302e-05,
+        "positive": 6.986114021856338e-05
+      },
+      "model_event_classification": "Geopolitical",
+      "event_model_score": 0.9680883288383484,
+      "event_top_two_margin": 0.9598510852083564,
+      "model_event_scores": {
+        "Geopolitical": 0.9680883288383484,
+        "Other/Uncertain": 0.008237243629992008,
+        "Credit Event": 0.006505349185317755,
+        "Merger/Acquisition": 0.006352762691676617,
+        "Product Launch": 0.00587836978957057,
+        "Macroeconomic": 0.004938072990626097
+      },
+      "inference_ms": 663.6245329991652,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "6495d8e23e2a67bd80e9b1a0e086c04923eb772aa0a098a3c16e099d8de36f8a": {
+      "sentiment_probabilities": {
+        "negative": 0.9936721324920654,
+        "neutral": 0.005776318721473217,
+        "positive": 0.000551545643247664
+      },
+      "model_event_classification": "Geopolitical",
+      "event_model_score": 0.935553252696991,
+      "event_top_two_margin": 0.9151096306741238,
+      "model_event_scores": {
+        "Geopolitical": 0.935553252696991,
+        "Macroeconomic": 0.020443622022867203,
+        "Credit Event": 0.014180007390677929,
+        "Other/Uncertain": 0.01290973648428917,
+        "Product Launch": 0.009877407923340797,
+        "Merger/Acquisition": 0.007035969756543636
+      },
+      "inference_ms": 982.585198000379,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "c3d18b827da4e6f4152efac0133bb01bab3ce1c7f55d12869c92e173d39fcb43": {
+      "sentiment_probabilities": {
+        "positive": 0.9907288551330566,
+        "neutral": 0.00879453495144844,
+        "negative": 0.0004766853526234627
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.4788728654384613,
+      "event_top_two_margin": 0.2880004048347473,
+      "model_event_scores": {
+        "Product Launch": 0.4788728654384613,
+        "Other/Uncertain": 0.190872460603714,
+        "Geopolitical": 0.14581385254859924,
+        "Macroeconomic": 0.08950857073068619,
+        "Credit Event": 0.05201023817062378,
+        "Merger/Acquisition": 0.042921941727399826
+      },
+      "inference_ms": 1072.0501609994244,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "c0dbb3961ed4feb8f2d6439dd125f0a3828a7c27667e2daf81b5453dd9483bb8": {
+      "sentiment_probabilities": {
+        "negative": 0.9983550906181335,
+        "positive": 0.0008253346895799041,
+        "neutral": 0.000819479813799262
+      },
+      "model_event_classification": "Geopolitical",
+      "event_model_score": 0.33654260635375977,
+      "event_top_two_margin": 0.008052974939346313,
+      "model_event_scores": {
+        "Geopolitical": 0.33654260635375977,
+        "Macroeconomic": 0.32848963141441345,
+        "Credit Event": 0.17834916710853577,
+        "Product Launch": 0.0647314190864563,
+        "Other/Uncertain": 0.055507611483335495,
+        "Merger/Acquisition": 0.03637951612472534
+      },
+      "inference_ms": 721.8456520004111,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "ca14a48e0bfd6ba1d977312a0285dfdd17bf48981c6bb90d386c3c685289b8ac": {
+      "sentiment_probabilities": {
+        "positive": 0.9992795586585999,
+        "neutral": 0.0004904519882984459,
+        "negative": 0.00022996812185738236
+      },
+      "model_event_classification": "Geopolitical",
+      "event_model_score": 0.9344298839569092,
+      "event_top_two_margin": 0.9174490123987198,
+      "model_event_scores": {
+        "Geopolitical": 0.9344298839569092,
+        "Other/Uncertain": 0.016980871558189392,
+        "Macroeconomic": 0.015485377050936222,
+        "Credit Event": 0.013220276683568954,
+        "Product Launch": 0.010730511508882046,
+        "Merger/Acquisition": 0.009153074584901333
+      },
+      "inference_ms": 879.2765920006786,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "669a8e443dc98d6b3e459f13ce4ed48f614353a7950a47ba39595e3aa018f2e6": {
+      "sentiment_probabilities": {
+        "negative": 0.9966788291931152,
+        "neutral": 0.0022774485405534506,
+        "positive": 0.0010437748860567808
+      },
+      "model_event_classification": "Geopolitical",
+      "event_model_score": 0.5354286432266235,
+      "event_top_two_margin": 0.38792093098163605,
+      "model_event_scores": {
+        "Geopolitical": 0.5354286432266235,
+        "Product Launch": 0.1475077122449875,
+        "Merger/Acquisition": 0.12281353771686554,
+        "Credit Event": 0.07746388018131256,
+        "Macroeconomic": 0.06023283302783966,
+        "Other/Uncertain": 0.056553397327661514
+      },
+      "inference_ms": 911.9037879991083,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "370c0515d5ba813ca26f37e53998cd7c891da5dae503ac292cef1dcd6f4804a8": {
+      "sentiment_probabilities": {
+        "positive": 0.9996416568756104,
+        "negative": 0.00022733073274139315,
+        "neutral": 0.00013098314229864627
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.8570573329925537,
+      "event_top_two_margin": 0.8104828633368015,
+      "model_event_scores": {
+        "Macroeconomic": 0.8570573329925537,
+        "Credit Event": 0.04657446965575218,
+        "Other/Uncertain": 0.041158586740493774,
+        "Merger/Acquisition": 0.027225114405155182,
+        "Product Launch": 0.01870710961520672,
+        "Geopolitical": 0.009277351200580597
+      },
+      "inference_ms": 827.475209000113,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "6c3783cd95c8b95f01e0c3ed5dd512602c6d7c810d7f96caac945defd7b73a4e": {
+      "sentiment_probabilities": {
+        "neutral": 0.8046738505363464,
+        "negative": 0.1947024017572403,
+        "positive": 0.0006238091154955328
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.9488091468811035,
+      "event_top_two_margin": 0.9245970211923122,
+      "model_event_scores": {
+        "Macroeconomic": 0.9488091468811035,
+        "Other/Uncertain": 0.024212125688791275,
+        "Merger/Acquisition": 0.010609512217342854,
+        "Product Launch": 0.007348749320954084,
+        "Credit Event": 0.006298985332250595,
+        "Geopolitical": 0.0027214314322918653
+      },
+      "inference_ms": 1036.1848570009897,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "86cb3fe52b61e5ca19f45b6b49f21e78d860afc084504f4b475de2046c84d859": {
+      "sentiment_probabilities": {
+        "negative": 0.9938826560974121,
+        "neutral": 0.005510821472853422,
+        "positive": 0.0006064874469302595
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.9864477515220642,
+      "event_top_two_margin": 0.9817703985609114,
+      "model_event_scores": {
+        "Macroeconomic": 0.9864477515220642,
+        "Credit Event": 0.004677352961152792,
+        "Other/Uncertain": 0.0032074612099677324,
+        "Geopolitical": 0.0021213621366769075,
+        "Merger/Acquisition": 0.0018379163229838014,
+        "Product Launch": 0.0017081291880458593
+      },
+      "inference_ms": 1013.571547000538,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "f02fbadafe63c33b2d0344622e4f650e873432173677b390422c2b0f4ab2ca78": {
+      "sentiment_probabilities": {
+        "neutral": 0.9982951283454895,
+        "positive": 0.001511209993623197,
+        "negative": 0.00019366688502486795
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.9049624800682068,
+      "event_top_two_margin": 0.8771118707954884,
+      "model_event_scores": {
+        "Macroeconomic": 0.9049624800682068,
+        "Other/Uncertain": 0.02785060927271843,
+        "Merger/Acquisition": 0.025321241468191147,
+        "Product Launch": 0.016178160905838013,
+        "Credit Event": 0.015375802293419838,
+        "Geopolitical": 0.0103116724640131
+      },
+      "inference_ms": 781.4005010004621,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "bcee35bacdbc24222b8f504272c64fbd3ea45364c9bc291f12ecac06560d1908": {
+      "sentiment_probabilities": {
+        "negative": 0.9964562058448792,
+        "positive": 0.0018944776384159923,
+        "neutral": 0.0016492863651365042
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.8071924448013306,
+      "event_top_two_margin": 0.7510038875043392,
+      "model_event_scores": {
+        "Macroeconomic": 0.8071924448013306,
+        "Credit Event": 0.05618855729699135,
+        "Product Launch": 0.0545220822095871,
+        "Merger/Acquisition": 0.03814491629600525,
+        "Other/Uncertain": 0.026537537574768066,
+        "Geopolitical": 0.01741446554660797
+      },
+      "inference_ms": 756.0084140004619,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "e416986a96d209f9983cbb088ee0eb0ca63825f42c1229b46a59296953b55718": {
+      "sentiment_probabilities": {
+        "neutral": 0.9982849955558777,
+        "positive": 0.0013847254449501634,
+        "negative": 0.0003302016411907971
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.9601485133171082,
+      "event_top_two_margin": 0.9482027646154165,
+      "model_event_scores": {
+        "Macroeconomic": 0.9601485133171082,
+        "Other/Uncertain": 0.011945748701691628,
+        "Credit Event": 0.009837545454502106,
+        "Merger/Acquisition": 0.007167062722146511,
+        "Product Launch": 0.006381715647876263,
+        "Geopolitical": 0.004519429989159107
+      },
+      "inference_ms": 787.8612849999627,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "5faa7e8792fe891c794d0e47022d711ffd208a58f35ba1ef1a156039a0060303": {
+      "sentiment_probabilities": {
+        "neutral": 0.5676968693733215,
+        "positive": 0.42532068490982056,
+        "negative": 0.006982474122196436
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.9513788223266602,
+      "event_top_two_margin": 0.9326131641864777,
+      "model_event_scores": {
+        "Macroeconomic": 0.9513788223266602,
+        "Credit Event": 0.018765658140182495,
+        "Product Launch": 0.01030795555561781,
+        "Other/Uncertain": 0.008708921261131763,
+        "Merger/Acquisition": 0.006786367390304804,
+        "Geopolitical": 0.004052306525409222
+      },
+      "inference_ms": 673.4514880008646,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "9e5a176d8d9d1fdb0482b5528bbf3898ddfc3e5286f16d39857a17486498faf5": {
+      "sentiment_probabilities": {
+        "negative": 0.9970355033874512,
+        "neutral": 0.0020675035193562508,
+        "positive": 0.000896959681995213
+      },
+      "model_event_classification": "Merger/Acquisition",
+      "event_model_score": 0.3930095136165619,
+      "event_top_two_margin": 0.08885449171066284,
+      "model_event_scores": {
+        "Merger/Acquisition": 0.3930095136165619,
+        "Credit Event": 0.30415502190589905,
+        "Macroeconomic": 0.15707390010356903,
+        "Other/Uncertain": 0.09018798917531967,
+        "Product Launch": 0.03759068623185158,
+        "Geopolitical": 0.017982833087444305
+      },
+      "inference_ms": 818.939644999773,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "2d35b9423b8b4312116ceee201acb34cf287335928157b8727945b32e6dbd0c8": {
+      "sentiment_probabilities": {
+        "negative": 0.9965932965278625,
+        "positive": 0.0024647600948810577,
+        "neutral": 0.0009419133421033621
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.9647904634475708,
+      "event_top_two_margin": 0.9525550603866577,
+      "model_event_scores": {
+        "Macroeconomic": 0.9647904634475708,
+        "Other/Uncertain": 0.012235403060913086,
+        "Product Launch": 0.008907511830329895,
+        "Credit Event": 0.005653964355587959,
+        "Merger/Acquisition": 0.004422932397574186,
+        "Geopolitical": 0.003989716060459614
+      },
+      "inference_ms": 769.7057500008668,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "0e48c18d56f3e25e0823097e47da10680345ed1cb44960c39c60c4037a751e67": {
+      "sentiment_probabilities": {
+        "negative": 0.9960766434669495,
+        "neutral": 0.001969241304323077,
+        "positive": 0.0019541394431144
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.9457092881202698,
+      "event_top_two_margin": 0.9267145060002804,
+      "model_event_scores": {
+        "Macroeconomic": 0.9457092881202698,
+        "Credit Event": 0.018994782119989395,
+        "Other/Uncertain": 0.01630738191306591,
+        "Merger/Acquisition": 0.009001551195979118,
+        "Product Launch": 0.007174261845648289,
+        "Geopolitical": 0.0028127615805715322
+      },
+      "inference_ms": 778.7961679987347,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "a638fda61207dca451297d4b4bbe3fae48ba038cff736ea064031b2845ffd60f": {
+      "sentiment_probabilities": {
+        "negative": 0.9975118637084961,
+        "positive": 0.001690263394266367,
+        "neutral": 0.0007978613721206784
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.9699019193649292,
+      "event_top_two_margin": 0.9603448724374175,
+      "model_event_scores": {
+        "Macroeconomic": 0.9699019193649292,
+        "Credit Event": 0.009557046927511692,
+        "Product Launch": 0.007509884424507618,
+        "Other/Uncertain": 0.005430327728390694,
+        "Merger/Acquisition": 0.004734438378363848,
+        "Geopolitical": 0.0028663717675954103
+      },
+      "inference_ms": 771.9755519992759,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "69b6770f36de9ae10ea81ea1141b743293f9ff84c464239123ed4ef681620642": {
+      "sentiment_probabilities": {
+        "neutral": 0.9504938125610352,
+        "negative": 0.04621823504567146,
+        "positive": 0.003287921193987131
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.6551955938339233,
+      "event_top_two_margin": 0.5298621654510498,
+      "model_event_scores": {
+        "Macroeconomic": 0.6551955938339233,
+        "Other/Uncertain": 0.12533342838287354,
+        "Credit Event": 0.11437777429819107,
+        "Merger/Acquisition": 0.042425625026226044,
+        "Product Launch": 0.03867504745721817,
+        "Geopolitical": 0.023992493748664856
+      },
+      "inference_ms": 890.8980920004979,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "2a12cdcb1430e4d724f549090fabe2c92b4fe70f766759882826aca67ef5c4f4": {
+      "sentiment_probabilities": {
+        "positive": 0.9992305040359497,
+        "neutral": 0.0005931801279075444,
+        "negative": 0.00017633316747378558
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.5837579369544983,
+      "event_top_two_margin": 0.3650185465812683,
+      "model_event_scores": {
+        "Macroeconomic": 0.5837579369544983,
+        "Other/Uncertain": 0.21873939037322998,
+        "Product Launch": 0.10417849570512772,
+        "Merger/Acquisition": 0.06335942447185516,
+        "Geopolitical": 0.01617054082453251,
+        "Credit Event": 0.013794243335723877
+      },
+      "inference_ms": 900.0451739993878,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "03301af5c8276bd682def5663bf5e541105f6dcd8cef247fecaeb206b5ed6c26": {
+      "sentiment_probabilities": {
+        "neutral": 0.8631924986839294,
+        "positive": 0.13026739656925201,
+        "negative": 0.006540112663060427
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.9221055507659912,
+      "event_top_two_margin": 0.8907779678702354,
+      "model_event_scores": {
+        "Macroeconomic": 0.9221055507659912,
+        "Product Launch": 0.03132758289575577,
+        "Other/Uncertain": 0.018906623125076294,
+        "Merger/Acquisition": 0.0142526775598526,
+        "Credit Event": 0.006861128378659487,
+        "Geopolitical": 0.0065464600920677185
+      },
+      "inference_ms": 847.4049870001181,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "a6811e8a00f10424c3306602b4e5ce31d52d95779b733f66f71c3b95ad507655": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998600482940674,
+        "negative": 7.793871191097423e-05,
+        "positive": 6.201365613378584e-05
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.9359278678894043,
+      "event_top_two_margin": 0.897637877613306,
+      "model_event_scores": {
+        "Macroeconomic": 0.9359278678894043,
+        "Other/Uncertain": 0.03828999027609825,
+        "Merger/Acquisition": 0.012202155776321888,
+        "Product Launch": 0.005815400741994381,
+        "Geopolitical": 0.0046445513144135475,
+        "Credit Event": 0.0031200286466628313
+      },
+      "inference_ms": 1038.1158430009236,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "9aaa1499bda771219545ee0f813545eecb2a3de746e67bf727fbf3a11406727a": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998549222946167,
+        "positive": 7.806031499058008e-05,
+        "negative": 6.699839286739007e-05
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.9003733992576599,
+      "event_top_two_margin": 0.8587677627801895,
+      "model_event_scores": {
+        "Macroeconomic": 0.9003733992576599,
+        "Other/Uncertain": 0.0416056364774704,
+        "Merger/Acquisition": 0.030140552669763565,
+        "Product Launch": 0.018545852974057198,
+        "Credit Event": 0.0057289996184408665,
+        "Geopolitical": 0.003605571808293462
+      },
+      "inference_ms": 1099.3450499991013,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "1eafa77679de36351820047eebdb5c6b2b2ca5e232a17ef96d520248ffe9da6d": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998862743377686,
+        "negative": 7.320271106436849e-05,
+        "positive": 4.0545492083765566e-05
+      },
+      "model_event_classification": "Other/Uncertain",
+      "event_model_score": 0.400596559047699,
+      "event_top_two_margin": 0.04831039905548096,
+      "model_event_scores": {
+        "Other/Uncertain": 0.400596559047699,
+        "Macroeconomic": 0.352286159992218,
+        "Merger/Acquisition": 0.08956245332956314,
+        "Credit Event": 0.07633909583091736,
+        "Product Launch": 0.04519353806972504,
+        "Geopolitical": 0.03602217882871628
+      },
+      "inference_ms": 1088.2398710000416,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "bead579177d45d96b55c640a49da18c30f0030f9244e8da1107714609e72e0f3": {
+      "sentiment_probabilities": {
+        "positive": 0.9991592168807983,
+        "neutral": 0.0005279347533360124,
+        "negative": 0.0003128466196358204
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.9827703833580017,
+      "event_top_two_margin": 0.9765440919436514,
+      "model_event_scores": {
+        "Macroeconomic": 0.9827703833580017,
+        "Other/Uncertain": 0.006226291414350271,
+        "Credit Event": 0.004666175693273544,
+        "Product Launch": 0.0029527742881327868,
+        "Merger/Acquisition": 0.002055565593764186,
+        "Geopolitical": 0.00132882094476372
+      },
+      "inference_ms": 1241.9885449999128,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "79d671ada079aa6aa6de739469ec06e23424817b69fb806d642f33e90993f872": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998408555984497,
+        "negative": 9.964083437807858e-05,
+        "positive": 5.946155215497129e-05
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.953391432762146,
+      "event_top_two_margin": 0.9400082929059863,
+      "model_event_scores": {
+        "Macroeconomic": 0.953391432762146,
+        "Credit Event": 0.013383139856159687,
+        "Merger/Acquisition": 0.010482308454811573,
+        "Other/Uncertain": 0.009167096577584743,
+        "Product Launch": 0.008866260759532452,
+        "Geopolitical": 0.004709679167717695
+      },
+      "inference_ms": 1000.5834229996253,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "9c348283596fff72daa64db11110821b3538122a378a8a32612545e03b799345": {
+      "sentiment_probabilities": {
+        "positive": 0.9489437937736511,
+        "neutral": 0.04875992611050606,
+        "negative": 0.0022963036317378283
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.9849895238876343,
+      "event_top_two_margin": 0.9802478631027043,
+      "model_event_scores": {
+        "Macroeconomic": 0.9849895238876343,
+        "Other/Uncertain": 0.004741660784929991,
+        "Product Launch": 0.003762018634006381,
+        "Merger/Acquisition": 0.0025107196997851133,
+        "Geopolitical": 0.0021933221723884344,
+        "Credit Event": 0.0018027655314654112
+      },
+      "inference_ms": 1125.149525998495,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "0383365dcb60c5d3eec75467a2d4e60a4ae33a90c622f6937bdbc9ce854bb883": {
+      "sentiment_probabilities": {
+        "positive": 0.9992753863334656,
+        "neutral": 0.0004587764560710639,
+        "negative": 0.00026586849708110094
+      },
+      "model_event_classification": "Merger/Acquisition",
+      "event_model_score": 0.953666627407074,
+      "event_top_two_margin": 0.9338643569499254,
+      "model_event_scores": {
+        "Merger/Acquisition": 0.953666627407074,
+        "Product Launch": 0.019802270457148552,
+        "Other/Uncertain": 0.010849573649466038,
+        "Macroeconomic": 0.008347328752279282,
+        "Credit Event": 0.004716875031590462,
+        "Geopolitical": 0.002617334481328726
+      },
+      "inference_ms": 758.1403289987065,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "4fe9e52d6a5c5f407dbae0afb9fe0fb171232f77a2f810607fc24061a5fef3eb": {
+      "sentiment_probabilities": {
+        "neutral": 0.9989802241325378,
+        "positive": 0.0009469719952903688,
+        "negative": 7.275203824974597e-05
+      },
+      "model_event_classification": "Merger/Acquisition",
+      "event_model_score": 0.9697287082672119,
+      "event_top_two_margin": 0.958494727499783,
+      "model_event_scores": {
+        "Merger/Acquisition": 0.9697287082672119,
+        "Product Launch": 0.011233980767428875,
+        "Other/Uncertain": 0.009959143586456776,
+        "Macroeconomic": 0.004165208898484707,
+        "Credit Event": 0.003556649200618267,
+        "Geopolitical": 0.0013562616659328341
+      },
+      "inference_ms": 795.5958530001226,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "a3a05cf73a9ab1499fac936c89972d4606d4f34c30804389b29b41525e6f3fd3": {
+      "sentiment_probabilities": {
+        "neutral": 0.9996528625488281,
+        "positive": 0.00029608819750137627,
+        "negative": 5.102649811306037e-05
+      },
+      "model_event_classification": "Merger/Acquisition",
+      "event_model_score": 0.9868051409721375,
+      "event_top_two_margin": 0.9802202149294317,
+      "model_event_scores": {
+        "Merger/Acquisition": 0.9868051409721375,
+        "Other/Uncertain": 0.006584926042705774,
+        "Credit Event": 0.003334946231916547,
+        "Product Launch": 0.0013913816073909402,
+        "Macroeconomic": 0.0011768853291869164,
+        "Geopolitical": 0.0007067990954965353
+      },
+      "inference_ms": 847.6128349993814,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "c040ee59d1a2c95636003ba6b55bc3975e79fdc93d8f3f92cf810134b2069624": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998879432678223,
+        "negative": 6.924660556251183e-05,
+        "positive": 4.2751969886012375e-05
+      },
+      "model_event_classification": "Merger/Acquisition",
+      "event_model_score": 0.966860294342041,
+      "event_top_two_margin": 0.9571964349597692,
+      "model_event_scores": {
+        "Merger/Acquisition": 0.966860294342041,
+        "Other/Uncertain": 0.009663859382271767,
+        "Geopolitical": 0.007690297905355692,
+        "Macroeconomic": 0.006600746884942055,
+        "Credit Event": 0.004643839318305254,
+        "Product Launch": 0.004540951922535896
+      },
+      "inference_ms": 759.5866910014593,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "facb23d64e3570a32786064c27668cb6b7a5d90b7b888c8d072299feaf4c0a38": {
+      "sentiment_probabilities": {
+        "neutral": 0.9977239966392517,
+        "positive": 0.0021693683229386806,
+        "negative": 0.00010670248593669385
+      },
+      "model_event_classification": "Merger/Acquisition",
+      "event_model_score": 0.9549606442451477,
+      "event_top_two_margin": 0.9432050576433539,
+      "model_event_scores": {
+        "Merger/Acquisition": 0.9549606442451477,
+        "Other/Uncertain": 0.011755586601793766,
+        "Product Launch": 0.011276409961283207,
+        "Credit Event": 0.008893189020454884,
+        "Geopolitical": 0.0066780210472643375,
+        "Macroeconomic": 0.006436163559556007
+      },
+      "inference_ms": 884.0449460003583,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "bf2233fa140a4320f11b52ff52e12aaeb5a099f270fd9023e272113e26de703b": {
+      "sentiment_probabilities": {
+        "positive": 0.9991275668144226,
+        "neutral": 0.0006701481761410832,
+        "negative": 0.00020227825734764338
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.6269677877426147,
+      "event_top_two_margin": 0.3557286560535431,
+      "model_event_scores": {
+        "Product Launch": 0.6269677877426147,
+        "Merger/Acquisition": 0.27123913168907166,
+        "Other/Uncertain": 0.04669356718659401,
+        "Macroeconomic": 0.021192874759435654,
+        "Geopolitical": 0.018528824672102928,
+        "Credit Event": 0.015377858653664589
+      },
+      "inference_ms": 852.3397240005579,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "6df60bb8ecfb1c845780dc0a2da635bb1c3c970c3b6bca2ea3846ef13551b618": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998829364776611,
+        "negative": 6.8596527853515e-05,
+        "positive": 4.847458694712259e-05
+      },
+      "model_event_classification": "Merger/Acquisition",
+      "event_model_score": 0.9709970355033875,
+      "event_top_two_margin": 0.9585325131192803,
+      "model_event_scores": {
+        "Merger/Acquisition": 0.9709970355033875,
+        "Other/Uncertain": 0.012464522384107113,
+        "Product Launch": 0.00652665738016367,
+        "Credit Event": 0.0042737917974591255,
+        "Macroeconomic": 0.0035352378617972136,
+        "Geopolitical": 0.0022027716040611267
+      },
+      "inference_ms": 884.4595810005558,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "bb8a6eeaf056db4cf9f6dd5ad9384f6df8e4ee2c54a6926d85a9d2e1cd47e9de": {
+      "sentiment_probabilities": {
+        "neutral": 0.9987163543701172,
+        "positive": 0.0011798723135143518,
+        "negative": 0.00010379282321082428
+      },
+      "model_event_classification": "Merger/Acquisition",
+      "event_model_score": 0.9719600081443787,
+      "event_top_two_margin": 0.9650002783164382,
+      "model_event_scores": {
+        "Merger/Acquisition": 0.9719600081443787,
+        "Other/Uncertain": 0.006959729827940464,
+        "Macroeconomic": 0.00686676288023591,
+        "Product Launch": 0.006272169761359692,
+        "Credit Event": 0.004648471716791391,
+        "Geopolitical": 0.003292845329269767
+      },
+      "inference_ms": 815.961412001343,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "8d734b593f51bf6debeb36ffe6e6be54d2a36d6793f336fe6fde9ad7dd5bae27": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998904466629028,
+        "negative": 6.93971014698036e-05,
+        "positive": 4.019715197500773e-05
+      },
+      "model_event_classification": "Merger/Acquisition",
+      "event_model_score": 0.9749925136566162,
+      "event_top_two_margin": 0.9662538636475801,
+      "model_event_scores": {
+        "Merger/Acquisition": 0.9749925136566162,
+        "Other/Uncertain": 0.008738650009036064,
+        "Macroeconomic": 0.006969231180846691,
+        "Product Launch": 0.003638541093096137,
+        "Credit Event": 0.0033031587954610586,
+        "Geopolitical": 0.002357893157750368
+      },
+      "inference_ms": 795.806383001036,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "4c64ee2119020f9ed070092610026ca862e6f2742cd168c77c95ca59f2ed2367": {
+      "sentiment_probabilities": {
+        "neutral": 0.9997383952140808,
+        "positive": 0.00020716302969958633,
+        "negative": 5.440720997285098e-05
+      },
+      "model_event_classification": "Merger/Acquisition",
+      "event_model_score": 0.9381994605064392,
+      "event_top_two_margin": 0.9009705409407616,
+      "model_event_scores": {
+        "Merger/Acquisition": 0.9381994605064392,
+        "Product Launch": 0.03722891956567764,
+        "Other/Uncertain": 0.011465214192867279,
+        "Credit Event": 0.004997830372303724,
+        "Macroeconomic": 0.004963204730302095,
+        "Geopolitical": 0.0031454197596758604
+      },
+      "inference_ms": 811.3733850004792,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "92480b807c36bc82d779653d87402622758580f330a373851347b3f93bc57e1d": {
+      "sentiment_probabilities": {
+        "neutral": 0.9858141541481018,
+        "positive": 0.01405880507081747,
+        "negative": 0.0001270066568395123
+      },
+      "model_event_classification": "Merger/Acquisition",
+      "event_model_score": 0.9670493602752686,
+      "event_top_two_margin": 0.9538955977186561,
+      "model_event_scores": {
+        "Merger/Acquisition": 0.9670493602752686,
+        "Other/Uncertain": 0.013153762556612492,
+        "Product Launch": 0.007694804109632969,
+        "Macroeconomic": 0.005612499080598354,
+        "Credit Event": 0.004584302194416523,
+        "Geopolitical": 0.0019053559517487884
+      },
+      "inference_ms": 861.3712660007877,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "569fc3c5f33d493c979b16cbb73545656758526b636ad09e89d5a63909ac6da3": {
+      "sentiment_probabilities": {
+        "positive": 0.9990701079368591,
+        "neutral": 0.0006532080587930977,
+        "negative": 0.0002766693360172212
+      },
+      "model_event_classification": "Merger/Acquisition",
+      "event_model_score": 0.9821063280105591,
+      "event_top_two_margin": 0.9733066391199827,
+      "model_event_scores": {
+        "Merger/Acquisition": 0.9821063280105591,
+        "Other/Uncertain": 0.008799688890576363,
+        "Macroeconomic": 0.0032066276762634516,
+        "Product Launch": 0.0026378321927040815,
+        "Credit Event": 0.001988688949495554,
+        "Geopolitical": 0.0012608070392161608
+      },
+      "inference_ms": 836.2379179998243,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "57fca71a0584fabfd6789a6aa62160350ca468b3fa283687e7a8a2ddf7d8fdd7": {
+      "sentiment_probabilities": {
+        "neutral": 0.9989915490150452,
+        "positive": 0.0009016511612571776,
+        "negative": 0.00010687402391340584
+      },
+      "model_event_classification": "Merger/Acquisition",
+      "event_model_score": 0.9739822745323181,
+      "event_top_two_margin": 0.9646423934027553,
+      "model_event_scores": {
+        "Merger/Acquisition": 0.9739822745323181,
+        "Other/Uncertain": 0.009339881129562855,
+        "Product Launch": 0.008237069472670555,
+        "Credit Event": 0.0035899404902011156,
+        "Macroeconomic": 0.0031511737033724785,
+        "Geopolitical": 0.001699664629995823
+      },
+      "inference_ms": 901.0067550007079,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "540f9f6d68331fbbfbd44632013d0db6bd23a29c389af7d667c298b040b60c67": {
+      "sentiment_probabilities": {
+        "neutral": 0.999736487865448,
+        "positive": 0.00015793820784892887,
+        "negative": 0.00010563751857262105
+      },
+      "model_event_classification": "Merger/Acquisition",
+      "event_model_score": 0.9401864409446716,
+      "event_top_two_margin": 0.9152819681912661,
+      "model_event_scores": {
+        "Merger/Acquisition": 0.9401864409446716,
+        "Product Launch": 0.02490447275340557,
+        "Other/Uncertain": 0.013697353191673756,
+        "Macroeconomic": 0.010389164090156555,
+        "Credit Event": 0.005782809574157,
+        "Geopolitical": 0.0050397529266774654
+      },
+      "inference_ms": 722.6922370009561,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "e4574d2c92160958c5835cd52e3c813ebcbb113dbcbe2542e5950cbe13951845": {
+      "sentiment_probabilities": {
+        "positive": 0.9214645624160767,
+        "neutral": 0.0776115283370018,
+        "negative": 0.0009239143109880388
+      },
+      "model_event_classification": "Merger/Acquisition",
+      "event_model_score": 0.9678531289100647,
+      "event_top_two_margin": 0.9550176979973912,
+      "model_event_scores": {
+        "Merger/Acquisition": 0.9678531289100647,
+        "Product Launch": 0.012835430912673473,
+        "Other/Uncertain": 0.007156341336667538,
+        "Macroeconomic": 0.0055846828036010265,
+        "Credit Event": 0.004739037249237299,
+        "Geopolitical": 0.0018313921755179763
+      },
+      "inference_ms": 722.0944279997639,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "8f22bd89d1a74ca548e74571fe5994b899a86ba5871ec8a91705e374677b2602": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998743534088135,
+        "positive": 6.865248724352568e-05,
+        "negative": 5.699372195522301e-05
+      },
+      "model_event_classification": "Merger/Acquisition",
+      "event_model_score": 0.9532965421676636,
+      "event_top_two_margin": 0.9317606147378683,
+      "model_event_scores": {
+        "Merger/Acquisition": 0.9532965421676636,
+        "Product Launch": 0.021535927429795265,
+        "Other/Uncertain": 0.009935419075191021,
+        "Macroeconomic": 0.007929990068078041,
+        "Geopolitical": 0.003949979320168495,
+        "Credit Event": 0.0033521633595228195
+      },
+      "inference_ms": 577.2435999988375,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "db179b85b49e52d80272843c231fa32f8bcb15a933d08551b5408977f11b796c": {
+      "sentiment_probabilities": {
+        "neutral": 0.999849796295166,
+        "positive": 9.039817814482376e-05,
+        "negative": 5.9851572586921975e-05
+      },
+      "model_event_classification": "Merger/Acquisition",
+      "event_model_score": 0.8538519740104675,
+      "event_top_two_margin": 0.7923836708068848,
+      "model_event_scores": {
+        "Merger/Acquisition": 0.8538519740104675,
+        "Product Launch": 0.061468303203582764,
+        "Macroeconomic": 0.03211969882249832,
+        "Credit Event": 0.01916375197470188,
+        "Other/Uncertain": 0.018716011196374893,
+        "Geopolitical": 0.014680197462439537
+      },
+      "inference_ms": 740.3128490004747,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "c499a50c78106bfa13bf11ddf117adbd80ad88d8ced7e5a802f77ae50af24ef4": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998676776885986,
+        "positive": 7.132427708711475e-05,
+        "negative": 6.10462884651497e-05
+      },
+      "model_event_classification": "Merger/Acquisition",
+      "event_model_score": 0.883668065071106,
+      "event_top_two_margin": 0.8149144202470779,
+      "model_event_scores": {
+        "Merger/Acquisition": 0.883668065071106,
+        "Product Launch": 0.06875364482402802,
+        "Credit Event": 0.013243676163256168,
+        "Macroeconomic": 0.013075676746666431,
+        "Other/Uncertain": 0.013060051016509533,
+        "Geopolitical": 0.008198937401175499
+      },
+      "inference_ms": 789.9418239994702,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "da0496620db20f3328e82845076b43a169d15ba1f1f18b2a804728237759baa5": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998879432678223,
+        "negative": 6.317138468148187e-05,
+        "positive": 4.89220219606068e-05
+      },
+      "model_event_classification": "Merger/Acquisition",
+      "event_model_score": 0.93553626537323,
+      "event_top_two_margin": 0.9093370418995619,
+      "model_event_scores": {
+        "Merger/Acquisition": 0.93553626537323,
+        "Product Launch": 0.0261992234736681,
+        "Other/Uncertain": 0.013235471211373806,
+        "Credit Event": 0.010893960483372211,
+        "Macroeconomic": 0.009605471976101398,
+        "Geopolitical": 0.004529641009867191
+      },
+      "inference_ms": 769.680936999066,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "40f4f254829e6b43be52a5a86c4a52a5418943adfaf36721ef5495917e3235eb": {
+      "sentiment_probabilities": {
+        "positive": 0.9777395129203796,
+        "neutral": 0.02186281979084015,
+        "negative": 0.0003977026790380478
+      },
+      "model_event_classification": "Merger/Acquisition",
+      "event_model_score": 0.9228875637054443,
+      "event_top_two_margin": 0.8883087374269962,
+      "model_event_scores": {
+        "Merger/Acquisition": 0.9228875637054443,
+        "Product Launch": 0.034578826278448105,
+        "Other/Uncertain": 0.019260935485363007,
+        "Macroeconomic": 0.010941394604742527,
+        "Geopolitical": 0.00731836911290884,
+        "Credit Event": 0.005012910813093185
+      },
+      "inference_ms": 767.9840010005137,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "a271890e3e0066dc0f5d6d17dfc585fae007fe8be7ef96cfa7fce693d8524b61": {
+      "sentiment_probabilities": {
+        "positive": 0.9992061257362366,
+        "negative": 0.0005259101744741201,
+        "neutral": 0.00026800393243320286
+      },
+      "model_event_classification": "Other/Uncertain",
+      "event_model_score": 0.8706185221672058,
+      "event_top_two_margin": 0.8162663504481316,
+      "model_event_scores": {
+        "Other/Uncertain": 0.8706185221672058,
+        "Merger/Acquisition": 0.05435217171907425,
+        "Product Launch": 0.03974800929427147,
+        "Credit Event": 0.012672719545662403,
+        "Macroeconomic": 0.012628629803657532,
+        "Geopolitical": 0.009979943744838238
+      },
+      "inference_ms": 732.9620229993452,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "69c834b5df7297ae4dcf018151f0eee212457f7d673db6032fc2c2c87685cf6d": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998446702957153,
+        "negative": 9.277745994040743e-05,
+        "positive": 6.258747453102842e-05
+      },
+      "model_event_classification": "Other/Uncertain",
+      "event_model_score": 0.9356988072395325,
+      "event_top_two_margin": 0.9113132208585739,
+      "model_event_scores": {
+        "Other/Uncertain": 0.9356988072395325,
+        "Product Launch": 0.024385586380958557,
+        "Merger/Acquisition": 0.014128707349300385,
+        "Macroeconomic": 0.012174488976597786,
+        "Credit Event": 0.010533937253057957,
+        "Geopolitical": 0.003078508423641324
+      },
+      "inference_ms": 964.4162740005413,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "8f693e6b90352b3ade824d3d834f64cdadfce0c2ff8e83b24d93e7dde294a1b2": {
+      "sentiment_probabilities": {
+        "positive": 0.9996082186698914,
+        "negative": 0.00026369059924036264,
+        "neutral": 0.00012816983507946134
+      },
+      "model_event_classification": "Other/Uncertain",
+      "event_model_score": 0.8881101012229919,
+      "event_top_two_margin": 0.8504247553646564,
+      "model_event_scores": {
+        "Other/Uncertain": 0.8881101012229919,
+        "Macroeconomic": 0.037685345858335495,
+        "Merger/Acquisition": 0.028220657259225845,
+        "Credit Event": 0.018624581396579742,
+        "Product Launch": 0.017223717644810677,
+        "Geopolitical": 0.010135583579540253
+      },
+      "inference_ms": 835.1367859995662,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "28b8f20fcf6a45c4d99033f82bde405cb567fc1628328e2342caddec469209f7": {
+      "sentiment_probabilities": {
+        "neutral": 0.9995684027671814,
+        "positive": 0.00031498365569859743,
+        "negative": 0.00011665148485917598
+      },
+      "model_event_classification": "Other/Uncertain",
+      "event_model_score": 0.8128452897071838,
+      "event_top_two_margin": 0.7363874837756157,
+      "model_event_scores": {
+        "Other/Uncertain": 0.8128452897071838,
+        "Merger/Acquisition": 0.07645780593156815,
+        "Macroeconomic": 0.06239302456378937,
+        "Credit Event": 0.025863777846097946,
+        "Product Launch": 0.01222172100096941,
+        "Geopolitical": 0.010218399576842785
+      },
+      "inference_ms": 740.9300520012039,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "cecb6d0ac1ecef6bdcfe5fe7e3d364bfdb2079a21da6651ad0ae07368931bd60": {
+      "sentiment_probabilities": {
+        "positive": 0.9996238946914673,
+        "negative": 0.0002603662433102727,
+        "neutral": 0.00011569218622753397
+      },
+      "model_event_classification": "Other/Uncertain",
+      "event_model_score": 0.47571492195129395,
+      "event_top_two_margin": 0.2608332931995392,
+      "model_event_scores": {
+        "Other/Uncertain": 0.47571492195129395,
+        "Merger/Acquisition": 0.21488162875175476,
+        "Macroeconomic": 0.12868788838386536,
+        "Product Launch": 0.08675204962491989,
+        "Credit Event": 0.05541267246007919,
+        "Geopolitical": 0.038550879806280136
+      },
+      "inference_ms": 687.0459849997133,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "c8abf5459d53f96a5ec0458487458c45d18a9bbcf726a2ef6265bef2069f3d48": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998624324798584,
+        "negative": 7.675134838791564e-05,
+        "positive": 6.073344047763385e-05
+      },
+      "model_event_classification": "Other/Uncertain",
+      "event_model_score": 0.7495105862617493,
+      "event_top_two_margin": 0.6100835055112839,
+      "model_event_scores": {
+        "Other/Uncertain": 0.7495105862617493,
+        "Product Launch": 0.1394270807504654,
+        "Macroeconomic": 0.05778776854276657,
+        "Merger/Acquisition": 0.029121797531843185,
+        "Credit Event": 0.013179842382669449,
+        "Geopolitical": 0.010972936637699604
+      },
+      "inference_ms": 778.0401740001253,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "91a00ccfa75b0d2dac08509eea1babbfa93a442f5549bc4acf0bc1daee75d665": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998762607574463,
+        "negative": 6.619797204621136e-05,
+        "positive": 5.751209755544551e-05
+      },
+      "model_event_classification": "Other/Uncertain",
+      "event_model_score": 0.49693918228149414,
+      "event_top_two_margin": 0.33367934823036194,
+      "model_event_scores": {
+        "Other/Uncertain": 0.49693918228149414,
+        "Product Launch": 0.1632598340511322,
+        "Macroeconomic": 0.12798099219799042,
+        "Merger/Acquisition": 0.1149318739771843,
+        "Credit Event": 0.061169590801000595,
+        "Geopolitical": 0.035718511790037155
+      },
+      "inference_ms": 532.879321001019,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "1bb31ffc4b8df115b732a56576a5f5e36f64d93cefdead06d5811183baa7d380": {
+      "sentiment_probabilities": {
+        "positive": 0.9979115128517151,
+        "negative": 0.0019746890757232904,
+        "neutral": 0.00011383253149688244
+      },
+      "model_event_classification": "Other/Uncertain",
+      "event_model_score": 0.5989491939544678,
+      "event_top_two_margin": 0.44210541248321533,
+      "model_event_scores": {
+        "Other/Uncertain": 0.5989491939544678,
+        "Macroeconomic": 0.15684378147125244,
+        "Merger/Acquisition": 0.11359984427690506,
+        "Product Launch": 0.06254628300666809,
+        "Geopolitical": 0.03769401088356972,
+        "Credit Event": 0.030366891995072365
+      },
+      "inference_ms": 656.4860369999224,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "5c3e4d7ae2005c4d6d1578928eb4c8462a54526cd8af7efee5eb8d98fed03d29": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998787641525269,
+        "negative": 7.126224954845384e-05,
+        "positive": 4.991692185285501e-05
+      },
+      "model_event_classification": "Other/Uncertain",
+      "event_model_score": 0.280533105134964,
+      "event_top_two_margin": 0.05502244830131531,
+      "model_event_scores": {
+        "Other/Uncertain": 0.280533105134964,
+        "Merger/Acquisition": 0.22551065683364868,
+        "Macroeconomic": 0.18084169924259186,
+        "Product Launch": 0.1736936718225479,
+        "Credit Event": 0.08400727063417435,
+        "Geopolitical": 0.05541360005736351
+      },
+      "inference_ms": 706.1528590002126,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "051d85da9385e09cde0604ac2eb85ec886e0f5afd65ba98c0a599171e37a4e10": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998787641525269,
+        "negative": 6.959811435081065e-05,
+        "positive": 5.158255953574553e-05
+      },
+      "model_event_classification": "Other/Uncertain",
+      "event_model_score": 0.33793020248413086,
+      "event_top_two_margin": 0.03188261389732361,
+      "model_event_scores": {
+        "Other/Uncertain": 0.33793020248413086,
+        "Macroeconomic": 0.30604758858680725,
+        "Merger/Acquisition": 0.18531829118728638,
+        "Product Launch": 0.06474518030881882,
+        "Geopolitical": 0.05331885442137718,
+        "Credit Event": 0.05263986065983772
+      },
+      "inference_ms": 770.1067870002589,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "bc22bc40275c36de402338beded945aeb581abc2f1194d70fbf40c580bb9c1eb": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998624324798584,
+        "negative": 8.454002090729773e-05,
+        "positive": 5.3043419029563665e-05
+      },
+      "model_event_classification": "Other/Uncertain",
+      "event_model_score": 0.4733266234397888,
+      "event_top_two_margin": 0.3178010582923889,
+      "model_event_scores": {
+        "Other/Uncertain": 0.4733266234397888,
+        "Product Launch": 0.1555255651473999,
+        "Merger/Acquisition": 0.12053395807743073,
+        "Credit Event": 0.08838005363941193,
+        "Macroeconomic": 0.083928182721138,
+        "Geopolitical": 0.07830557972192764
+      },
+      "inference_ms": 671.4331969997147,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "4acc2e4920fe2b9e196db1fa33e32e8dc5ab8964c32f90bd773ecdb111a49ce3": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998844861984253,
+        "negative": 6.649830902460963e-05,
+        "positive": 4.898754195892252e-05
+      },
+      "model_event_classification": "Other/Uncertain",
+      "event_model_score": 0.5444970726966858,
+      "event_top_two_margin": 0.375004842877388,
+      "model_event_scores": {
+        "Other/Uncertain": 0.5444970726966858,
+        "Macroeconomic": 0.1694922298192978,
+        "Product Launch": 0.15761925280094147,
+        "Merger/Acquisition": 0.06804247200489044,
+        "Geopolitical": 0.035429876297712326,
+        "Credit Event": 0.024919118732213974
+      },
+      "inference_ms": 739.2356439995638,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "80c9c646cdc4224938fe0b1070c4306feab92d61747c9893f9b51384cb116419": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998518228530884,
+        "negative": 8.148529741447419e-05,
+        "positive": 6.668704008916393e-05
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.29242387413978577,
+      "event_top_two_margin": 0.04742075502872467,
+      "model_event_scores": {
+        "Macroeconomic": 0.29242387413978577,
+        "Other/Uncertain": 0.2450031191110611,
+        "Product Launch": 0.16594341397285461,
+        "Merger/Acquisition": 0.12615391612052917,
+        "Credit Event": 0.09059201180934906,
+        "Geopolitical": 0.0798836275935173
+      },
+      "inference_ms": 737.3947799987945,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "4ab3b8959f8d79b109e501f62e88541ebbca5f286eda6ba0e05f05871a14c452": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998704195022583,
+        "negative": 6.836376269347966e-05,
+        "positive": 6.116819713497534e-05
+      },
+      "model_event_classification": "Merger/Acquisition",
+      "event_model_score": 0.27537214756011963,
+      "event_top_two_margin": 0.04755467176437378,
+      "model_event_scores": {
+        "Merger/Acquisition": 0.27537214756011963,
+        "Macroeconomic": 0.22781747579574585,
+        "Other/Uncertain": 0.18370859324932098,
+        "Product Launch": 0.14645102620124817,
+        "Credit Event": 0.11544299870729446,
+        "Geopolitical": 0.05120767280459404
+      },
+      "inference_ms": 772.3045279999496,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "516c8476a29c0551670875ce2174f5606ad31366e28107e8d77e12343ec1a812": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998824596405029,
+        "negative": 7.270830974448472e-05,
+        "positive": 4.480424104258418e-05
+      },
+      "model_event_classification": "Other/Uncertain",
+      "event_model_score": 0.34076082706451416,
+      "event_top_two_margin": 0.13313952088356018,
+      "model_event_scores": {
+        "Other/Uncertain": 0.34076082706451416,
+        "Product Launch": 0.20762130618095398,
+        "Macroeconomic": 0.19501295685768127,
+        "Merger/Acquisition": 0.1564120501279831,
+        "Credit Event": 0.05513976886868477,
+        "Geopolitical": 0.04505308344960213
+      },
+      "inference_ms": 688.4444269999221,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "affd17b7f51c1f8f31b920ad9cd64c91c4a1a0454db3a2f659e46eea72b7abf7": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998844861984253,
+        "negative": 6.56322663417086e-05,
+        "positive": 4.98398148920387e-05
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.3695913255214691,
+      "event_top_two_margin": 0.16961321234703064,
+      "model_event_scores": {
+        "Product Launch": 0.3695913255214691,
+        "Other/Uncertain": 0.19997811317443848,
+        "Macroeconomic": 0.18065457046031952,
+        "Merger/Acquisition": 0.1339912712574005,
+        "Geopolitical": 0.06258925050497055,
+        "Credit Event": 0.053195469081401825
+      },
+      "inference_ms": 647.1528700003546,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "54b5400068ef03cdff742273d2ba53bbf053409ab25853a11db4bcf89dfb5838": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998874664306641,
+        "negative": 6.434791430365294e-05,
+        "positive": 4.815039937966503e-05
+      },
+      "model_event_classification": "Other/Uncertain",
+      "event_model_score": 0.42080873250961304,
+      "event_top_two_margin": 0.22892308235168457,
+      "model_event_scores": {
+        "Other/Uncertain": 0.42080873250961304,
+        "Product Launch": 0.19188565015792847,
+        "Merger/Acquisition": 0.1759023219347,
+        "Macroeconomic": 0.1448635756969452,
+        "Credit Event": 0.042866889387369156,
+        "Geopolitical": 0.023672884330153465
+      },
+      "inference_ms": 850.7474510006432,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "59ba6d18aae3bb6d4519e2e19ea51dee9cb903d3a5475e48af2c7a23de769468": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998860359191895,
+        "negative": 6.317939551081508e-05,
+        "positive": 5.0783117330865934e-05
+      },
+      "model_event_classification": "Other/Uncertain",
+      "event_model_score": 0.26806527376174927,
+      "event_top_two_margin": 0.04701204597949982,
+      "model_event_scores": {
+        "Other/Uncertain": 0.26806527376174927,
+        "Product Launch": 0.22105322778224945,
+        "Merger/Acquisition": 0.20087465643882751,
+        "Macroeconomic": 0.16778968274593353,
+        "Credit Event": 0.08614863455295563,
+        "Geopolitical": 0.056068480014801025
+      },
+      "inference_ms": 788.1334619996778,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "642e410f254990d74b7a9d73fc9f5d21c56ddc69893b8442bfbc9d203de32380": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998787641525269,
+        "negative": 7.356166315730661e-05,
+        "positive": 4.7691100917290896e-05
+      },
+      "model_event_classification": "Other/Uncertain",
+      "event_model_score": 0.42533254623413086,
+      "event_top_two_margin": 0.20228245854377747,
+      "model_event_scores": {
+        "Other/Uncertain": 0.42533254623413086,
+        "Macroeconomic": 0.2230500876903534,
+        "Merger/Acquisition": 0.10763688385486603,
+        "Product Launch": 0.10368864238262177,
+        "Credit Event": 0.07173687219619751,
+        "Geopolitical": 0.06855494529008865
+      },
+      "inference_ms": 702.748153000357,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "d069a4a2dfcba9c447d8bd523cf110b3c89967fbbf0c381022818f2a64ec754f": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998769760131836,
+        "negative": 7.079256465658545e-05,
+        "positive": 5.221554602030665e-05
+      },
+      "model_event_classification": "Other/Uncertain",
+      "event_model_score": 0.35099050402641296,
+      "event_top_two_margin": 0.02469518780708313,
+      "model_event_scores": {
+        "Other/Uncertain": 0.35099050402641296,
+        "Product Launch": 0.32629531621932983,
+        "Macroeconomic": 0.16983799636363983,
+        "Merger/Acquisition": 0.07814889401197433,
+        "Geopolitical": 0.040226757526397705,
+        "Credit Event": 0.03450057655572891
+      },
+      "inference_ms": 789.1930370005866,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "11f904d25a96743a355e138424c86cad371a929458a6f5432b4ffe357ad625a8": {
+      "sentiment_probabilities": {
+        "neutral": 0.9974251985549927,
+        "positive": 0.0018110891105607152,
+        "negative": 0.0007636919035576284
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.8727316856384277,
+      "event_top_two_margin": 0.8344445005059242,
+      "model_event_scores": {
+        "Macroeconomic": 0.8727316856384277,
+        "Credit Event": 0.03828718513250351,
+        "Product Launch": 0.02749529480934143,
+        "Other/Uncertain": 0.024747220799326897,
+        "Merger/Acquisition": 0.02179822139441967,
+        "Geopolitical": 0.014940459281206131
+      },
+      "inference_ms": 583.9568130013504,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "26f05948f9e87f30e81642ba5247233edfaf82b5721f3aa8e4fd4a61feb33866": {
+      "sentiment_probabilities": {
+        "neutral": 0.9973630309104919,
+        "positive": 0.0019646903965622187,
+        "negative": 0.000672261172439903
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.8705646991729736,
+      "event_top_two_margin": 0.8324783220887184,
+      "model_event_scores": {
+        "Macroeconomic": 0.8705646991729736,
+        "Credit Event": 0.03808637708425522,
+        "Other/Uncertain": 0.03109966591000557,
+        "Product Launch": 0.02640466019511223,
+        "Merger/Acquisition": 0.020304754376411438,
+        "Geopolitical": 0.013539860025048256
+      },
+      "inference_ms": 616.6312530003779,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "f234afc27e8cdca851c96d414f9682cc7779d11955329780e6f29bb33d0356fc": {
+      "sentiment_probabilities": {
+        "neutral": 0.9997383952140808,
+        "negative": 0.00016543843958061188,
+        "positive": 9.62352569331415e-05
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.778425395488739,
+      "event_top_two_margin": 0.7200487852096558,
+      "model_event_scores": {
+        "Macroeconomic": 0.778425395488739,
+        "Product Launch": 0.05837661027908325,
+        "Other/Uncertain": 0.0423758402466774,
+        "Credit Event": 0.04233631491661072,
+        "Merger/Acquisition": 0.04128232225775719,
+        "Geopolitical": 0.037203434854745865
+      },
+      "inference_ms": 586.3489479997952,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "3f20a3d9dc7b50cb341d0804ba6ba3a2305413928b560c4d404972e2508e996c": {
+      "sentiment_probabilities": {
+        "neutral": 0.9959625601768494,
+        "negative": 0.0037792411167174578,
+        "positive": 0.00025824259500950575
+      },
+      "model_event_classification": "Credit Event",
+      "event_model_score": 0.4662119448184967,
+      "event_top_two_margin": 0.27224576473236084,
+      "model_event_scores": {
+        "Credit Event": 0.4662119448184967,
+        "Product Launch": 0.19396618008613586,
+        "Macroeconomic": 0.15285943448543549,
+        "Merger/Acquisition": 0.07637730240821838,
+        "Other/Uncertain": 0.06935472786426544,
+        "Geopolitical": 0.04123044013977051
+      },
+      "inference_ms": 561.2818599984166,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "9a80690e6729364a422a1c2c7a1d1f8afcc9e7dd8526f6628bbd5d29a201301f": {
+      "sentiment_probabilities": {
+        "neutral": 0.49965596199035645,
+        "positive": 0.36630532145500183,
+        "negative": 0.13403862714767456
+      },
+      "model_event_classification": "Credit Event",
+      "event_model_score": 0.2761683762073517,
+      "event_top_two_margin": 0.07403017580509186,
+      "model_event_scores": {
+        "Credit Event": 0.2761683762073517,
+        "Product Launch": 0.20213820040225983,
+        "Merger/Acquisition": 0.17428277432918549,
+        "Other/Uncertain": 0.17195044457912445,
+        "Macroeconomic": 0.1328963190317154,
+        "Geopolitical": 0.04256390780210495
+      },
+      "inference_ms": 571.1458020014106,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "4d33d3943b7e08b97103aee3380f44eccee17288f319879632a47414f1bab97e": {
+      "sentiment_probabilities": {
+        "neutral": 0.5748016238212585,
+        "negative": 0.42456892132759094,
+        "positive": 0.0006295190542005002
+      },
+      "model_event_classification": "Credit Event",
+      "event_model_score": 0.4863710105419159,
+      "event_top_two_margin": 0.3089815527200699,
+      "model_event_scores": {
+        "Credit Event": 0.4863710105419159,
+        "Product Launch": 0.177389457821846,
+        "Merger/Acquisition": 0.10997948050498962,
+        "Macroeconomic": 0.09095695614814758,
+        "Other/Uncertain": 0.07738658785820007,
+        "Geopolitical": 0.0579165443778038
+      },
+      "inference_ms": 555.2610390004702,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "95c00a716c531c89d20e5833be969908ce947c7ad730ae60b0daf88f4c7a119d": {
+      "sentiment_probabilities": {
+        "neutral": 0.9997014403343201,
+        "negative": 0.00019371161761227995,
+        "positive": 0.0001048209669534117
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.9273620843887329,
+      "event_top_two_margin": 0.9035072401165962,
+      "model_event_scores": {
+        "Macroeconomic": 0.9273620843887329,
+        "Credit Event": 0.023854844272136688,
+        "Other/Uncertain": 0.017392583191394806,
+        "Product Launch": 0.01555346604436636,
+        "Geopolitical": 0.008769034408032894,
+        "Merger/Acquisition": 0.007068092003464699
+      },
+      "inference_ms": 714.8257000008016,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "e8fa8f941d6b708252f2d6da308b3793d939097ffe37bbd310606984ee9a7ed4": {
+      "sentiment_probabilities": {
+        "neutral": 0.9931574463844299,
+        "positive": 0.005781263578683138,
+        "negative": 0.0010612880578264594
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.9634336233139038,
+      "event_top_two_margin": 0.9521784158423543,
+      "model_event_scores": {
+        "Macroeconomic": 0.9634336233139038,
+        "Credit Event": 0.011255207471549511,
+        "Other/Uncertain": 0.007073890883475542,
+        "Merger/Acquisition": 0.0063573019579052925,
+        "Product Launch": 0.006132695358246565,
+        "Geopolitical": 0.005747291259467602
+      },
+      "inference_ms": 757.0285220008373,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "e67aa23c0544365d0b7da2da971597907f99360d26c27477172d955b8e6a20c7": {
+      "sentiment_probabilities": {
+        "neutral": 0.9853135943412781,
+        "positive": 0.01307147741317749,
+        "negative": 0.0016149717848747969
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.7035254836082458,
+      "event_top_two_margin": 0.60725187510252,
+      "model_event_scores": {
+        "Macroeconomic": 0.7035254836082458,
+        "Credit Event": 0.09627360850572586,
+        "Product Launch": 0.07367546856403351,
+        "Merger/Acquisition": 0.05988175421953201,
+        "Other/Uncertain": 0.041892390698194504,
+        "Geopolitical": 0.024751262739300728
+      },
+      "inference_ms": 535.2696540012403,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "1d0ee0b70203f3e5f4a65d646e74ef2a8a36d8ade63dc0b3e07e2e7b7156a205": {
+      "sentiment_probabilities": {
+        "neutral": 0.9995309114456177,
+        "positive": 0.0002836546045728028,
+        "negative": 0.00018544000340625644
+      },
+      "model_event_classification": "Macroeconomic",
+      "event_model_score": 0.9129974842071533,
+      "event_top_two_margin": 0.8850013352930546,
+      "model_event_scores": {
+        "Macroeconomic": 0.9129974842071533,
+        "Credit Event": 0.02799614891409874,
+        "Merger/Acquisition": 0.020480597391724586,
+        "Product Launch": 0.015261257998645306,
+        "Other/Uncertain": 0.012341518886387348,
+        "Geopolitical": 0.010923034511506557
+      },
+      "inference_ms": 619.7137689996453,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "b7edc3c0871d5bc4cce1da55f39309e7032129dc6b80b25bead208e4c9a0c072": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998382329940796,
+        "positive": 8.896366489352658e-05,
+        "negative": 7.278293196577579e-05
+      },
+      "model_event_classification": "Product Launch",
+      "event_model_score": 0.955169677734375,
+      "event_top_two_margin": 0.9394787009805441,
+      "model_event_scores": {
+        "Product Launch": 0.955169677734375,
+        "Other/Uncertain": 0.01569097675383091,
+        "Merger/Acquisition": 0.013319991528987885,
+        "Macroeconomic": 0.006975555792450905,
+        "Credit Event": 0.005063172895461321,
+        "Geopolitical": 0.0037806611508131027
+      },
+      "inference_ms": 620.8640910008398,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    },
+    "742fb11947068c9782bc7b4fd9f88c97a6bb4f8d590db147d5f35abd9e76138a": {
+      "sentiment_probabilities": {
+        "neutral": 0.9998034834861755,
+        "positive": 0.00012724906264338642,
+        "negative": 6.923619366716594e-05
+      },
+      "model_event_classification": "Merger/Acquisition",
+      "event_model_score": 0.9803318381309509,
+      "event_top_two_margin": 0.9707645643502474,
+      "model_event_scores": {
+        "Merger/Acquisition": 0.9803318381309509,
+        "Other/Uncertain": 0.009567273780703545,
+        "Macroeconomic": 0.0029320665635168552,
+        "Geopolitical": 0.002814751584082842,
+        "Credit Event": 0.002585400827229023,
+        "Product Launch": 0.0017686436185613275
+      },
+      "inference_ms": 642.5754049996613,
+      "backend": "compact_models",
+      "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      }
+    }
+  },
+  "provenance": {
+    "generated_at": "2026-10-11T10:08:48Z",
+    "host": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "model_load_seconds": 4.804747529000451,
+    "threads": 2,
+    "torch_compile_disabled": true,
+    "purpose": "Recorded model inference, not new live inference. Metadata and risk controls recompute on replay.",
+    "max_resident_kib_linux": 1509976,
+    "prompt_hash": "150e2df0ccc331e2eecef7f281cdf398164fb7e23cd73243a5d35d73e54e75a8",
+    "model_revisions": {
+      "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+      "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+    }
+  }
+}

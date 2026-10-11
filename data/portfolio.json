@@ -1,0 +1,182 @@
+{
+  "currency": "USD",
+  "synthetic": true,
+  "assets": [
+    {
+      "id": "B01",
+      "type": "bond",
+      "entity": "Microsoft",
+      "aliases": [
+        "Microsoft",
+        "Microsoft Corporation"
+      ],
+      "sector": "technology",
+      "currency": "USD",
+      "market_value": 180000000.0,
+      "modified_duration": 7,
+      "spread_duration": 7,
+      "ticker": "MSFT"
+    },
+    {
+      "id": "B02",
+      "type": "bond",
+      "entity": "Boeing",
+      "aliases": [
+        "Boeing",
+        "The Boeing Company"
+      ],
+      "sector": "aviation",
+      "currency": "USD",
+      "market_value": 120000000.0,
+      "modified_duration": 7,
+      "spread_duration": 7,
+      "ticker": "BA"
+    },
+    {
+      "id": "B03",
+      "type": "bond",
+      "entity": "ExxonMobil",
+      "aliases": [
+        "ExxonMobil",
+        "Exxon Mobil"
+      ],
+      "sector": "energy",
+      "currency": "USD",
+      "market_value": 40000000.0,
+      "modified_duration": 4,
+      "spread_duration": 4,
+      "ticker": "XOM"
+    },
+    {
+      "id": "L01",
+      "type": "loan",
+      "entity": "Boeing",
+      "aliases": [
+        "Boeing",
+        "The Boeing Company"
+      ],
+      "sector": "aviation",
+      "currency": "USD",
+      "ead": 200000000.0,
+      "pd": 0.015,
+      "lgd": 0.45,
+      "ticker": "BA"
+    },
+    {
+      "id": "L02",
+      "type": "loan",
+      "entity": "Rite Aid",
+      "aliases": [
+        "Rite Aid"
+      ],
+      "sector": "pharmacy",
+      "currency": "USD",
+      "ead": 150000000.0,
+      "pd": 0.02,
+      "lgd": 0.45,
+      "ticker": "RAD"
+    },
+    {
+      "id": "L03",
+      "type": "loan",
+      "entity": "ExxonMobil",
+      "aliases": [
+        "ExxonMobil",
+        "Exxon Mobil"
+      ],
+      "sector": "energy",
+      "currency": "USD",
+      "ead": 150000000.0,
+      "pd": 0.012,
+      "lgd": 0.45,
+      "ticker": "XOM"
+    },
+    {
+      "id": "S01",
+      "type": "swap",
+      "entity": "USD rate hedge",
+      "aliases": [],
+      "sector": "rates",
+      "currency": "USD",
+      "market_value": 0,
+      "notional": 100000000.0,
+      "direction": "pay_fixed_receive_floating",
+      "signed_rate_sensitivity_per_bp": 12500
+    },
+    {
+      "id": "E01",
+      "type": "equity",
+      "entity": "ExxonMobil",
+      "aliases": [
+        "ExxonMobil",
+        "Exxon Mobil"
+      ],
+      "sector": "energy",
+      "currency": "USD",
+      "market_value": 50000000.0,
+      "ticker": "XOM"
+    },
+    {
+      "id": "E02",
+      "type": "equity",
+      "entity": "Microsoft",
+      "aliases": [
+        "Microsoft",
+        "Microsoft Corporation"
+      ],
+      "sector": "technology",
+      "currency": "USD",
+      "market_value": 50000000.0,
+      "ticker": "MSFT"
+    },
+    {
+      "id": "B04",
+      "type": "bond",
+      "entity": "Rite Aid",
+      "aliases": [
+        "Rite Aid"
+      ],
+      "sector": "pharmacy",
+      "currency": "USD",
+      "market_value": 20000000.0,
+      "modified_duration": 3,
+      "spread_duration": 3
+    },
+    {
+      "id": "E03",
+      "type": "equity",
+      "entity": "Apple",
+      "aliases": [
+        "Apple Inc.",
+        "Apple"
+      ],
+      "ticker": "AAPL",
+      "sector": "technology",
+      "currency": "USD",
+      "market_value": 30000000.0
+    }
+  ],
+  "sector_aliases": {
+    "energy": [
+      "energy",
+      "oil",
+      "petroleum",
+      "natural gas"
+    ],
+    "technology": [
+      "technology",
+      "software",
+      "semiconductor"
+    ],
+    "aviation": [
+      "aviation",
+      "aerospace",
+      "airline"
+    ],
+    "pharmacy": [
+      "pharmacy",
+      "drugstore"
+    ]
+  },
+  "assumptions": "All holdings, valuations, sensitivities and credit parameters are hypothetical. Real company names enable text matching; no actual holdings or current ratings are represented. Historical events are applied to this single synthetic portfolio for illustration."
+}

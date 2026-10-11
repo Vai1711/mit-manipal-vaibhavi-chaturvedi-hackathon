@@ -1,0 +1,27 @@
+{
+  "candidates": [
+    {
+      "C": 0.3,
+      "development_macro_f1": 0.6991020941016198,
+      "development_accuracy": 0.7731849496555379,
+      "fit_seconds": 0.20699463299933996
+    },
+    {
+      "C": 1.0,
+      "development_macro_f1": 0.7172791521821466,
+      "development_accuracy": 0.7880233174350821,
+      "fit_seconds": 0.1891698819999874
+    },
+    {
+      "C": 3.0,
+      "development_macro_f1": 0.7184702231229432,
+      "development_accuracy": 0.7933227344992051,
+      "fit_seconds": 0.4002027540009294
+    }
+  ],
+  "selected_C": 3.0,
+  "train_n": 7545,
+  "development_n": 1887,
+  "excluded_conflicting_normalized_texts": 2,
+  "limitation": "Source split uses financial tweets, not full articles. No evidence of generalization to another period. Linear vocabulary cannot fully resolve negation or target-specific tone."
+}

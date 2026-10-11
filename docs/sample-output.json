@@ -1,0 +1,2597 @@
+{
+  "mode": "cached",
+  "signals": [
+    {
+      "id": "fed-rise",
+      "text": "The Committee decided to raise the target range for the federal funds rate to 1-1/2 to 1-3/4 percent",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220615a.htm",
+      "timestamp": "2022-06-15T18:00:00Z",
+      "source": "Federal Reserve",
+      "source_type": "news",
+      "synthetic": false,
+      "text_type": "short attributed excerpt",
+      "duplicate_sources": [],
+      "entities": [],
+      "sectors": [],
+      "entity_matches": [],
+      "sentiment_score": 0.0814,
+      "event_classification": "Macroeconomic",
+      "model_event_classification": "Macroeconomic",
+      "rule_event_classification": "Macroeconomic",
+      "impact_score": 8,
+      "risk_factor": "rates_up",
+      "risk_currency": "USD",
+      "impact_method": "scenario-priority rubric v3; explicit-action priority, not calibrated to market returns",
+      "policy_stance": "hawkish",
+      "classification_route": "policy evidence + model sentiment",
+      "actual_nlp_backend": "learned_sentiment+recorded_event",
+      "sentiment_model_version": "89118674ea9de3c765787211bcd5a918fa019c966e31f82643915449763ffb48",
+      "sentiment_label": "neutral",
+      "cache_hit": true,
+      "event_inference_notice": "Recorded semantic prediction",
+      "risk_engine_version": "3.1-fresh-evidence",
+      "inference_ms": 670.4665460001706,
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      },
+      "model_event_scores": {
+        "Macroeconomic": 0.6819127202033997,
+        "Other/Uncertain": 0.09848778694868088,
+        "Merger/Acquisition": 0.0709717646241188,
+        "Credit Event": 0.06183692812919617,
+        "Product Launch": 0.05660313367843628,
+        "Geopolitical": 0.030187614262104034
+      },
+      "assertion_status": "asserted",
+      "supporting_evidence": "The Committee decided to raise the target range for the federal funds rate to 1-1/2 to 1-3/4 percent",
+      "matched_terms": [
+        "federal funds rate"
+      ],
+      "event_model_score": 0.6819127202033997,
+      "sentiment_probabilities": {
+        "negative": 0.07045261061310662,
+        "positive": 0.15185970344293803,
+        "neutral": 0.7776876859439554
+      },
+      "analysis_mode": "cached",
+      "impact_breakdown": {
+        "category_base": 4,
+        "severity_or_policy_action": 3,
+        "breadth": 1,
+        "sentiment_magnitude": 0,
+        "uncertainty_adjustment": 0
+      },
+      "review_reasons": []
+    },
+    {
+      "id": "apple-launch",
+      "text": "Introducing Apple Vision Pro: Apple\u2019s first spatial computer",
+      "url": "https://www.apple.com/newsroom/2023/06/introducing-apple-vision-pro/",
+      "timestamp": "2023-06-05T18:00:00Z",
+      "source": "Apple Newsroom",
+      "source_type": "news",
+      "synthetic": false,
+      "text_type": "short attributed excerpt",
+      "duplicate_sources": [],
+      "entities": [
+        "Apple"
+      ],
+      "sectors": [
+        "technology"
+      ],
+      "entity_matches": [
+        {
+          "asset_id": "E03",
+          "matched_aliases": [
+            "Apple"
+          ]
+        }
+      ],
+      "sentiment_score": 0.4595,
+      "event_classification": "Product Launch",
+      "model_event_classification": "Product Launch",
+      "rule_event_classification": "Product Launch",
+      "impact_score": 2,
+      "risk_factor": "unspecified",
+      "risk_currency": null,
+      "impact_method": "scenario-priority rubric v3; explicit-action priority, not calibrated to market returns",
+      "policy_stance": "not applicable",
+      "classification_route": "explicit event evidence + model sentiment",
+      "actual_nlp_backend": "learned_sentiment+recorded_event",
+      "sentiment_model_version": "89118674ea9de3c765787211bcd5a918fa019c966e31f82643915449763ffb48",
+      "sentiment_label": "positive",
+      "cache_hit": true,
+      "event_inference_notice": "Recorded semantic prediction",
+      "risk_engine_version": "3.1-fresh-evidence",
+      "inference_ms": 693.7068910010566,
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      },
+      "model_event_scores": {
+        "Product Launch": 0.9529298543930054,
+        "Merger/Acquisition": 0.011887992732226849,
+        "Other/Uncertain": 0.011125166900455952,
+        "Macroeconomic": 0.010108884423971176,
+        "Geopolitical": 0.008838956244289875,
+        "Credit Event": 0.005109160672873259
+      },
+      "assertion_status": "asserted",
+      "supporting_evidence": "Introducing Apple Vision Pro: Apple\u2019s first spatial computer",
+      "matched_terms": [
+        "introducing"
+      ],
+      "event_model_score": 0.9529298543930054,
+      "sentiment_probabilities": {
+        "negative": 0.0898291283842648,
+        "positive": 0.5493729239345875,
+        "neutral": 0.3607979476811477
+      },
+      "analysis_mode": "cached",
+      "impact_breakdown": {
+        "category_base": 2,
+        "severity_or_policy_action": 0,
+        "breadth": 0,
+        "sentiment_magnitude": 0,
+        "uncertainty_adjustment": 0
+      },
+      "review_reasons": []
+    },
+    {
+      "id": "msft-acquisition",
+      "text": "Today, Microsoft officially completed the acquisition of Activision Blizzard",
+      "url": "https://blogs.microsoft.com/blog/2023/10/13/welcoming-the-legendary-teams-at-activision-blizzard-king-to-team-xbox/",
+      "timestamp": "2023-10-13T18:00:00Z",
+      "source": "Microsoft Blog",
+      "source_type": "news",
+      "synthetic": false,
+      "text_type": "short attributed excerpt",
+      "duplicate_sources": [],
+      "entities": [
+        "Microsoft"
+      ],
+      "sectors": [
+        "technology"
+      ],
+      "entity_matches": [
+        {
+          "asset_id": "B01",
+          "matched_aliases": [
+            "Microsoft"
+          ]
+        },
+        {
+          "asset_id": "E02",
+          "matched_aliases": [
+            "Microsoft"
+          ]
+        }
+      ],
+      "sentiment_score": -0.0148,
+      "event_classification": "Merger/Acquisition",
+      "model_event_classification": "Merger/Acquisition",
+      "rule_event_classification": "Merger/Acquisition",
+      "impact_score": 3,
+      "risk_factor": "unspecified",
+      "risk_currency": null,
+      "impact_method": "scenario-priority rubric v3; explicit-action priority, not calibrated to market returns",
+      "policy_stance": "not applicable",
+      "classification_route": "explicit event evidence + model sentiment",
+      "actual_nlp_backend": "learned_sentiment+recorded_event",
+      "sentiment_model_version": "89118674ea9de3c765787211bcd5a918fa019c966e31f82643915449763ffb48",
+      "sentiment_label": "neutral",
+      "cache_hit": true,
+      "event_inference_notice": "Recorded semantic prediction",
+      "risk_engine_version": "3.1-fresh-evidence",
+      "inference_ms": 682.5214979999146,
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      },
+      "model_event_scores": {
+        "Merger/Acquisition": 0.9755412340164185,
+        "Other/Uncertain": 0.01396708283573389,
+        "Macroeconomic": 0.004275859333574772,
+        "Geopolitical": 0.002384791849181056,
+        "Product Launch": 0.0021782449912279844,
+        "Credit Event": 0.0016527818515896797
+      },
+      "assertion_status": "asserted",
+      "supporting_evidence": "Today, Microsoft officially completed the acquisition of Activision Blizzard",
+      "matched_terms": [
+        "acquisition"
+      ],
+      "event_model_score": 0.9755412340164185,
+      "sentiment_probabilities": {
+        "negative": 0.06448516986990273,
+        "positive": 0.049660857273580224,
+        "neutral": 0.885853972856517
+      },
+      "analysis_mode": "cached",
+      "impact_breakdown": {
+        "category_base": 3,
+        "severity_or_policy_action": 0,
+        "breadth": 0,
+        "sentiment_magnitude": 0,
+        "uncertainty_adjustment": 0
+      },
+      "review_reasons": []
+    },
+    {
+      "id": "rite-aid",
+      "text": "Rite Aid has initiated a voluntary court-supervised process under Chapter 11 of the U.S. Bankruptcy Code.",
+      "url": "https://www.sec.gov/Archives/edgar/data/84129/000110465923109413/tm2328535d1_ex99-1.htm",
+      "timestamp": "2023-10-15T18:00:00Z",
+      "source": "Rite Aid / SEC filing",
+      "source_type": "news",
+      "synthetic": false,
+      "text_type": "short attributed excerpt",
+      "duplicate_sources": [],
+      "entities": [
+        "Rite Aid"
+      ],
+      "sectors": [
+        "pharmacy"
+      ],
+      "entity_matches": [
+        {
+          "asset_id": "L02",
+          "matched_aliases": [
+            "Rite Aid"
+          ]
+        },
+        {
+          "asset_id": "B04",
+          "matched_aliases": [
+            "Rite Aid"
+          ]
+        }
+      ],
+      "sentiment_score": -0.0666,
+      "event_classification": "Credit Event",
+      "model_event_classification": "Credit Event",
+      "rule_event_classification": "Credit Event",
+      "impact_score": 8,
+      "risk_factor": "credit",
+      "risk_currency": null,
+      "impact_method": "scenario-priority rubric v3; explicit-action priority, not calibrated to market returns",
+      "policy_stance": "not applicable",
+      "classification_route": "explicit event evidence + model sentiment",
+      "actual_nlp_backend": "learned_sentiment+recorded_event",
+      "sentiment_model_version": "89118674ea9de3c765787211bcd5a918fa019c966e31f82643915449763ffb48",
+      "sentiment_label": "neutral",
+      "cache_hit": true,
+      "event_inference_notice": "Recorded semantic prediction",
+      "risk_engine_version": "3.1-fresh-evidence",
+      "inference_ms": 687.270112999613,
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      },
+      "model_event_scores": {
+        "Credit Event": 0.8786388635635376,
+        "Merger/Acquisition": 0.033833250403404236,
+        "Product Launch": 0.030204743146896362,
+        "Other/Uncertain": 0.02551385387778282,
+        "Macroeconomic": 0.018729666247963905,
+        "Geopolitical": 0.013079558499157429
+      },
+      "assertion_status": "asserted",
+      "supporting_evidence": "Rite Aid has initiated a voluntary court-supervised process under Chapter 11 of the U.S.",
+      "matched_terms": [
+        "bankruptcy",
+        "chapter 11"
+      ],
+      "event_model_score": 0.8786388635635376,
+      "sentiment_probabilities": {
+        "negative": 0.12395877224235202,
+        "positive": 0.05734053689038329,
+        "neutral": 0.8187006908672646
+      },
+      "analysis_mode": "cached",
+      "impact_breakdown": {
+        "category_base": 5,
+        "severity_or_policy_action": 3,
+        "breadth": 0,
+        "sentiment_magnitude": 0,
+        "uncertainty_adjustment": 0
+      },
+      "review_reasons": []
+    },
+    {
+      "id": "fed-cut",
+      "text": "the Committee decided to lower the target range for the federal funds rate by 1/2 percentage point",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm",
+      "timestamp": "2024-09-18T18:00:00Z",
+      "source": "Federal Reserve",
+      "source_type": "news",
+      "synthetic": false,
+      "text_type": "short attributed excerpt",
+      "duplicate_sources": [],
+      "entities": [],
+      "sectors": [],
+      "entity_matches": [],
+      "sentiment_score": -0.3903,
+      "event_classification": "Macroeconomic",
+      "model_event_classification": "Macroeconomic",
+      "rule_event_classification": "Macroeconomic",
+      "impact_score": 8,
+      "risk_factor": "rates_down",
+      "risk_currency": "USD",
+      "impact_method": "scenario-priority rubric v3; explicit-action priority, not calibrated to market returns",
+      "policy_stance": "dovish",
+      "classification_route": "policy evidence + model sentiment",
+      "actual_nlp_backend": "learned_sentiment+recorded_event",
+      "sentiment_model_version": "89118674ea9de3c765787211bcd5a918fa019c966e31f82643915449763ffb48",
+      "sentiment_label": "negative",
+      "cache_hit": true,
+      "event_inference_notice": "Recorded semantic prediction",
+      "risk_engine_version": "3.1-fresh-evidence",
+      "inference_ms": 695.9910320001654,
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      },
+      "model_event_scores": {
+        "Macroeconomic": 0.7332975268363953,
+        "Other/Uncertain": 0.06978580355644226,
+        "Merger/Acquisition": 0.061490386724472046,
+        "Product Launch": 0.06139105558395386,
+        "Credit Event": 0.047745734453201294,
+        "Geopolitical": 0.02628956362605095
+      },
+      "assertion_status": "asserted",
+      "supporting_evidence": "the Committee decided to lower the target range for the federal funds rate by 1/2 percentage point",
+      "matched_terms": [
+        "federal funds rate"
+      ],
+      "event_model_score": 0.7332975268363953,
+      "sentiment_probabilities": {
+        "negative": 0.48278744472663726,
+        "positive": 0.09247340762873285,
+        "neutral": 0.42473914764462983
+      },
+      "analysis_mode": "cached",
+      "impact_breakdown": {
+        "category_base": 4,
+        "severity_or_policy_action": 3,
+        "breadth": 1,
+        "sentiment_magnitude": 0,
+        "uncertainty_adjustment": 0
+      },
+      "review_reasons": []
+    },
+    {
+      "id": "oil-sanctions",
+      "text": "Treasury Intensifies Sanctions Against Russia by Targeting Russia\u2019s Oil Production and Exports",
+      "url": "https://home.treasury.gov/news/press-releases/jy2777",
+      "timestamp": "2025-01-10T18:00:00Z",
+      "source": "US Treasury",
+      "source_type": "news",
+      "synthetic": false,
+      "text_type": "short attributed excerpt",
+      "duplicate_sources": [],
+      "entities": [],
+      "sectors": [
+        "energy"
+      ],
+      "entity_matches": [],
+      "sentiment_score": -0.2856,
+      "event_classification": "Geopolitical",
+      "model_event_classification": "Geopolitical",
+      "rule_event_classification": "Geopolitical",
+      "impact_score": 9,
+      "risk_factor": "geopolitical",
+      "risk_currency": null,
+      "impact_method": "scenario-priority rubric v3; explicit-action priority, not calibrated to market returns",
+      "policy_stance": "not applicable",
+      "classification_route": "explicit event evidence + model sentiment",
+      "actual_nlp_backend": "learned_sentiment+recorded_event",
+      "sentiment_model_version": "89118674ea9de3c765787211bcd5a918fa019c966e31f82643915449763ffb48",
+      "sentiment_label": "neutral",
+      "cache_hit": true,
+      "event_inference_notice": "Recorded semantic prediction",
+      "risk_engine_version": "3.1-fresh-evidence",
+      "inference_ms": 776.8679949986108,
+      "model_revisions": {
+        "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+        "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+      },
+      "model_event_scores": {
+        "Geopolitical": 0.815430760383606,
+        "Macroeconomic": 0.10089793801307678,
+        "Merger/Acquisition": 0.026614120230078697,
+        "Credit Event": 0.02155454270541668,
+        "Other/Uncertain": 0.019617343321442604,
+        "Product Launch": 0.015885232016444206
+      },
+      "assertion_status": "asserted",
+      "supporting_evidence": "Treasury Intensifies Sanctions Against Russia by Targeting Russia\u2019s Oil Production and Exports",
+      "matched_terms": [
+        "sanctions"
+      ],
+      "event_model_score": 0.815430760383606,
+      "sentiment_probabilities": {
+        "negative": 0.4125646511912344,
+        "positive": 0.12698704479940442,
+        "neutral": 0.4604483040093612
+      },
+      "analysis_mode": "cached",
+      "impact_breakdown": {
+        "category_base": 5,
+        "severity_or_policy_action": 3,
+        "breadth": 1,
+        "sentiment_magnitude": 0,
+        "uncertainty_adjustment": 0
+      },
+      "review_reasons": []
+    }
+  ],
+  "events": [
+    {
+      "id": "event-fed-rise",
+      "timestamp": "2022-06-15T18:00:00Z",
+      "entities": [],
+      "sectors": [],
+      "event_classification": "Macroeconomic",
+      "risk_factor": "rates_up",
+      "signals": [
+        {
+          "id": "fed-rise",
+          "text": "The Committee decided to raise the target range for the federal funds rate to 1-1/2 to 1-3/4 percent",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220615a.htm",
+          "timestamp": "2022-06-15T18:00:00Z",
+          "source": "Federal Reserve",
+          "source_type": "news",
+          "synthetic": false,
+          "text_type": "short attributed excerpt",
+          "duplicate_sources": [],
+          "entities": [],
+          "sectors": [],
+          "entity_matches": [],
+          "sentiment_score": 0.0814,
+          "event_classification": "Macroeconomic",
+          "model_event_classification": "Macroeconomic",
+          "rule_event_classification": "Macroeconomic",
+          "impact_score": 8,
+          "risk_factor": "rates_up",
+          "risk_currency": "USD",
+          "impact_method": "scenario-priority rubric v3; explicit-action priority, not calibrated to market returns",
+          "policy_stance": "hawkish",
+          "classification_route": "policy evidence + model sentiment",
+          "actual_nlp_backend": "learned_sentiment+recorded_event",
+          "sentiment_model_version": "89118674ea9de3c765787211bcd5a918fa019c966e31f82643915449763ffb48",
+          "sentiment_label": "neutral",
+          "cache_hit": true,
+          "event_inference_notice": "Recorded semantic prediction",
+          "risk_engine_version": "3.1-fresh-evidence",
+          "inference_ms": 670.4665460001706,
+          "model_revisions": {
+            "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+            "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+          },
+          "model_event_scores": {
+            "Macroeconomic": 0.6819127202033997,
+            "Other/Uncertain": 0.09848778694868088,
+            "Merger/Acquisition": 0.0709717646241188,
+            "Credit Event": 0.06183692812919617,
+            "Product Launch": 0.05660313367843628,
+            "Geopolitical": 0.030187614262104034
+          },
+          "assertion_status": "asserted",
+          "supporting_evidence": "The Committee decided to raise the target range for the federal funds rate to 1-1/2 to 1-3/4 percent",
+          "matched_terms": [
+            "federal funds rate"
+          ],
+          "event_model_score": 0.6819127202033997,
+          "sentiment_probabilities": {
+            "negative": 0.07045261061310662,
+            "positive": 0.15185970344293803,
+            "neutral": 0.7776876859439554
+          },
+          "analysis_mode": "cached",
+          "impact_breakdown": {
+            "category_base": 4,
+            "severity_or_policy_action": 3,
+            "breadth": 1,
+            "sentiment_magnitude": 0,
+            "uncertainty_adjustment": 0
+          },
+          "review_reasons": []
+        }
+      ],
+      "risk_currency": "USD",
+      "assertion_status": "asserted",
+      "impact_score": 8,
+      "sentiment_score": 0.0814,
+      "sources": [
+        "Federal Reserve"
+      ],
+      "review_reasons": [],
+      "eligible": true
+    },
+    {
+      "id": "event-apple-launch",
+      "timestamp": "2023-06-05T18:00:00Z",
+      "entities": [
+        "Apple"
+      ],
+      "sectors": [
+        "technology"
+      ],
+      "event_classification": "Product Launch",
+      "risk_factor": "unspecified",
+      "signals": [
+        {
+          "id": "apple-launch",
+          "text": "Introducing Apple Vision Pro: Apple\u2019s first spatial computer",
+          "url": "https://www.apple.com/newsroom/2023/06/introducing-apple-vision-pro/",
+          "timestamp": "2023-06-05T18:00:00Z",
+          "source": "Apple Newsroom",
+          "source_type": "news",
+          "synthetic": false,
+          "text_type": "short attributed excerpt",
+          "duplicate_sources": [],
+          "entities": [
+            "Apple"
+          ],
+          "sectors": [
+            "technology"
+          ],
+          "entity_matches": [
+            {
+              "asset_id": "E03",
+              "matched_aliases": [
+                "Apple"
+              ]
+            }
+          ],
+          "sentiment_score": 0.4595,
+          "event_classification": "Product Launch",
+          "model_event_classification": "Product Launch",
+          "rule_event_classification": "Product Launch",
+          "impact_score": 2,
+          "risk_factor": "unspecified",
+          "risk_currency": null,
+          "impact_method": "scenario-priority rubric v3; explicit-action priority, not calibrated to market returns",
+          "policy_stance": "not applicable",
+          "classification_route": "explicit event evidence + model sentiment",
+          "actual_nlp_backend": "learned_sentiment+recorded_event",
+          "sentiment_model_version": "89118674ea9de3c765787211bcd5a918fa019c966e31f82643915449763ffb48",
+          "sentiment_label": "positive",
+          "cache_hit": true,
+          "event_inference_notice": "Recorded semantic prediction",
+          "risk_engine_version": "3.1-fresh-evidence",
+          "inference_ms": 693.7068910010566,
+          "model_revisions": {
+            "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+            "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+          },
+          "model_event_scores": {
+            "Product Launch": 0.9529298543930054,
+            "Merger/Acquisition": 0.011887992732226849,
+            "Other/Uncertain": 0.011125166900455952,
+            "Macroeconomic": 0.010108884423971176,
+            "Geopolitical": 0.008838956244289875,
+            "Credit Event": 0.005109160672873259
+          },
+          "assertion_status": "asserted",
+          "supporting_evidence": "Introducing Apple Vision Pro: Apple\u2019s first spatial computer",
+          "matched_terms": [
+            "introducing"
+          ],
+          "event_model_score": 0.9529298543930054,
+          "sentiment_probabilities": {
+            "negative": 0.0898291283842648,
+            "positive": 0.5493729239345875,
+            "neutral": 0.3607979476811477
+          },
+          "analysis_mode": "cached",
+          "impact_breakdown": {
+            "category_base": 2,
+            "severity_or_policy_action": 0,
+            "breadth": 0,
+            "sentiment_magnitude": 0,
+            "uncertainty_adjustment": 0
+          },
+          "review_reasons": []
+        }
+      ],
+      "risk_currency": null,
+      "assertion_status": "asserted",
+      "impact_score": 2,
+      "sentiment_score": 0.4595,
+      "sources": [
+        "Apple Newsroom"
+      ],
+      "review_reasons": [],
+      "eligible": false
+    },
+    {
+      "id": "event-msft-acquisition",
+      "timestamp": "2023-10-13T18:00:00Z",
+      "entities": [
+        "Microsoft"
+      ],
+      "sectors": [
+        "technology"
+      ],
+      "event_classification": "Merger/Acquisition",
+      "risk_factor": "unspecified",
+      "signals": [
+        {
+          "id": "msft-acquisition",
+          "text": "Today, Microsoft officially completed the acquisition of Activision Blizzard",
+          "url": "https://blogs.microsoft.com/blog/2023/10/13/welcoming-the-legendary-teams-at-activision-blizzard-king-to-team-xbox/",
+          "timestamp": "2023-10-13T18:00:00Z",
+          "source": "Microsoft Blog",
+          "source_type": "news",
+          "synthetic": false,
+          "text_type": "short attributed excerpt",
+          "duplicate_sources": [],
+          "entities": [
+            "Microsoft"
+          ],
+          "sectors": [
+            "technology"
+          ],
+          "entity_matches": [
+            {
+              "asset_id": "B01",
+              "matched_aliases": [
+                "Microsoft"
+              ]
+            },
+            {
+              "asset_id": "E02",
+              "matched_aliases": [
+                "Microsoft"
+              ]
+            }
+          ],
+          "sentiment_score": -0.0148,
+          "event_classification": "Merger/Acquisition",
+          "model_event_classification": "Merger/Acquisition",
+          "rule_event_classification": "Merger/Acquisition",
+          "impact_score": 3,
+          "risk_factor": "unspecified",
+          "risk_currency": null,
+          "impact_method": "scenario-priority rubric v3; explicit-action priority, not calibrated to market returns",
+          "policy_stance": "not applicable",
+          "classification_route": "explicit event evidence + model sentiment",
+          "actual_nlp_backend": "learned_sentiment+recorded_event",
+          "sentiment_model_version": "89118674ea9de3c765787211bcd5a918fa019c966e31f82643915449763ffb48",
+          "sentiment_label": "neutral",
+          "cache_hit": true,
+          "event_inference_notice": "Recorded semantic prediction",
+          "risk_engine_version": "3.1-fresh-evidence",
+          "inference_ms": 682.5214979999146,
+          "model_revisions": {
+            "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+            "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+          },
+          "model_event_scores": {
+            "Merger/Acquisition": 0.9755412340164185,
+            "Other/Uncertain": 0.01396708283573389,
+            "Macroeconomic": 0.004275859333574772,
+            "Geopolitical": 0.002384791849181056,
+            "Product Launch": 0.0021782449912279844,
+            "Credit Event": 0.0016527818515896797
+          },
+          "assertion_status": "asserted",
+          "supporting_evidence": "Today, Microsoft officially completed the acquisition of Activision Blizzard",
+          "matched_terms": [
+            "acquisition"
+          ],
+          "event_model_score": 0.9755412340164185,
+          "sentiment_probabilities": {
+            "negative": 0.06448516986990273,
+            "positive": 0.049660857273580224,
+            "neutral": 0.885853972856517
+          },
+          "analysis_mode": "cached",
+          "impact_breakdown": {
+            "category_base": 3,
+            "severity_or_policy_action": 0,
+            "breadth": 0,
+            "sentiment_magnitude": 0,
+            "uncertainty_adjustment": 0
+          },
+          "review_reasons": []
+        }
+      ],
+      "risk_currency": null,
+      "assertion_status": "asserted",
+      "impact_score": 3,
+      "sentiment_score": -0.0148,
+      "sources": [
+        "Microsoft Blog"
+      ],
+      "review_reasons": [],
+      "eligible": false
+    },
+    {
+      "id": "event-rite-aid",
+      "timestamp": "2023-10-15T18:00:00Z",
+      "entities": [
+        "Rite Aid"
+      ],
+      "sectors": [
+        "pharmacy"
+      ],
+      "event_classification": "Credit Event",
+      "risk_factor": "credit",
+      "signals": [
+        {
+          "id": "rite-aid",
+          "text": "Rite Aid has initiated a voluntary court-supervised process under Chapter 11 of the U.S. Bankruptcy Code.",
+          "url": "https://www.sec.gov/Archives/edgar/data/84129/000110465923109413/tm2328535d1_ex99-1.htm",
+          "timestamp": "2023-10-15T18:00:00Z",
+          "source": "Rite Aid / SEC filing",
+          "source_type": "news",
+          "synthetic": false,
+          "text_type": "short attributed excerpt",
+          "duplicate_sources": [],
+          "entities": [
+            "Rite Aid"
+          ],
+          "sectors": [
+            "pharmacy"
+          ],
+          "entity_matches": [
+            {
+              "asset_id": "L02",
+              "matched_aliases": [
+                "Rite Aid"
+              ]
+            },
+            {
+              "asset_id": "B04",
+              "matched_aliases": [
+                "Rite Aid"
+              ]
+            }
+          ],
+          "sentiment_score": -0.0666,
+          "event_classification": "Credit Event",
+          "model_event_classification": "Credit Event",
+          "rule_event_classification": "Credit Event",
+          "impact_score": 8,
+          "risk_factor": "credit",
+          "risk_currency": null,
+          "impact_method": "scenario-priority rubric v3; explicit-action priority, not calibrated to market returns",
+          "policy_stance": "not applicable",
+          "classification_route": "explicit event evidence + model sentiment",
+          "actual_nlp_backend": "learned_sentiment+recorded_event",
+          "sentiment_model_version": "89118674ea9de3c765787211bcd5a918fa019c966e31f82643915449763ffb48",
+          "sentiment_label": "neutral",
+          "cache_hit": true,
+          "event_inference_notice": "Recorded semantic prediction",
+          "risk_engine_version": "3.1-fresh-evidence",
+          "inference_ms": 687.270112999613,
+          "model_revisions": {
+            "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+            "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+          },
+          "model_event_scores": {
+            "Credit Event": 0.8786388635635376,
+            "Merger/Acquisition": 0.033833250403404236,
+            "Product Launch": 0.030204743146896362,
+            "Other/Uncertain": 0.02551385387778282,
+            "Macroeconomic": 0.018729666247963905,
+            "Geopolitical": 0.013079558499157429
+          },
+          "assertion_status": "asserted",
+          "supporting_evidence": "Rite Aid has initiated a voluntary court-supervised process under Chapter 11 of the U.S.",
+          "matched_terms": [
+            "bankruptcy",
+            "chapter 11"
+          ],
+          "event_model_score": 0.8786388635635376,
+          "sentiment_probabilities": {
+            "negative": 0.12395877224235202,
+            "positive": 0.05734053689038329,
+            "neutral": 0.8187006908672646
+          },
+          "analysis_mode": "cached",
+          "impact_breakdown": {
+            "category_base": 5,
+            "severity_or_policy_action": 3,
+            "breadth": 0,
+            "sentiment_magnitude": 0,
+            "uncertainty_adjustment": 0
+          },
+          "review_reasons": []
+        }
+      ],
+      "risk_currency": null,
+      "assertion_status": "asserted",
+      "impact_score": 8,
+      "sentiment_score": -0.0666,
+      "sources": [
+        "Rite Aid / SEC filing"
+      ],
+      "review_reasons": [],
+      "eligible": true
+    },
+    {
+      "id": "event-fed-cut",
+      "timestamp": "2024-09-18T18:00:00Z",
+      "entities": [],
+      "sectors": [],
+      "event_classification": "Macroeconomic",
+      "risk_factor": "rates_down",
+      "signals": [
+        {
+          "id": "fed-cut",
+          "text": "the Committee decided to lower the target range for the federal funds rate by 1/2 percentage point",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm",
+          "timestamp": "2024-09-18T18:00:00Z",
+          "source": "Federal Reserve",
+          "source_type": "news",
+          "synthetic": false,
+          "text_type": "short attributed excerpt",
+          "duplicate_sources": [],
+          "entities": [],
+          "sectors": [],
+          "entity_matches": [],
+          "sentiment_score": -0.3903,
+          "event_classification": "Macroeconomic",
+          "model_event_classification": "Macroeconomic",
+          "rule_event_classification": "Macroeconomic",
+          "impact_score": 8,
+          "risk_factor": "rates_down",
+          "risk_currency": "USD",
+          "impact_method": "scenario-priority rubric v3; explicit-action priority, not calibrated to market returns",
+          "policy_stance": "dovish",
+          "classification_route": "policy evidence + model sentiment",
+          "actual_nlp_backend": "learned_sentiment+recorded_event",
+          "sentiment_model_version": "89118674ea9de3c765787211bcd5a918fa019c966e31f82643915449763ffb48",
+          "sentiment_label": "negative",
+          "cache_hit": true,
+          "event_inference_notice": "Recorded semantic prediction",
+          "risk_engine_version": "3.1-fresh-evidence",
+          "inference_ms": 695.9910320001654,
+          "model_revisions": {
+            "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+            "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+          },
+          "model_event_scores": {
+            "Macroeconomic": 0.7332975268363953,
+            "Other/Uncertain": 0.06978580355644226,
+            "Merger/Acquisition": 0.061490386724472046,
+            "Product Launch": 0.06139105558395386,
+            "Credit Event": 0.047745734453201294,
+            "Geopolitical": 0.02628956362605095
+          },
+          "assertion_status": "asserted",
+          "supporting_evidence": "the Committee decided to lower the target range for the federal funds rate by 1/2 percentage point",
+          "matched_terms": [
+            "federal funds rate"
+          ],
+          "event_model_score": 0.7332975268363953,
+          "sentiment_probabilities": {
+            "negative": 0.48278744472663726,
+            "positive": 0.09247340762873285,
+            "neutral": 0.42473914764462983
+          },
+          "analysis_mode": "cached",
+          "impact_breakdown": {
+            "category_base": 4,
+            "severity_or_policy_action": 3,
+            "breadth": 1,
+            "sentiment_magnitude": 0,
+            "uncertainty_adjustment": 0
+          },
+          "review_reasons": []
+        }
+      ],
+      "risk_currency": "USD",
+      "assertion_status": "asserted",
+      "impact_score": 8,
+      "sentiment_score": -0.3903,
+      "sources": [
+        "Federal Reserve"
+      ],
+      "review_reasons": [],
+      "eligible": true
+    },
+    {
+      "id": "event-oil-sanctions",
+      "timestamp": "2025-01-10T18:00:00Z",
+      "entities": [],
+      "sectors": [
+        "energy"
+      ],
+      "event_classification": "Geopolitical",
+      "risk_factor": "geopolitical",
+      "signals": [
+        {
+          "id": "oil-sanctions",
+          "text": "Treasury Intensifies Sanctions Against Russia by Targeting Russia\u2019s Oil Production and Exports",
+          "url": "https://home.treasury.gov/news/press-releases/jy2777",
+          "timestamp": "2025-01-10T18:00:00Z",
+          "source": "US Treasury",
+          "source_type": "news",
+          "synthetic": false,
+          "text_type": "short attributed excerpt",
+          "duplicate_sources": [],
+          "entities": [],
+          "sectors": [
+            "energy"
+          ],
+          "entity_matches": [],
+          "sentiment_score": -0.2856,
+          "event_classification": "Geopolitical",
+          "model_event_classification": "Geopolitical",
+          "rule_event_classification": "Geopolitical",
+          "impact_score": 9,
+          "risk_factor": "geopolitical",
+          "risk_currency": null,
+          "impact_method": "scenario-priority rubric v3; explicit-action priority, not calibrated to market returns",
+          "policy_stance": "not applicable",
+          "classification_route": "explicit event evidence + model sentiment",
+          "actual_nlp_backend": "learned_sentiment+recorded_event",
+          "sentiment_model_version": "89118674ea9de3c765787211bcd5a918fa019c966e31f82643915449763ffb48",
+          "sentiment_label": "neutral",
+          "cache_hit": true,
+          "event_inference_notice": "Recorded semantic prediction",
+          "risk_engine_version": "3.1-fresh-evidence",
+          "inference_ms": 776.8679949986108,
+          "model_revisions": {
+            "sentiment": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+            "events": "d421c4545a438fd006fb43f8b981c5d908faa1e1"
+          },
+          "model_event_scores": {
+            "Geopolitical": 0.815430760383606,
+            "Macroeconomic": 0.10089793801307678,
+            "Merger/Acquisition": 0.026614120230078697,
+            "Credit Event": 0.02155454270541668,
+            "Other/Uncertain": 0.019617343321442604,
+            "Product Launch": 0.015885232016444206
+          },
+          "assertion_status": "asserted",
+          "supporting_evidence": "Treasury Intensifies Sanctions Against Russia by Targeting Russia\u2019s Oil Production and Exports",
+          "matched_terms": [
+            "sanctions"
+          ],
+          "event_model_score": 0.815430760383606,
+          "sentiment_probabilities": {
+            "negative": 0.4125646511912344,
+            "positive": 0.12698704479940442,
+            "neutral": 0.4604483040093612
+          },
+          "analysis_mode": "cached",
+          "impact_breakdown": {
+            "category_base": 5,
+            "severity_or_policy_action": 3,
+            "breadth": 1,
+            "sentiment_magnitude": 0,
+            "uncertainty_adjustment": 0
+          },
+          "review_reasons": []
+        }
+      ],
+      "risk_currency": null,
+      "assertion_status": "asserted",
+      "impact_score": 9,
+      "sentiment_score": -0.2856,
+      "sources": [
+        "US Treasury"
+      ],
+      "review_reasons": [],
+      "eligible": true
+    }
+  ],
+  "duplicates": [],
+  "scenarios": {
+    "event-fed-rise": {
+      "status": "triggered",
+      "trigger_note": "",
+      "market_value_before": 490000000.0,
+      "market_value_after": 468050000.0,
+      "unhedged_market_pnl": -23200000.0,
+      "hedge_pnl": 1250000,
+      "hedged_market_pnl": -21950000.0,
+      "baseline_ecl": 3510000.0,
+      "stressed_ecl": 3510000.0,
+      "ecl_increase": 0.0,
+      "affected_asset_count": 5,
+      "scenario": {
+        "rate_bps": 100,
+        "spread_bps": 150,
+        "pd_multiplier": 3,
+        "geopolitical_decline": 0.1
+      },
+      "rows": [
+        {
+          "asset_id": "B01",
+          "entity": "Microsoft",
+          "type": "bond",
+          "exposure_reason": "USD parallel rate-factor exposure",
+          "market_value_before": 180000000.0,
+          "market_pnl": -12600000.0,
+          "ecl_increase": 0.0,
+          "formula": "-180,000,000 \u00d7 7 \u00d7 100/10000"
+        },
+        {
+          "asset_id": "B02",
+          "entity": "Boeing",
+          "type": "bond",
+          "exposure_reason": "USD parallel rate-factor exposure",
+          "market_value_before": 120000000.0,
+          "market_pnl": -8400000.0,
+          "ecl_increase": 0.0,
+          "formula": "-120,000,000 \u00d7 7 \u00d7 100/10000"
+        },
+        {
+          "asset_id": "B03",
+          "entity": "ExxonMobil",
+          "type": "bond",
+          "exposure_reason": "USD parallel rate-factor exposure",
+          "market_value_before": 40000000.0,
+          "market_pnl": -1600000.0,
+          "ecl_increase": 0.0,
+          "formula": "-40,000,000 \u00d7 4 \u00d7 100/10000"
+        },
+        {
+          "asset_id": "L01",
+          "entity": "Boeing",
+          "type": "loan",
+          "exposure_reason": "Not affected",
+          "market_value_before": null,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "L02",
+          "entity": "Rite Aid",
+          "type": "loan",
+          "exposure_reason": "Not affected",
+          "market_value_before": null,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "L03",
+          "entity": "ExxonMobil",
+          "type": "loan",
+          "exposure_reason": "Not affected",
+          "market_value_before": null,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "S01",
+          "entity": "USD rate hedge",
+          "type": "swap",
+          "exposure_reason": "USD parallel rate-factor exposure",
+          "market_value_before": 0,
+          "market_pnl": 1250000,
+          "ecl_increase": 0.0,
+          "formula": "12,500 \u00d7 100 bps"
+        },
+        {
+          "asset_id": "E01",
+          "entity": "ExxonMobil",
+          "type": "equity",
+          "exposure_reason": "Not affected",
+          "market_value_before": 50000000.0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "E02",
+          "entity": "Microsoft",
+          "type": "equity",
+          "exposure_reason": "Not affected",
+          "market_value_before": 50000000.0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "B04",
+          "entity": "Rite Aid",
+          "type": "bond",
+          "exposure_reason": "USD parallel rate-factor exposure",
+          "market_value_before": 20000000.0,
+          "market_pnl": -600000.0,
+          "ecl_increase": 0.0,
+          "formula": "-20,000,000 \u00d7 3 \u00d7 100/10000"
+        },
+        {
+          "asset_id": "E03",
+          "entity": "Apple",
+          "type": "equity",
+          "exposure_reason": "Not affected",
+          "market_value_before": 30000000.0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        }
+      ]
+    },
+    "event-apple-launch": {
+      "status": "not triggered",
+      "trigger_note": "",
+      "market_value_before": 490000000.0,
+      "market_value_after": 490000000.0,
+      "unhedged_market_pnl": 0.0,
+      "hedge_pnl": 0.0,
+      "hedged_market_pnl": 0.0,
+      "baseline_ecl": 3510000.0,
+      "stressed_ecl": 3510000.0,
+      "ecl_increase": 0.0,
+      "affected_asset_count": 0,
+      "scenario": {
+        "rate_bps": 100,
+        "spread_bps": 150,
+        "pd_multiplier": 3,
+        "geopolitical_decline": 0.1
+      },
+      "rows": [
+        {
+          "asset_id": "B01",
+          "entity": "Microsoft",
+          "type": "bond",
+          "exposure_reason": "Not affected",
+          "market_value_before": 180000000.0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "B02",
+          "entity": "Boeing",
+          "type": "bond",
+          "exposure_reason": "Not affected",
+          "market_value_before": 120000000.0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "B03",
+          "entity": "ExxonMobil",
+          "type": "bond",
+          "exposure_reason": "Not affected",
+          "market_value_before": 40000000.0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "L01",
+          "entity": "Boeing",
+          "type": "loan",
+          "exposure_reason": "Not affected",
+          "market_value_before": null,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "L02",
+          "entity": "Rite Aid",
+          "type": "loan",
+          "exposure_reason": "Not affected",
+          "market_value_before": null,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "L03",
+          "entity": "ExxonMobil",
+          "type": "loan",
+          "exposure_reason": "Not affected",
+          "market_value_before": null,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "S01",
+          "entity": "USD rate hedge",
+          "type": "swap",
+          "exposure_reason": "Not affected",
+          "market_value_before": 0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "E01",
+          "entity": "ExxonMobil",
+          "type": "equity",
+          "exposure_reason": "Not affected",
+          "market_value_before": 50000000.0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "E02",
+          "entity": "Microsoft",
+          "type": "equity",
+          "exposure_reason": "Not affected",
+          "market_value_before": 50000000.0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "B04",
+          "entity": "Rite Aid",
+          "type": "bond",
+          "exposure_reason": "Not affected",
+          "market_value_before": 20000000.0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "E03",
+          "entity": "Apple",
+          "type": "equity",
+          "exposure_reason": "Not affected",
+          "market_value_before": 30000000.0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        }
+      ]
+    },
+    "event-msft-acquisition": {
+      "status": "not triggered",
+      "trigger_note": "",
+      "market_value_before": 490000000.0,
+      "market_value_after": 490000000.0,
+      "unhedged_market_pnl": 0.0,
+      "hedge_pnl": 0.0,
+      "hedged_market_pnl": 0.0,
+      "baseline_ecl": 3510000.0,
+      "stressed_ecl": 3510000.0,
+      "ecl_increase": 0.0,
+      "affected_asset_count": 0,
+      "scenario": {
+        "rate_bps": 100,
+        "spread_bps": 150,
+        "pd_multiplier": 3,
+        "geopolitical_decline": 0.1
+      },
+      "rows": [
+        {
+          "asset_id": "B01",
+          "entity": "Microsoft",
+          "type": "bond",
+          "exposure_reason": "Not affected",
+          "market_value_before": 180000000.0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "B02",
+          "entity": "Boeing",
+          "type": "bond",
+          "exposure_reason": "Not affected",
+          "market_value_before": 120000000.0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "B03",
+          "entity": "ExxonMobil",
+          "type": "bond",
+          "exposure_reason": "Not affected",
+          "market_value_before": 40000000.0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "L01",
+          "entity": "Boeing",
+          "type": "loan",
+          "exposure_reason": "Not affected",
+          "market_value_before": null,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "L02",
+          "entity": "Rite Aid",
+          "type": "loan",
+          "exposure_reason": "Not affected",
+          "market_value_before": null,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "L03",
+          "entity": "ExxonMobil",
+          "type": "loan",
+          "exposure_reason": "Not affected",
+          "market_value_before": null,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "S01",
+          "entity": "USD rate hedge",
+          "type": "swap",
+          "exposure_reason": "Not affected",
+          "market_value_before": 0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "E01",
+          "entity": "ExxonMobil",
+          "type": "equity",
+          "exposure_reason": "Not affected",
+          "market_value_before": 50000000.0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "E02",
+          "entity": "Microsoft",
+          "type": "equity",
+          "exposure_reason": "Not affected",
+          "market_value_before": 50000000.0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "B04",
+          "entity": "Rite Aid",
+          "type": "bond",
+          "exposure_reason": "Not affected",
+          "market_value_before": 20000000.0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "E03",
+          "entity": "Apple",
+          "type": "equity",
+          "exposure_reason": "Not affected",
+          "market_value_before": 30000000.0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        }
+      ]
+    },
+    "event-rite-aid": {
+      "status": "triggered",
+      "trigger_note": "",
+      "market_value_before": 490000000.0,
+      "market_value_after": 489100000.0,
+      "unhedged_market_pnl": -900000.0,
+      "hedge_pnl": 0.0,
+      "hedged_market_pnl": -900000.0,
+      "baseline_ecl": 3510000.0,
+      "stressed_ecl": 6210000.0,
+      "ecl_increase": 2699999.9999999995,
+      "affected_asset_count": 2,
+      "scenario": {
+        "rate_bps": 100,
+        "spread_bps": 150,
+        "pd_multiplier": 3,
+        "geopolitical_decline": 0.1
+      },
+      "rows": [
+        {
+          "asset_id": "B01",
+          "entity": "Microsoft",
+          "type": "bond",
+          "exposure_reason": "Not affected",
+          "market_value_before": 180000000.0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "B02",
+          "entity": "Boeing",
+          "type": "bond",
+          "exposure_reason": "Not affected",
+          "market_value_before": 120000000.0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "B03",
+          "entity": "ExxonMobil",
+          "type": "bond",
+          "exposure_reason": "Not affected",
+          "market_value_before": 40000000.0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "L01",
+          "entity": "Boeing",
+          "type": "loan",
+          "exposure_reason": "Not affected",
+          "market_value_before": null,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "L02",
+          "entity": "Rite Aid",
+          "type": "loan",
+          "exposure_reason": "Direct borrower/issuer match",
+          "market_value_before": null,
+          "market_pnl": 0.0,
+          "ecl_increase": 2699999.9999999995,
+          "formula": "150,000,000 \u00d7 (0.0600 - 0.0200) \u00d7 0.45"
+        },
+        {
+          "asset_id": "L03",
+          "entity": "ExxonMobil",
+          "type": "loan",
+          "exposure_reason": "Not affected",
+          "market_value_before": null,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "S01",
+          "entity": "USD rate hedge",
+          "type": "swap",
+          "exposure_reason": "Not affected",
+          "market_value_before": 0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "E01",
+          "entity": "ExxonMobil",
+          "type": "equity",
+          "exposure_reason": "Not affected",
+          "market_value_before": 50000000.0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "E02",
+          "entity": "Microsoft",
+          "type": "equity",
+          "exposure_reason": "Not affected",
+          "market_value_before": 50000000.0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "B04",
+          "entity": "Rite Aid",
+          "type": "bond",
+          "exposure_reason": "Direct borrower/issuer match",
+          "market_value_before": 20000000.0,
+          "market_pnl": -900000.0,
+          "ecl_increase": 0.0,
+          "formula": "-20,000,000 \u00d7 3 \u00d7 150/10000"
+        },
+        {
+          "asset_id": "E03",
+          "entity": "Apple",
+          "type": "equity",
+          "exposure_reason": "Not affected",
+          "market_value_before": 30000000.0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        }
+      ]
+    },
+    "event-fed-cut": {
+      "status": "triggered",
+      "trigger_note": "",
+      "market_value_before": 490000000.0,
+      "market_value_after": 511950000.0,
+      "unhedged_market_pnl": 23200000.0,
+      "hedge_pnl": -1250000,
+      "hedged_market_pnl": 21950000.0,
+      "baseline_ecl": 3510000.0,
+      "stressed_ecl": 3510000.0,
+      "ecl_increase": 0.0,
+      "affected_asset_count": 5,
+      "scenario": {
+        "rate_bps": -100,
+        "spread_bps": 150,
+        "pd_multiplier": 3,
+        "geopolitical_decline": 0.1
+      },
+      "rows": [
+        {
+          "asset_id": "B01",
+          "entity": "Microsoft",
+          "type": "bond",
+          "exposure_reason": "USD parallel rate-factor exposure",
+          "market_value_before": 180000000.0,
+          "market_pnl": 12600000.0,
+          "ecl_increase": 0.0,
+          "formula": "-180,000,000 \u00d7 7 \u00d7 -100/10000"
+        },
+        {
+          "asset_id": "B02",
+          "entity": "Boeing",
+          "type": "bond",
+          "exposure_reason": "USD parallel rate-factor exposure",
+          "market_value_before": 120000000.0,
+          "market_pnl": 8400000.0,
+          "ecl_increase": 0.0,
+          "formula": "-120,000,000 \u00d7 7 \u00d7 -100/10000"
+        },
+        {
+          "asset_id": "B03",
+          "entity": "ExxonMobil",
+          "type": "bond",
+          "exposure_reason": "USD parallel rate-factor exposure",
+          "market_value_before": 40000000.0,
+          "market_pnl": 1600000.0,
+          "ecl_increase": 0.0,
+          "formula": "-40,000,000 \u00d7 4 \u00d7 -100/10000"
+        },
+        {
+          "asset_id": "L01",
+          "entity": "Boeing",
+          "type": "loan",
+          "exposure_reason": "Not affected",
+          "market_value_before": null,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "L02",
+          "entity": "Rite Aid",
+          "type": "loan",
+          "exposure_reason": "Not affected",
+          "market_value_before": null,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "L03",
+          "entity": "ExxonMobil",
+          "type": "loan",
+          "exposure_reason": "Not affected",
+          "market_value_before": null,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "S01",
+          "entity": "USD rate hedge",
+          "type": "swap",
+          "exposure_reason": "USD parallel rate-factor exposure",
+          "market_value_before": 0,
+          "market_pnl": -1250000,
+          "ecl_increase": 0.0,
+          "formula": "12,500 \u00d7 -100 bps"
+        },
+        {
+          "asset_id": "E01",
+          "entity": "ExxonMobil",
+          "type": "equity",
+          "exposure_reason": "Not affected",
+          "market_value_before": 50000000.0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "E02",
+          "entity": "Microsoft",
+          "type": "equity",
+          "exposure_reason": "Not affected",
+          "market_value_before": 50000000.0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "B04",
+          "entity": "Rite Aid",
+          "type": "bond",
+          "exposure_reason": "USD parallel rate-factor exposure",
+          "market_value_before": 20000000.0,
+          "market_pnl": 600000.0,
+          "ecl_increase": 0.0,
+          "formula": "-20,000,000 \u00d7 3 \u00d7 -100/10000"
+        },
+        {
+          "asset_id": "E03",
+          "entity": "Apple",
+          "type": "equity",
+          "exposure_reason": "Not affected",
+          "market_value_before": 30000000.0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        }
+      ]
+    },
+    "event-oil-sanctions": {
+      "status": "triggered",
+      "trigger_note": "",
+      "market_value_before": 490000000.0,
+      "market_value_after": 482600000.0,
+      "unhedged_market_pnl": -7400000.0,
+      "hedge_pnl": 0.0,
+      "hedged_market_pnl": -7400000.0,
+      "baseline_ecl": 3510000.0,
+      "stressed_ecl": 5130000.0,
+      "ecl_increase": 1620000.0000000002,
+      "affected_asset_count": 3,
+      "scenario": {
+        "rate_bps": 100,
+        "spread_bps": 150,
+        "pd_multiplier": 3,
+        "geopolitical_decline": 0.1
+      },
+      "rows": [
+        {
+          "asset_id": "B01",
+          "entity": "Microsoft",
+          "type": "bond",
+          "exposure_reason": "Not affected",
+          "market_value_before": 180000000.0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "B02",
+          "entity": "Boeing",
+          "type": "bond",
+          "exposure_reason": "Not affected",
+          "market_value_before": 120000000.0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "B03",
+          "entity": "ExxonMobil",
+          "type": "bond",
+          "exposure_reason": "Entity or sector match",
+          "market_value_before": 40000000.0,
+          "market_pnl": -2400000.0,
+          "ecl_increase": 0.0,
+          "formula": "-40,000,000 \u00d7 4 \u00d7 150/10000"
+        },
+        {
+          "asset_id": "L01",
+          "entity": "Boeing",
+          "type": "loan",
+          "exposure_reason": "Not affected",
+          "market_value_before": null,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "L02",
+          "entity": "Rite Aid",
+          "type": "loan",
+          "exposure_reason": "Not affected",
+          "market_value_before": null,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "L03",
+          "entity": "ExxonMobil",
+          "type": "loan",
+          "exposure_reason": "Entity or sector match",
+          "market_value_before": null,
+          "market_pnl": 0.0,
+          "ecl_increase": 1620000.0000000002,
+          "formula": "150,000,000 \u00d7 (0.0360 - 0.0120) \u00d7 0.45"
+        },
+        {
+          "asset_id": "S01",
+          "entity": "USD rate hedge",
+          "type": "swap",
+          "exposure_reason": "Not affected",
+          "market_value_before": 0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "E01",
+          "entity": "ExxonMobil",
+          "type": "equity",
+          "exposure_reason": "Entity or sector match",
+          "market_value_before": 50000000.0,
+          "market_pnl": -5000000.0,
+          "ecl_increase": 0.0,
+          "formula": "-50,000,000 \u00d7 0.1"
+        },
+        {
+          "asset_id": "E02",
+          "entity": "Microsoft",
+          "type": "equity",
+          "exposure_reason": "Not affected",
+          "market_value_before": 50000000.0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "B04",
+          "entity": "Rite Aid",
+          "type": "bond",
+          "exposure_reason": "Not affected",
+          "market_value_before": 20000000.0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        },
+        {
+          "asset_id": "E03",
+          "entity": "Apple",
+          "type": "equity",
+          "exposure_reason": "Not affected",
+          "market_value_before": 30000000.0,
+          "market_pnl": 0.0,
+          "ecl_increase": 0.0,
+          "formula": "No mapped shock"
+        }
+      ]
+    }
+  },
+  "comparisons": {
+    "event-fed-rise": {
+      "exposure_aware": {
+        "status": "triggered",
+        "trigger_note": "",
+        "market_value_before": 490000000.0,
+        "market_value_after": 468050000.0,
+        "unhedged_market_pnl": -23200000.0,
+        "hedge_pnl": 1250000,
+        "hedged_market_pnl": -21950000.0,
+        "baseline_ecl": 3510000.0,
+        "stressed_ecl": 3510000.0,
+        "ecl_increase": 0.0,
+        "affected_asset_count": 5,
+        "scenario": {
+          "rate_bps": 100,
+          "spread_bps": 150,
+          "pd_multiplier": 3,
+          "geopolitical_decline": 0.1
+        },
+        "rows": [
+          {
+            "asset_id": "B01",
+            "entity": "Microsoft",
+            "type": "bond",
+            "exposure_reason": "USD parallel rate-factor exposure",
+            "market_value_before": 180000000.0,
+            "market_pnl": -12600000.0,
+            "ecl_increase": 0.0,
+            "formula": "-180,000,000 \u00d7 7 \u00d7 100/10000"
+          },
+          {
+            "asset_id": "B02",
+            "entity": "Boeing",
+            "type": "bond",
+            "exposure_reason": "USD parallel rate-factor exposure",
+            "market_value_before": 120000000.0,
+            "market_pnl": -8400000.0,
+            "ecl_increase": 0.0,
+            "formula": "-120,000,000 \u00d7 7 \u00d7 100/10000"
+          },
+          {
+            "asset_id": "B03",
+            "entity": "ExxonMobil",
+            "type": "bond",
+            "exposure_reason": "USD parallel rate-factor exposure",
+            "market_value_before": 40000000.0,
+            "market_pnl": -1600000.0,
+            "ecl_increase": 0.0,
+            "formula": "-40,000,000 \u00d7 4 \u00d7 100/10000"
+          },
+          {
+            "asset_id": "L01",
+            "entity": "Boeing",
+            "type": "loan",
+            "exposure_reason": "Not affected",
+            "market_value_before": null,
+            "market_pnl": 0.0,
+            "ecl_increase": 0.0,
+            "formula": "No mapped shock"
+          },
+          {
+            "asset_id": "L02",
+            "entity": "Rite Aid",
+            "type": "loan",
+            "exposure_reason": "Not affected",
+            "market_value_before": null,
+            "market_pnl": 0.0,
+            "ecl_increase": 0.0,
+            "formula": "No mapped shock"
+          },
+          {
+            "asset_id": "L03",
+            "entity": "ExxonMobil",
+            "type": "loan",
+            "exposure_reason": "Not affected",
+            "market_value_before": null,
+            "market_pnl": 0.0,
+            "ecl_increase": 0.0,
+            "formula": "No mapped shock"
+          },
+          {
+            "asset_id": "S01",
+            "entity": "USD rate hedge",
+            "type": "swap",
+            "exposure_reason": "USD parallel rate-factor exposure",
+            "market_value_before": 0,
+            "market_pnl": 1250000,
+            "ecl_increase": 0.0,
+            "formula": "12,500 \u00d7 100 bps"
+          },
+          {
+            "asset_id": "E01",
+            "entity": "ExxonMobil",
+            "type": "equity",
+            "exposure_reason": "Not affected",
+            "market_value_before": 50000000.0,
+            "market_pnl": 0.0,
+            "ecl_increase": 0.0,
+            "formula": "No mapped shock"
+          },
+          {
+            "asset_id": "E02",
+            "entity": "Microsoft",
+            "type": "equity",
+            "exposure_reason": "Not affected",
+            "market_value_before": 50000000.0,
+            "market_pnl": 0.0,
+            "ecl_increase": 0.0,
+            "formula": "No mapped shock"
+          },
+          {
+            "asset_id": "B04",
+            "entity": "Rite Aid",
+            "type": "bond",
+            "exposure_reason": "USD parallel rate-factor exposure",
+            "market_value_before": 20000000.0,
+            "market_pnl": -600000.0,
+            "ecl_increase": 0.0,
+            "formula": "-20,000,000 \u00d7 3 \u00d7 100/10000"
+          },
+          {
+            "asset_id": "E03",
+            "entity": "Apple",
+            "type": "equity",
+            "exposure_reason": "Not affected",
+            "market_value_before": 30000000.0,
+            "market_pnl": 0.0,
+            "ecl_increase": 0.0,
+            "formula": "No mapped shock"
+          }
+        ]
+      },
+      "blanket": {
+        "market_pnl": -49000000.0,
+        "ecl_increase": 7020000.0,
+        "affected_asset_count": 10,
+        "rows": [
+          {
+            "asset_id": "B01",
+            "market_pnl": -18000000.0,
+            "ecl_increase": 0
+          },
+          {
+            "asset_id": "B02",
+            "market_pnl": -12000000.0,
+            "ecl_increase": 0
+          },
+          {
+            "asset_id": "B03",
+            "market_pnl": -4000000.0,
+            "ecl_increase": 0
+          },
+          {
+            "asset_id": "L01",
+            "market_pnl": 0,
+            "ecl_increase": 2700000.0
+          },
+          {
+            "asset_id": "L02",
+            "market_pnl": 0,
+            "ecl_increase": 2699999.9999999995
+          },
+          {
+            "asset_id": "L03",
+            "market_pnl": 0,
+            "ecl_increase": 1620000.0000000002
+          },
+          {
+            "asset_id": "S01",
+            "market_pnl": 0,
+            "ecl_increase": 0
+          },
+          {
+            "asset_id": "E01",
+            "market_pnl": -5000000.0,
+            "ecl_increase": 0
+          },
+          {
+            "asset_id": "E02",
+            "market_pnl": -5000000.0,
+            "ecl_increase": 0
+          },
+          {
+            "asset_id": "B04",
+            "market_pnl": -2000000.0,
+            "ecl_increase": 0
+          },
+          {
+            "asset_id": "E03",
+            "market_pnl": -3000000.0,
+            "ecl_increase": 0
+          }
+        ]
+      },
+      "blanket_only_asset_ids": [
+        "E01",
+        "E02",
+        "E03",
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "assumptions": "Blanket counterfactual: 10% decline in every bond/equity, PD \u00d73 on every loan, no hedge response. Both share trigger gate. Different shock assumptions; comparison shows mapping selectivity, not forecast superiority."
+    },
+    "event-rite-aid": {
+      "exposure_aware": {
+        "status": "triggered",
+        "trigger_note": "",
+        "market_value_before": 490000000.0,
+        "market_value_after": 489100000.0,
+        "unhedged_market_pnl": -900000.0,
+        "hedge_pnl": 0.0,
+        "hedged_market_pnl": -900000.0,
+        "baseline_ecl": 3510000.0,
+        "stressed_ecl": 6210000.0,
+        "ecl_increase": 2699999.9999999995,
+        "affected_asset_count": 2,
+        "scenario": {
+          "rate_bps": 100,
+          "spread_bps": 150,
+          "pd_multiplier": 3,
+          "geopolitical_decline": 0.1
+        },
+        "rows": [
+          {
+            "asset_id": "B01",
+            "entity": "Microsoft",
+            "type": "bond",
+            "exposure_reason": "Not affected",
+            "market_value_before": 180000000.0,
+            "market_pnl": 0.0,
+            "ecl_increase": 0.0,
+            "formula": "No mapped shock"
+          },
+          {
+            "asset_id": "B02",
+            "entity": "Boeing",
+            "type": "bond",
+            "exposure_reason": "Not affected",
+            "market_value_before": 120000000.0,
+            "market_pnl": 0.0,
+            "ecl_increase": 0.0,
+            "formula": "No mapped shock"
+          },
+          {
+            "asset_id": "B03",
+            "entity": "ExxonMobil",
+            "type": "bond",
+            "exposure_reason": "Not affected",
+            "market_value_before": 40000000.0,
+            "market_pnl": 0.0,
+            "ecl_increase": 0.0,
+            "formula": "No mapped shock"
+          },
+          {
+            "asset_id": "L01",
+            "entity": "Boeing",
+            "type": "loan",
+            "exposure_reason": "Not affected",
+            "market_value_before": null,
+            "market_pnl": 0.0,
+            "ecl_increase": 0.0,
+            "formula": "No mapped shock"
+          },
+          {
+            "asset_id": "L02",
+            "entity": "Rite Aid",
+            "type": "loan",
+            "exposure_reason": "Direct borrower/issuer match",
+            "market_value_before": null,
+            "market_pnl": 0.0,
+            "ecl_increase": 2699999.9999999995,
+            "formula": "150,000,000 \u00d7 (0.0600 - 0.0200) \u00d7 0.45"
+          },
+          {
+            "asset_id": "L03",
+            "entity": "ExxonMobil",
+            "type": "loan",
+            "exposure_reason": "Not affected",
+            "market_value_before": null,
+            "market_pnl": 0.0,
+            "ecl_increase": 0.0,
+            "formula": "No mapped shock"
+          },
+          {
+            "asset_id": "S01",
+            "entity": "USD rate hedge",
+            "type": "swap",
+            "exposure_reason": "Not affected",
+            "market_value_before": 0,
+            "market_pnl": 0.0,
+            "ecl_increase": 0.0,
+            "formula": "No mapped shock"
+          },
+          {
+            "asset_id": "E01",
+            "entity": "ExxonMobil",
+            "type": "equity",
+            "exposure_reason": "Not affected",
+            "market_value_before": 50000000.0,
+            "market_pnl": 0.0,
+            "ecl_increase": 0.0,
+            "formula": "No mapped shock"
+          },
+          {
+            "asset_id": "E02",
+            "entity": "Microsoft",
+            "type": "equity",
+            "exposure_reason": "Not affected",
+            "market_value_before": 50000000.0,
+            "market_pnl": 0.0,
+            "ecl_increase": 0.0,
+            "formula": "No mapped shock"
+          },
+          {
+            "asset_id": "B04",
+            "entity": "Rite Aid",
+            "type": "bond",
+            "exposure_reason": "Direct borrower/issuer match",
+            "market_value_before": 20000000.0,
+            "market_pnl": -900000.0,
+            "ecl_increase": 0.0,
+            "formula": "-20,000,000 \u00d7 3 \u00d7 150/10000"
+          },
+          {
+            "asset_id": "E03",
+            "entity": "Apple",
+            "type": "equity",
+            "exposure_reason": "Not affected",
+            "market_value_before": 30000000.0,
+            "market_pnl": 0.0,
+            "ecl_increase": 0.0,
+            "formula": "No mapped shock"
+          }
+        ]
+      },
+      "blanket": {
+        "market_pnl": -49000000.0,
+        "ecl_increase": 7020000.0,
+        "affected_asset_count": 10,
+        "rows": [
+          {
+            "asset_id": "B01",
+            "market_pnl": -18000000.0,
+            "ecl_increase": 0
+          },
+          {
+            "asset_id": "B02",
+            "market_pnl": -12000000.0,
+            "ecl_increase": 0
+          },
+          {
+            "asset_id": "B03",
+            "market_pnl": -4000000.0,
+            "ecl_increase": 0
+          },
+          {
+            "asset_id": "L01",
+            "market_pnl": 0,
+            "ecl_increase": 2700000.0
+          },
+          {
+            "asset_id": "L02",
+            "market_pnl": 0,
+            "ecl_increase": 2699999.9999999995
+          },
+          {
+            "asset_id": "L03",
+            "market_pnl": 0,
+            "ecl_increase": 1620000.0000000002
+          },
+          {
+            "asset_id": "S01",
+            "market_pnl": 0,
+            "ecl_increase": 0
+          },
+          {
+            "asset_id": "E01",
+            "market_pnl": -5000000.0,
+            "ecl_increase": 0
+          },
+          {
+            "asset_id": "E02",
+            "market_pnl": -5000000.0,
+            "ecl_increase": 0
+          },
+          {
+            "asset_id": "B04",
+            "market_pnl": -2000000.0,
+            "ecl_increase": 0
+          },
+          {
+            "asset_id": "E03",
+            "market_pnl": -3000000.0,
+            "ecl_increase": 0
+          }
+        ]
+      },
+      "blanket_only_asset_ids": [
+        "B01",
+        "B02",
+        "B03",
+        "E01",
+        "E02",
+        "E03",
+        "L01",
+        "L03"
+      ],
+      "assumptions": "Blanket counterfactual: 10% decline in every bond/equity, PD \u00d73 on every loan, no hedge response. Both share trigger gate. Different shock assumptions; comparison shows mapping selectivity, not forecast superiority."
+    },
+    "event-fed-cut": {
+      "exposure_aware": {
+        "status": "triggered",
+        "trigger_note": "",
+        "market_value_before": 490000000.0,
+        "market_value_after": 511950000.0,
+        "unhedged_market_pnl": 23200000.0,
+        "hedge_pnl": -1250000,
+        "hedged_market_pnl": 21950000.0,
+        "baseline_ecl": 3510000.0,
+        "stressed_ecl": 3510000.0,
+        "ecl_increase": 0.0,
+        "affected_asset_count": 5,
+        "scenario": {
+          "rate_bps": -100,
+          "spread_bps": 150,
+          "pd_multiplier": 3,
+          "geopolitical_decline": 0.1
+        },
+        "rows": [
+          {
+            "asset_id": "B01",
+            "entity": "Microsoft",
+            "type": "bond",
+            "exposure_reason": "USD parallel rate-factor exposure",
+            "market_value_before": 180000000.0,
+            "market_pnl": 12600000.0,
+            "ecl_increase": 0.0,
+            "formula": "-180,000,000 \u00d7 7 \u00d7 -100/10000"
+          },
+          {
+            "asset_id": "B02",
+            "entity": "Boeing",
+            "type": "bond",
+            "exposure_reason": "USD parallel rate-factor exposure",
+            "market_value_before": 120000000.0,
+            "market_pnl": 8400000.0,
+            "ecl_increase": 0.0,
+            "formula": "-120,000,000 \u00d7 7 \u00d7 -100/10000"
+          },
+          {
+            "asset_id": "B03",
+            "entity": "ExxonMobil",
+            "type": "bond",
+            "exposure_reason": "USD parallel rate-factor exposure",
+            "market_value_before": 40000000.0,
+            "market_pnl": 1600000.0,
+            "ecl_increase": 0.0,
+            "formula": "-40,000,000 \u00d7 4 \u00d7 -100/10000"
+          },
+          {
+            "asset_id": "L01",
+            "entity": "Boeing",
+            "type": "loan",
+            "exposure_reason": "Not affected",
+            "market_value_before": null,
+            "market_pnl": 0.0,
+            "ecl_increase": 0.0,
+            "formula": "No mapped shock"
+          },
+          {
+            "asset_id": "L02",
+            "entity": "Rite Aid",
+            "type": "loan",
+            "exposure_reason": "Not affected",
+            "market_value_before": null,
+            "market_pnl": 0.0,
+            "ecl_increase": 0.0,
+            "formula": "No mapped shock"
+          },
+          {
+            "asset_id": "L03",
+            "entity": "ExxonMobil",
+            "type": "loan",
+            "exposure_reason": "Not affected",
+            "market_value_before": null,
+            "market_pnl": 0.0,
+            "ecl_increase": 0.0,
+            "formula": "No mapped shock"
+          },
+          {
+            "asset_id": "S01",
+            "entity": "USD rate hedge",
+            "type": "swap",
+            "exposure_reason": "USD parallel rate-factor exposure",
+            "market_value_before": 0,
+            "market_pnl": -1250000,
+            "ecl_increase": 0.0,
+            "formula": "12,500 \u00d7 -100 bps"
+          },
+          {
+            "asset_id": "E01",
+            "entity": "ExxonMobil",
+            "type": "equity",
+            "exposure_reason": "Not affected",
+            "market_value_before": 50000000.0,
+            "market_pnl": 0.0,
+            "ecl_increase": 0.0,
+            "formula": "No mapped shock"
+          },
+          {
+            "asset_id": "E02",
+            "entity": "Microsoft",
+            "type": "equity",
+            "exposure_reason": "Not affected",
+            "market_value_before": 50000000.0,
+            "market_pnl": 0.0,
+            "ecl_increase": 0.0,
+            "formula": "No mapped shock"
+          },
+          {
+            "asset_id": "B04",
+            "entity": "Rite Aid",
+            "type": "bond",
+            "exposure_reason": "USD parallel rate-factor exposure",
+            "market_value_before": 20000000.0,
+            "market_pnl": 600000.0,
+            "ecl_increase": 0.0,
+            "formula": "-20,000,000 \u00d7 3 \u00d7 -100/10000"
+          },
+          {
+            "asset_id": "E03",
+            "entity": "Apple",
+            "type": "equity",
+            "exposure_reason": "Not affected",
+            "market_value_before": 30000000.0,
+            "market_pnl": 0.0,
+            "ecl_increase": 0.0,
+            "formula": "No mapped shock"
+          }
+        ]
+      },
+      "blanket": {
+        "market_pnl": -49000000.0,
+        "ecl_increase": 7020000.0,
+        "affected_asset_count": 10,
+        "rows": [
+          {
+            "asset_id": "B01",
+            "market_pnl": -18000000.0,
+            "ecl_increase": 0
+          },
+          {
+            "asset_id": "B02",
+            "market_pnl": -12000000.0,
+            "ecl_increase": 0
+          },
+          {
+            "asset_id": "B03",
+            "market_pnl": -4000000.0,
+            "ecl_increase": 0
+          },
+          {
+            "asset_id": "L01",
+            "market_pnl": 0,
+            "ecl_increase": 2700000.0
+          },
+          {
+            "asset_id": "L02",
+            "market_pnl": 0,
+            "ecl_increase": 2699999.9999999995
+          },
+          {
+            "asset_id": "L03",
+            "market_pnl": 0,
+            "ecl_increase": 1620000.0000000002
+          },
+          {
+            "asset_id": "S01",
+            "market_pnl": 0,
+            "ecl_increase": 0
+          },
+          {
+            "asset_id": "E01",
+            "market_pnl": -5000000.0,
+            "ecl_increase": 0
+          },
+          {
+            "asset_id": "E02",
+            "market_pnl": -5000000.0,
+            "ecl_increase": 0
+          },
+          {
+            "asset_id": "B04",
+            "market_pnl": -2000000.0,
+            "ecl_increase": 0
+          },
+          {
+            "asset_id": "E03",
+            "market_pnl": -3000000.0,
+            "ecl_increase": 0
+          }
+        ]
+      },
+      "blanket_only_asset_ids": [
+        "E01",
+        "E02",
+        "E03",
+        "L01",
+        "L02",
+        "L03"
+      ],
+      "assumptions": "Blanket counterfactual: 10% decline in every bond/equity, PD \u00d73 on every loan, no hedge response. Both share trigger gate. Different shock assumptions; comparison shows mapping selectivity, not forecast superiority."
+    },
+    "event-oil-sanctions": {
+      "exposure_aware": {
+        "status": "triggered",
+        "trigger_note": "",
+        "market_value_before": 490000000.0,
+        "market_value_after": 482600000.0,
+        "unhedged_market_pnl": -7400000.0,
+        "hedge_pnl": 0.0,
+        "hedged_market_pnl": -7400000.0,
+        "baseline_ecl": 3510000.0,
+        "stressed_ecl": 5130000.0,
+        "ecl_increase": 1620000.0000000002,
+        "affected_asset_count": 3,
+        "scenario": {
+          "rate_bps": 100,
+          "spread_bps": 150,
+          "pd_multiplier": 3,
+          "geopolitical_decline": 0.1
+        },
+        "rows": [
+          {
+            "asset_id": "B01",
+            "entity": "Microsoft",
+            "type": "bond",
+            "exposure_reason": "Not affected",
+            "market_value_before": 180000000.0,
+            "market_pnl": 0.0,
+            "ecl_increase": 0.0,
+            "formula": "No mapped shock"
+          },
+          {
+            "asset_id": "B02",
+            "entity": "Boeing",
+            "type": "bond",
+            "exposure_reason": "Not affected",
+            "market_value_before": 120000000.0,
+            "market_pnl": 0.0,
+            "ecl_increase": 0.0,
+            "formula": "No mapped shock"
+          },
+          {
+            "asset_id": "B03",
+            "entity": "ExxonMobil",
+            "type": "bond",
+            "exposure_reason": "Entity or sector match",
+            "market_value_before": 40000000.0,
+            "market_pnl": -2400000.0,
+            "ecl_increase": 0.0,
+            "formula": "-40,000,000 \u00d7 4 \u00d7 150/10000"
+          },
+          {
+            "asset_id": "L01",
+            "entity": "Boeing",
+            "type": "loan",
+            "exposure_reason": "Not affected",
+            "market_value_before": null,
+            "market_pnl": 0.0,
+            "ecl_increase": 0.0,
+            "formula": "No mapped shock"
+          },
+          {
+            "asset_id": "L02",
+            "entity": "Rite Aid",
+            "type": "loan",
+            "exposure_reason": "Not affected",
+            "market_value_before": null,
+            "market_pnl": 0.0,
+            "ecl_increase": 0.0,
+            "formula": "No mapped shock"
+          },
+          {
+            "asset_id": "L03",
+            "entity": "ExxonMobil",
+            "type": "loan",
+            "exposure_reason": "Entity or sector match",
+            "market_value_before": null,
+            "market_pnl": 0.0,
+            "ecl_increase": 1620000.0000000002,
+            "formula": "150,000,000 \u00d7 (0.0360 - 0.0120) \u00d7 0.45"
+          },
+          {
+            "asset_id": "S01",
+            "entity": "USD rate hedge",
+            "type": "swap",
+            "exposure_reason": "Not affected",
+            "market_value_before": 0,
+            "market_pnl": 0.0,
+            "ecl_increase": 0.0,
+            "formula": "No mapped shock"
+          },
+          {
+            "asset_id": "E01",
+            "entity": "ExxonMobil",
+            "type": "equity",
+            "exposure_reason": "Entity or sector match",
+            "market_value_before": 50000000.0,
+            "market_pnl": -5000000.0,
+            "ecl_increase": 0.0,
+            "formula": "-50,000,000 \u00d7 0.1"
+          },
+          {
+            "asset_id": "E02",
+            "entity": "Microsoft",
+            "type": "equity",
+            "exposure_reason": "Not affected",
+            "market_value_before": 50000000.0,
+            "market_pnl": 0.0,
+            "ecl_increase": 0.0,
+            "formula": "No mapped shock"
+          },
+          {
+            "asset_id": "B04",
+            "entity": "Rite Aid",
+            "type": "bond",
+            "exposure_reason": "Not affected",
+            "market_value_before": 20000000.0,
+            "market_pnl": 0.0,
+            "ecl_increase": 0.0,
+            "formula": "No mapped shock"
+          },
+          {
+            "asset_id": "E03",
+            "entity": "Apple",
+            "type": "equity",
+            "exposure_reason": "Not affected",
+            "market_value_before": 30000000.0,
+            "market_pnl": 0.0,
+            "ecl_increase": 0.0,
+            "formula": "No mapped shock"
+          }
+        ]
+      },
+      "blanket": {
+        "market_pnl": -49000000.0,
+        "ecl_increase": 7020000.0,
+        "affected_asset_count": 10,
+        "rows": [
+          {
+            "asset_id": "B01",
+            "market_pnl": -18000000.0,
+            "ecl_increase": 0
+          },
+          {
+            "asset_id": "B02",
+            "market_pnl": -12000000.0,
+            "ecl_increase": 0
+          },
+          {
+            "asset_id": "B03",
+            "market_pnl": -4000000.0,
+            "ecl_increase": 0
+          },
+          {
+            "asset_id": "L01",
+            "market_pnl": 0,
+            "ecl_increase": 2700000.0
+          },
+          {
+            "asset_id": "L02",
+            "market_pnl": 0,
+            "ecl_increase": 2699999.9999999995
+          },
+          {
+            "asset_id": "L03",
+            "market_pnl": 0,
+            "ecl_increase": 1620000.0000000002
+          },
+          {
+            "asset_id": "S01",
+            "market_pnl": 0,
+            "ecl_increase": 0
+          },
+          {
+            "asset_id": "E01",
+            "market_pnl": -5000000.0,
+            "ecl_increase": 0
+          },
+          {
+            "asset_id": "E02",
+            "market_pnl": -5000000.0,
+            "ecl_increase": 0
+          },
+          {
+            "asset_id": "B04",
+            "market_pnl": -2000000.0,
+            "ecl_increase": 0
+          },
+          {
+            "asset_id": "E03",
+            "market_pnl": -3000000.0,
+            "ecl_increase": 0
+          }
+        ]
+      },
+      "blanket_only_asset_ids": [
+        "B01",
+        "B02",
+        "B04",
+        "E02",
+        "E03",
+        "L01",
+        "L02"
+      ],
+      "assumptions": "Blanket counterfactual: 10% decline in every bond/equity, PD \u00d73 on every loan, no hedge response. Both share trigger gate. Different shock assumptions; comparison shows mapping selectivity, not forecast superiority."
+    }
+  }
+}

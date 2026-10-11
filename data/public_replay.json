@@ -1,0 +1,62 @@
+[
+  {
+    "id": "fed-rise",
+    "text": "The Committee decided to raise the target range for the federal funds rate to 1-1/2 to 1-3/4 percent",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220615a.htm",
+    "timestamp": "2022-06-15T18:00:00Z",
+    "source": "Federal Reserve",
+    "source_type": "news",
+    "synthetic": false,
+    "text_type": "short attributed excerpt"
+  },
+  {
+    "id": "fed-cut",
+    "text": "the Committee decided to lower the target range for the federal funds rate by 1/2 percentage point",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm",
+    "timestamp": "2024-09-18T18:00:00Z",
+    "source": "Federal Reserve",
+    "source_type": "news",
+    "synthetic": false,
+    "text_type": "short attributed excerpt"
+  },
+  {
+    "id": "rite-aid",
+    "text": "Rite Aid has initiated a voluntary court-supervised process under Chapter 11 of the U.S. Bankruptcy Code.",
+    "url": "https://www.sec.gov/Archives/edgar/data/84129/000110465923109413/tm2328535d1_ex99-1.htm",
+    "timestamp": "2023-10-15T18:00:00Z",
+    "source": "Rite Aid / SEC filing",
+    "source_type": "news",
+    "synthetic": false,
+    "text_type": "short attributed excerpt"
+  },
+  {
+    "id": "apple-launch",
+    "text": "Introducing Apple Vision Pro: Apple’s first spatial computer",
+    "url": "https://www.apple.com/newsroom/2023/06/introducing-apple-vision-pro/",
+    "timestamp": "2023-06-05T18:00:00Z",
+    "source": "Apple Newsroom",
+    "source_type": "news",
+    "synthetic": false,
+    "text_type": "short attributed excerpt"
+  },
+  {
+    "id": "msft-acquisition",
+    "text": "Today, Microsoft officially completed the acquisition of Activision Blizzard",
+    "url": "https://blogs.microsoft.com/blog/2023/10/13/welcoming-the-legendary-teams-at-activision-blizzard-king-to-team-xbox/",
+    "timestamp": "2023-10-13T18:00:00Z",
+    "source": "Microsoft Blog",
+    "source_type": "news",
+    "synthetic": false,
+    "text_type": "short attributed excerpt"
+  },
+  {
+    "id": "oil-sanctions",
+    "text": "Treasury Intensifies Sanctions Against Russia by Targeting Russia’s Oil Production and Exports",
+    "url": "https://home.treasury.gov/news/press-releases/jy2777",
+    "timestamp": "2025-01-10T18:00:00Z",
+    "source": "US Treasury",
+    "source_type": "news",
+    "synthetic": false,
+    "text_type": "short attributed excerpt"
+  }
+]

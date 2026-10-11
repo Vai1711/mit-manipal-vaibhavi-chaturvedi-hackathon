@@ -1,0 +1,78 @@
+{
+  "sentiment": {
+    "repository": "mrm8488/distilroberta-finetuned-financial-news-sentiment-analysis",
+    "revision": "ae0eab9ad336d7d548e0efe394b07c04bcaf6e91",
+    "license": "apache-2.0",
+    "files": [
+      {
+        "name": "config.json",
+        "bytes": 933,
+        "sha256": null
+      },
+      {
+        "name": "merges.txt",
+        "bytes": 456356,
+        "sha256": null
+      },
+      {
+        "name": "model.safetensors",
+        "bytes": 328499560,
+        "sha256": "c0b61385e4482edd179b69042c014dcb53a79431784f34a0171f5d43b092feaa"
+      },
+      {
+        "name": "special_tokens_map.json",
+        "bytes": 239,
+        "sha256": null
+      },
+      {
+        "name": "tokenizer.json",
+        "bytes": 1355932,
+        "sha256": null
+      },
+      {
+        "name": "tokenizer_config.json",
+        "bytes": 333,
+        "sha256": null
+      },
+      {
+        "name": "vocab.json",
+        "bytes": 798293,
+        "sha256": null
+      }
+    ],
+    "local_directory": "models/compact-sentiment"
+  },
+  "events": {
+    "repository": "MoritzLaurer/ModernBERT-base-zeroshot-v2.0",
+    "revision": "d421c4545a438fd006fb43f8b981c5d908faa1e1",
+    "license": "apache-2.0",
+    "files": [
+      {
+        "name": "config.json",
+        "bytes": 1469,
+        "sha256": null
+      },
+      {
+        "name": "model.safetensors",
+        "bytes": 299227092,
+        "sha256": "5af4dac82bf3da16575d0c71c8c96ee7eb6621ae5f4f4726943d0a3583b44b46"
+      },
+      {
+        "name": "special_tokens_map.json",
+        "bytes": 694,
+        "sha256": null
+      },
+      {
+        "name": "tokenizer.json",
+        "bytes": 3583228,
+        "sha256": null
+      },
+      {
+        "name": "tokenizer_config.json",
+        "bytes": 20839,
+        "sha256": null
+      }
+    ],
+    "local_directory": "models/compact-events"
+  }
+}

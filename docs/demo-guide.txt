@@ -1,0 +1,13 @@
+4–5 minute core walkthrough
+
+Before recording: fill personal fields, rehearse with the default historical replay, install only requirements.txt and keep Live RSS refresh off. Record your own explanation and show the README run commands.
+
+0:00–0:30 Problem: which portfolio holdings does this financial report actually affect? Explain that positions and shocks are hypothetical.
+0:30–1:00 Start: activate .venv, run python main.py, then python -m streamlit run app.py --server.address 127.0.0.1. Show the default Lightweight AI mode: trained sentiment plus real recorded event predictions.
+1:00–2:00 Rates: select the rate-rise example. Show USD bonds, before/after market value, signed hedge contribution and net −$21.95M at +100 bps. Select the rate-cut example: sign reverses. In Scenario Lab show that an opposite shock pauses automatic stress until explicit manual what-if.
+2:00–2:45 Borrower event: choose Rite Aid. Show only its two hypothetical holdings, separate +$2.70M incremental ECL at PD ×3 and −$0.90M bond P&L at spread +150 bps. Never add ECL to market loss as if they were the same metric.
+2:45–3:30 Evidence: open sources, routing and raw model scores. Show an unconfirmed synthetic social report going to review. Explain that corroboration is not proved by source counts. Snapshot Replay demonstrates both news and social source types; Live RSS is optional and fallback is labelled.
+3:30–4:15 Evaluation/history: show 240 publisher-labelled sentiment texts (76.3%) and 108 builder-curated event examples (90.7%). Explain the independent-annotation gap. Show saved observations and JSON download. If already prepared, show local API /docs with one POST and GET.
+4:15–4:45 Limits/impact: severity is a rubric, six SPY checks do not calibrate prediction, and shocks are first-order assumptions. Explain analyst value: exposure selectivity, hedge signs and an inspectable calculation.
+
+Optional video expansion (within 10 minutes): explain original datasets, no train/validation overlap, development-only model selection, API field validation and failure fallback. Do not spend demo time downloading models or running training.

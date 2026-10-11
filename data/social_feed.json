@@ -1,0 +1,47 @@
+[
+  {
+    "id": "s1",
+    "text": "Central bank rate hike of 100 basis points: inflation persists and bond yields react.",
+    "timestamp": "2026-10-10T09:05:00+00:00",
+    "source": "Synthetic Social Feed",
+    "source_type": "social",
+    "synthetic": true,
+    "url": ""
+  },
+  {
+    "id": "s2",
+    "text": "Unconfirmed rumor: Rite Aid possibly faces bankruptcy.",
+    "timestamp": "2026-10-10T09:20:00+00:00",
+    "source": "Synthetic Social Feed",
+    "source_type": "social",
+    "synthetic": true,
+    "url": ""
+  },
+  {
+    "id": "s3",
+    "text": "Boeing missed interest payment; downgrade follows liquidity crisis.",
+    "timestamp": "2026-10-10T09:18:00+00:00",
+    "source": "Synthetic Social Feed",
+    "source_type": "social",
+    "synthetic": true,
+    "url": ""
+  },
+  {
+    "id": "s4",
+    "text": "Energy sector sanctions and blockade disrupt ExxonMobil operations.",
+    "timestamp": "2026-10-10T09:28:00+00:00",
+    "source": "Synthetic Social Feed",
+    "source_type": "social",
+    "synthetic": true,
+    "url": ""
+  },
+  {
+    "id": "s5",
+    "text": "Anyone watching markets today?",
+    "timestamp": "2026-10-10T09:45:00+00:00",
+    "source": "Synthetic Social Feed",
+    "source_type": "social",
+    "synthetic": true,
+    "url": ""
+  }
+]
